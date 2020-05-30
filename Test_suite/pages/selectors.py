@@ -61,6 +61,10 @@ class AddNewProductCartSelectors:
 
     DATA_TAB = (By.CSS_SELECTOR, '[href="#tab-data"]')
     MODEL = (By.CSS_SELECTOR, '[name="model"]')
+    IMAGE_TAB = (By.CSS_SELECTOR, '[href="#tab-image"]')
+    IMAGE = (By.CSS_SELECTOR, 'a#thumb-image')
+    BUTTON_IMAGE = (By.CSS_SELECTOR, 'button-image')
+    INPUT_IMAGE = (By.CSS_SELECTOR, '#input-image')
 
 class CategoriesPageSelectors:
     REBUILD_BUTTON = (By.CSS_SELECTOR, '[data-original-title="Rebuild"]')

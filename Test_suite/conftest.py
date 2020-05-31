@@ -1,10 +1,12 @@
 import pytest
 from selenium import webdriver
 from selenium.webdriver import ChromeOptions, FirefoxOptions
+from selenium.webdriver.support.events import EventFiringWebDriver, AbstractEventListener
 
-from Test_suite.pages.admin_product_page import AdminProductPage
 from Test_suite.pages.admin_categories_page import AdminCategoriesPage
+from Test_suite.pages.admin_product_page import AdminProductPage
 from Test_suite.pages.input_page import InputPage
+from Test_suite.pages.listener import MyListener
 
 
 def pytest_addoption(parser):
@@ -27,14 +29,14 @@ def browser(browser_opt):
         options = ChromeOptions()
         options.add_argument('--start-maximized')
         options.add_argument('--ignore-certificate-errors')
-        browser = webdriver.Chrome(options=options)
+        browser = EventFiringWebDriver(webdriver.Chrome(options=options), MyListener())
     elif browser_opt == 'Firefox':
         options = FirefoxOptions()
         options.add_argument('--kiosk')
-        browser = webdriver.Firefox(options=options)
+        browser = EventFiringWebDriver(webdriver.Firefox(), MyListener())
         profile.accept_untrusted_certs = True
     elif browser_opt == 'IE':
-        browser = webdriver.Ie()
+        browser = EventFiringWebDriver(webdriver.Ie(), MyListener())
     yield browser
     browser.quit()
 
@@ -46,6 +48,7 @@ def admin_product_page(browser):
     page.login_admin()
     page.go_to_product_tab()
     return page
+
 
 @pytest.fixture()
 def setup_product_page(admin_product_page):
@@ -60,6 +63,7 @@ def admin_categories_page(browser):
     page.login_admin()
     page.go_to_categories()
     return page
+
 
 @pytest.fixture()
 def input_page(browser):

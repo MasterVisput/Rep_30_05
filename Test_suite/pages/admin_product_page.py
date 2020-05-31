@@ -62,7 +62,8 @@ class AdminProductPage(BasePage):
                 return return_element
 
     def delete_product_from_tab(self, p_name='Mouse'):
-        checkbox = self.get_element_from_tab_by_product_name(p_name=p_name, selector=DashboardPageSelectors.CHECKBOX_IN_P_TAB)
+        checkbox = self.get_element_from_tab_by_product_name(p_name=p_name,
+                                                             selector=DashboardPageSelectors.CHECKBOX_IN_P_TAB)
         checkbox.click()
         delete_button = self.find_element(DashboardPageSelectors.DELETE)
         delete_button.click()
@@ -77,3 +78,14 @@ class AdminProductPage(BasePage):
         product_name_field.send_keys(new_p_name)
         save_button = self.find_element(AddNewProductCartSelectors.SAVE_BUTTON)
         save_button.click()
+
+    def add_image_to_product_by_name(self, path, p_name):
+        edit_button = self.get_element_from_tab_by_product_name(p_name=p_name,
+                                                                selector=DashboardPageSelectors.EDIT_IN_P_TAB)
+        edit_button.click()
+        image_tab = self.find_element(AddNewProductCartSelectors.IMAGE_TAB)
+        image_tab.click()
+        js = "document.getElementById('input-image').style.display = 'inline'"
+        self.browser.execute_script(js)
+        input = self.browser.find_element_by_id('input-image')
+        input.send_keys(path)

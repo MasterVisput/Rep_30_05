@@ -3,12 +3,13 @@ import time
 
 from selenium.webdriver.support.events import AbstractEventListener
 
-logging.basicConfig(filename='log.txt', format='%(asctime)s ==> %(name)s ==> %(message)s', level=logging.INFO)
+logging.basicConfig(filename='logs/log.txt', format='%(asctime)s || %(name)s || %(message)s', level=logging.INFO)
 
 
 class MyListener(AbstractEventListener):
     def __init__(self):
         self.logger = logging.getLogger(__name__)
+        self.time = time.time()
 
     def before_navigate_to(self, url, driver):
         self.logger.info(f'I`m navigate to: {url}')
@@ -38,16 +39,16 @@ class MyListener(AbstractEventListener):
         self.logger.info(f'I`m executing "{script}"')
 
     def after_execute_script(self, script, driver):
-        logging.info(f"I've executed '{script}'")
+        self.logger.info(f"I've executed '{script}'")
 
     def before_quit(self, driver):
-        logging.info(f"I'm getting ready to terminate {driver}")
-        driver.save_screenshot(f'{time.asctime()}.png')
+        self.logger.info(f"I'm getting ready to terminate {driver}")
+        driver.save_screenshot(f'screens/{self.time}.png')
 
     def after_quit(self, driver):
-        logging.info(f"WASTED!!!")
+        self.logger.info(f"WASTED!!!")
 
     def on_exception(self, exception, driver):
-        logging.error(f'Oooops i got: {exception}')
-        driver.save_screenshot(f'{exception}.png')
+        self.logger.error(f'Oooops i got: {exception}')
+        driver.save_screenshot(f'screens/ex_{self.time}.png')
 

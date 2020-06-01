@@ -1,12 +1,17 @@
+import logging
+
 import pytest
 from selenium import webdriver
 from selenium.webdriver import ChromeOptions, FirefoxOptions
-from selenium.webdriver.support.events import EventFiringWebDriver, AbstractEventListener
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+from selenium.webdriver.support.events import EventFiringWebDriver
 
 from Test_suite.pages.admin_categories_page import AdminCategoriesPage
 from Test_suite.pages.admin_product_page import AdminProductPage
 from Test_suite.pages.input_page import InputPage
 from Test_suite.pages.listener import MyListener
+
+logger = logging.getLogger(__name__)
 
 
 def pytest_addoption(parser):
@@ -26,10 +31,13 @@ def browser_opt(request):
 @pytest.fixture()
 def browser(browser_opt):
     if browser_opt == 'Chrome':
+        caps = DesiredCapabilities.CHROME
         options = ChromeOptions()
         options.add_argument('--start-maximized')
         options.add_argument('--ignore-certificate-errors')
-        browser = EventFiringWebDriver(webdriver.Chrome(options=options), MyListener())
+        options.add_experimental_option('w3c', False)
+        caps['loggingPrefs'] = {'perfomance': 'ALL', 'browser': 'ALL'}
+        browser = EventFiringWebDriver(webdriver.Chrome(options=options, desired_capabilities=caps), MyListener())
     elif browser_opt == 'Firefox':
         options = FirefoxOptions()
         options.add_argument('--kiosk')
@@ -43,10 +51,12 @@ def browser(browser_opt):
 
 @pytest.fixture()
 def admin_product_page(browser):
+    logger.info('====================Start Setup Activity====================')
     page = AdminProductPage(browser)
     page.open()
     page.login_admin()
     page.go_to_product_tab()
+    logger.info('====================End Setup Activity====================')
     return page
 
 
@@ -58,10 +68,12 @@ def setup_product_page(admin_product_page):
 
 @pytest.fixture()
 def admin_categories_page(browser):
+    logger.info('====================Start Setup Activity====================')
     page = AdminCategoriesPage(browser)
     page.open()
     page.login_admin()
     page.go_to_categories()
+    logger.info('====================End Setup Activity====================')
     return page
 
 

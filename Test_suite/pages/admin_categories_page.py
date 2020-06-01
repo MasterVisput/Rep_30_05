@@ -10,6 +10,7 @@ class AdminCategoriesPage(BasePage):
     def rebuild_page(self):
         rebuild_button = self.find_element(CategoriesPageSelectors.REBUILD_BUTTON)
         rebuild_button.click()
+        self.browser.execute_script("console.error('Here is the ERROR message!')")
 
     def go_to_categories(self):
         catalog_link = self.find_element(DashboardPageSelectors.CATALOG_LINK)

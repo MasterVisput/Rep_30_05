@@ -42,8 +42,10 @@ class MyListener(AbstractEventListener):
         self.logger.info(f"I've executed '{script}'")
 
     def before_quit(self, driver):
-        self.logger.info(f"I'm getting ready to terminate {driver}")
-        driver.save_screenshot(f'screens/{self.time}.png')
+        browser_logs = driver.get_log('browser')
+        for el in browser_logs:
+            if el['level'] == 'SEVERE':
+                self.logger.info(el)
 
     def after_quit(self, driver):
         self.logger.info(f"WASTED!!!")

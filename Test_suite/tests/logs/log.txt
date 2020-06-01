@@ -1,579 +1,144 @@
-2020-05-31 13:31:41,103 ==> Test_suite.pages.listener ==> I`m navigate to: http://localhost/admin
-2020-05-31 13:31:41,781 ==> Test_suite.pages.listener ==> I`m on: http://localhost/admin
-2020-05-31 13:31:41,781 ==> Test_suite.pages.listener ==> I`m looking for: "[name="username"]" BY: "css selector"
-2020-05-31 13:31:41,794 ==> Test_suite.pages.listener ==> I`ve found "[name="username"]" BY "css selector"
-2020-05-31 13:31:41,895 ==> Test_suite.pages.listener ==> I`m looking for: "[name="password"]" BY: "css selector"
-2020-05-31 13:31:41,907 ==> Test_suite.pages.listener ==> I`ve found "[name="password"]" BY "css selector"
-2020-05-31 13:31:42,002 ==> Test_suite.pages.listener ==> I`m looking for: "[type="submit"]" BY: "css selector"
-2020-05-31 13:31:42,012 ==> Test_suite.pages.listener ==> I`ve found "[type="submit"]" BY "css selector"
-2020-05-31 13:31:42,032 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="835eab3f2ab85f29f21be090f3cad039", element="d9a3c45e-3a15-40ef-a5db-2c3d2ccf8cdf")>
-2020-05-31 13:31:42,907 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="835eab3f2ab85f29f21be090f3cad039", element="d9a3c45e-3a15-40ef-a5db-2c3d2ccf8cdf")>
-2020-05-31 13:31:42,923 ==> Test_suite.pages.listener ==> I`m looking for: "#menu-dashboard" BY: "css selector"
-2020-05-31 13:31:42,934 ==> Test_suite.pages.listener ==> I`ve found "#menu-dashboard" BY "css selector"
-2020-05-31 13:31:42,996 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="835eab3f2ab85f29f21be090f3cad039", element="797c25f7-159e-4b31-aea6-6756eeb0bbb6")>
-2020-05-31 13:31:43,221 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="835eab3f2ab85f29f21be090f3cad039", element="797c25f7-159e-4b31-aea6-6756eeb0bbb6")>
-2020-05-31 13:31:43,221 ==> Test_suite.pages.listener ==> I`m looking for: "[href="#collapse1"]" BY: "css selector"
-2020-05-31 13:31:43,274 ==> Test_suite.pages.listener ==> I`ve found "[href="#collapse1"]" BY "css selector"
-2020-05-31 13:31:43,304 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="835eab3f2ab85f29f21be090f3cad039", element="8fd01d33-da25-4e90-8810-280467e75c5b")>
-2020-05-31 13:31:43,341 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="835eab3f2ab85f29f21be090f3cad039", element="8fd01d33-da25-4e90-8810-280467e75c5b")>
-2020-05-31 13:31:43,341 ==> Test_suite.pages.listener ==> I`m looking for: "#collapse1 > li:nth-child(2)" BY: "css selector"
-2020-05-31 13:31:43,354 ==> Test_suite.pages.listener ==> I`ve found "#collapse1 > li:nth-child(2)" BY "css selector"
-2020-05-31 13:31:43,867 ==> Test_suite.pages.listener ==> I`m looking for: "#collapse1 > li:nth-child(2)" BY: "css selector"
-2020-05-31 13:31:43,886 ==> Test_suite.pages.listener ==> I`ve found "#collapse1 > li:nth-child(2)" BY "css selector"
-2020-05-31 13:31:43,903 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="835eab3f2ab85f29f21be090f3cad039", element="0ec21fb6-cb59-4eb8-938e-92550672053a")>
-2020-05-31 13:31:44,088 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="835eab3f2ab85f29f21be090f3cad039", element="0ec21fb6-cb59-4eb8-938e-92550672053a")>
-2020-05-31 13:31:44,089 ==> Test_suite.pages.listener ==> I`m looking for: "[data-original-title="Add New"]" BY: "css selector"
-2020-05-31 13:31:44,105 ==> Test_suite.pages.listener ==> I`ve found "[data-original-title="Add New"]" BY "css selector"
-2020-05-31 13:31:44,126 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="835eab3f2ab85f29f21be090f3cad039", element="895f7d0d-ffa1-4efc-b506-0f8d64721d8e")>
-2020-05-31 13:31:44,703 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="835eab3f2ab85f29f21be090f3cad039", element="895f7d0d-ffa1-4efc-b506-0f8d64721d8e")>
-2020-05-31 13:31:44,704 ==> Test_suite.pages.listener ==> I`m looking for: "#input-name1" BY: "css selector"
-2020-05-31 13:31:44,717 ==> Test_suite.pages.listener ==> I`ve found "#input-name1" BY "css selector"
-2020-05-31 13:31:44,814 ==> Test_suite.pages.listener ==> I`m looking for: "#input-meta-title1" BY: "css selector"
-2020-05-31 13:31:44,826 ==> Test_suite.pages.listener ==> I`ve found "#input-meta-title1" BY "css selector"
-2020-05-31 13:31:44,925 ==> Test_suite.pages.listener ==> I`m looking for: "[href="#tab-data"]" BY: "css selector"
-2020-05-31 13:31:44,934 ==> Test_suite.pages.listener ==> I`ve found "[href="#tab-data"]" BY "css selector"
-2020-05-31 13:31:44,954 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="835eab3f2ab85f29f21be090f3cad039", element="ba95d28d-84ee-4752-b029-29c75ba066ac")>
-2020-05-31 13:31:45,023 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="835eab3f2ab85f29f21be090f3cad039", element="ba95d28d-84ee-4752-b029-29c75ba066ac")>
-2020-05-31 13:31:45,023 ==> Test_suite.pages.listener ==> I`m looking for: "[name="model"]" BY: "css selector"
-2020-05-31 13:31:45,038 ==> Test_suite.pages.listener ==> I`ve found "[name="model"]" BY "css selector"
-2020-05-31 13:31:45,153 ==> Test_suite.pages.listener ==> I`m looking for: "[data-original-title="Save"]" BY: "css selector"
-2020-05-31 13:31:45,165 ==> Test_suite.pages.listener ==> I`ve found "[data-original-title="Save"]" BY "css selector"
-2020-05-31 13:31:45,185 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="835eab3f2ab85f29f21be090f3cad039", element="2122b69c-cc53-4b2f-9b6e-7f4ca1577ce0")>
-2020-05-31 13:31:45,663 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="835eab3f2ab85f29f21be090f3cad039", element="2122b69c-cc53-4b2f-9b6e-7f4ca1577ce0")>
-2020-05-31 13:31:45,663 ==> Test_suite.pages.listener ==> I`m looking for: ".alert-success" BY: "css selector"
-2020-05-31 13:31:45,679 ==> Test_suite.pages.listener ==> I`ve found ".alert-success" BY "css selector"
-2020-05-31 13:31:45,680 ==> root ==> I'm getting ready to terminate <selenium.webdriver.chrome.webdriver.WebDriver (session="835eab3f2ab85f29f21be090f3cad039")>
-2020-05-31 13:31:48,553 ==> root ==> WASTED!!!
-2020-05-31 13:32:32,511 ==> Test_suite.pages.listener ==> I`m navigate to: https://developer.mozilla.org/ru/docs/Web/HTML/Element/Input/file
-2020-05-31 13:32:34,966 ==> Test_suite.pages.listener ==> I`m on: https://developer.mozilla.org/ru/docs/Web/HTML/Element/Input/file
-2020-05-31 13:32:34,967 ==> Test_suite.pages.listener ==> I`m looking for: "#frame_file-example" BY: "css selector"
-2020-05-31 13:32:35,394 ==> Test_suite.pages.listener ==> I`ve found "#frame_file-example" BY "css selector"
-2020-05-31 13:32:35,501 ==> Test_suite.pages.listener ==> I`m looking for: "[name="myFile"]" BY: "css selector"
-2020-05-31 13:32:35,513 ==> Test_suite.pages.listener ==> I`ve found "[name="myFile"]" BY "css selector"
-2020-05-31 13:32:35,529 ==> root ==> Oooops i got: Message: invalid argument: File not found : K:/Learn/POM_Learning_OTUS/Test_suite/data/pict.jpg
-  (Session info: chrome=83.0.4103.61)
-
-2020-05-31 13:32:37,101 ==> root ==> I'm getting ready to terminate <selenium.webdriver.chrome.webdriver.WebDriver (session="35206aa2efcf5591c71a8e359e36de37")>
-2020-05-31 13:32:40,066 ==> root ==> WASTED!!!
-2020-05-31 13:34:57,965 ==> Test_suite.pages.listener ==> I`m navigate to: https://developer.mozilla.org/ru/docs/Web/HTML/Element/Input/file
-2020-05-31 13:34:58,713 ==> Test_suite.pages.listener ==> I`m on: https://developer.mozilla.org/ru/docs/Web/HTML/Element/Input/file
-2020-05-31 13:34:58,714 ==> Test_suite.pages.listener ==> I`m looking for: "#frame_file-example" BY: "css selector"
-2020-05-31 13:34:58,803 ==> Test_suite.pages.listener ==> I`ve found "#frame_file-example" BY "css selector"
-2020-05-31 13:34:58,852 ==> Test_suite.pages.listener ==> I`m looking for: "[name="myFile"]" BY: "css selector"
-2020-05-31 13:34:58,867 ==> Test_suite.pages.listener ==> I`ve found "[name="myFile"]" BY "css selector"
-2020-05-31 13:34:58,895 ==> root ==> I'm getting ready to terminate <selenium.webdriver.chrome.webdriver.WebDriver (session="9ab944b967405f595e462c25010ade0f")>
-2020-05-31 13:35:01,429 ==> root ==> WASTED!!!
-2020-05-31 13:45:44,407 ==> Test_suite.pages.listener ==> I`m navigate to: http://localhost/admin
-2020-05-31 13:45:48,148 ==> Test_suite.pages.listener ==> I`m on: http://localhost/admin
-2020-05-31 13:45:48,148 ==> Test_suite.pages.listener ==> I`m looking for: "[name="username"]" BY: "css selector"
-2020-05-31 13:45:48,162 ==> Test_suite.pages.listener ==> I`ve found "[name="username"]" BY "css selector"
-2020-05-31 13:45:48,234 ==> Test_suite.pages.listener ==> I`m looking for: "[name="password"]" BY: "css selector"
-2020-05-31 13:45:48,243 ==> Test_suite.pages.listener ==> I`ve found "[name="password"]" BY "css selector"
-2020-05-31 13:45:48,316 ==> Test_suite.pages.listener ==> I`m looking for: "[type="submit"]" BY: "css selector"
-2020-05-31 13:45:48,326 ==> Test_suite.pages.listener ==> I`ve found "[type="submit"]" BY "css selector"
-2020-05-31 13:45:48,344 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="b978aacf05110b82c6dd18fea3c7fb88", element="18e8e1bf-38fa-4000-a772-8f9052ec0007")>
-2020-05-31 13:45:49,643 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="b978aacf05110b82c6dd18fea3c7fb88", element="18e8e1bf-38fa-4000-a772-8f9052ec0007")>
-2020-05-31 13:45:49,653 ==> Test_suite.pages.listener ==> I`m looking for: "#menu-dashboard" BY: "css selector"
-2020-05-31 13:45:49,663 ==> Test_suite.pages.listener ==> I`ve found "#menu-dashboard" BY "css selector"
-2020-05-31 13:45:49,685 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="b978aacf05110b82c6dd18fea3c7fb88", element="1c8c5605-18cb-489b-9ab4-3a8435aa20c3")>
-2020-05-31 13:45:50,463 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="b978aacf05110b82c6dd18fea3c7fb88", element="1c8c5605-18cb-489b-9ab4-3a8435aa20c3")>
-2020-05-31 13:45:50,463 ==> Test_suite.pages.listener ==> I`m looking for: "[href="#collapse1"]" BY: "css selector"
-2020-05-31 13:45:50,514 ==> Test_suite.pages.listener ==> I`ve found "[href="#collapse1"]" BY "css selector"
-2020-05-31 13:45:50,563 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="b978aacf05110b82c6dd18fea3c7fb88", element="477a1e64-4ae3-4049-a835-e2e407c9aa4d")>
-2020-05-31 13:45:50,626 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="b978aacf05110b82c6dd18fea3c7fb88", element="477a1e64-4ae3-4049-a835-e2e407c9aa4d")>
-2020-05-31 13:45:50,626 ==> Test_suite.pages.listener ==> I`m looking for: "#collapse1 > li:nth-child(2)" BY: "css selector"
-2020-05-31 13:45:50,635 ==> Test_suite.pages.listener ==> I`ve found "#collapse1 > li:nth-child(2)" BY "css selector"
-2020-05-31 13:45:51,148 ==> Test_suite.pages.listener ==> I`m looking for: "#collapse1 > li:nth-child(2)" BY: "css selector"
-2020-05-31 13:45:51,158 ==> Test_suite.pages.listener ==> I`ve found "#collapse1 > li:nth-child(2)" BY "css selector"
-2020-05-31 13:45:51,186 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="b978aacf05110b82c6dd18fea3c7fb88", element="30883bfb-1800-4cae-8f49-6317825a4994")>
-2020-05-31 13:45:51,677 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="b978aacf05110b82c6dd18fea3c7fb88", element="30883bfb-1800-4cae-8f49-6317825a4994")>
-2020-05-31 13:45:51,678 ==> Test_suite.pages.listener ==> I`m looking for: "[data-original-title="Add New"]" BY: "css selector"
-2020-05-31 13:45:51,690 ==> Test_suite.pages.listener ==> I`ve found "[data-original-title="Add New"]" BY "css selector"
-2020-05-31 13:45:51,708 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="b978aacf05110b82c6dd18fea3c7fb88", element="79641aad-6de1-4eb1-bcdd-b44b93b32952")>
-2020-05-31 13:45:54,892 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="b978aacf05110b82c6dd18fea3c7fb88", element="79641aad-6de1-4eb1-bcdd-b44b93b32952")>
-2020-05-31 13:45:54,892 ==> Test_suite.pages.listener ==> I`m looking for: "#input-name1" BY: "css selector"
-2020-05-31 13:45:54,906 ==> Test_suite.pages.listener ==> I`ve found "#input-name1" BY "css selector"
-2020-05-31 13:45:55,124 ==> Test_suite.pages.listener ==> I`m looking for: "#input-meta-title1" BY: "css selector"
-2020-05-31 13:45:55,134 ==> Test_suite.pages.listener ==> I`ve found "#input-meta-title1" BY "css selector"
-2020-05-31 13:45:55,262 ==> Test_suite.pages.listener ==> I`m looking for: "[href="#tab-data"]" BY: "css selector"
-2020-05-31 13:45:55,274 ==> Test_suite.pages.listener ==> I`ve found "[href="#tab-data"]" BY "css selector"
-2020-05-31 13:45:55,294 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="b978aacf05110b82c6dd18fea3c7fb88", element="643cabed-bb3a-4bf6-8e1d-925f7e407bb3")>
-2020-05-31 13:45:55,394 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="b978aacf05110b82c6dd18fea3c7fb88", element="643cabed-bb3a-4bf6-8e1d-925f7e407bb3")>
-2020-05-31 13:45:55,394 ==> Test_suite.pages.listener ==> I`m looking for: "[name="model"]" BY: "css selector"
-2020-05-31 13:45:55,410 ==> Test_suite.pages.listener ==> I`ve found "[name="model"]" BY "css selector"
-2020-05-31 13:45:55,532 ==> Test_suite.pages.listener ==> I`m looking for: "[data-original-title="Save"]" BY: "css selector"
-2020-05-31 13:45:55,544 ==> Test_suite.pages.listener ==> I`ve found "[data-original-title="Save"]" BY "css selector"
-2020-05-31 13:45:55,594 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="b978aacf05110b82c6dd18fea3c7fb88", element="facb2d2d-c115-46df-a26c-4020eaa7b13b")>
-2020-05-31 13:45:56,022 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="b978aacf05110b82c6dd18fea3c7fb88", element="facb2d2d-c115-46df-a26c-4020eaa7b13b")>
-2020-05-31 13:45:56,022 ==> Test_suite.pages.listener ==> I`m looking for: ".alert-success" BY: "css selector"
-2020-05-31 13:45:56,048 ==> Test_suite.pages.listener ==> I`ve found ".alert-success" BY "css selector"
-2020-05-31 13:45:56,049 ==> root ==> I'm getting ready to terminate <selenium.webdriver.chrome.webdriver.WebDriver (session="b978aacf05110b82c6dd18fea3c7fb88")>
-2020-05-31 13:46:01,902 ==> root ==> WASTED!!!
-2020-05-31 13:51:26,702 ==> Test_suite.pages.listener ==> I`m navigate to: http://localhost/admin
-2020-05-31 13:51:33,587 ==> Test_suite.pages.listener ==> I`m on: http://localhost/admin
-2020-05-31 13:51:33,588 ==> Test_suite.pages.listener ==> I`m looking for: "[name="username"]" BY: "css selector"
-2020-05-31 13:51:33,731 ==> Test_suite.pages.listener ==> I`ve found "[name="username"]" BY "css selector"
-2020-05-31 13:51:34,064 ==> Test_suite.pages.listener ==> I`m looking for: "[name="password"]" BY: "css selector"
-2020-05-31 13:51:34,075 ==> Test_suite.pages.listener ==> I`ve found "[name="password"]" BY "css selector"
-2020-05-31 13:51:34,158 ==> Test_suite.pages.listener ==> I`m looking for: "[type="submit"]" BY: "css selector"
-2020-05-31 13:51:34,170 ==> Test_suite.pages.listener ==> I`ve found "[type="submit"]" BY "css selector"
-2020-05-31 13:51:34,199 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="6d1fea628e4badc32809f9fbba0e628b", element="8be1ab29-a1f3-4553-b0b4-eae325d62148")>
-2020-05-31 13:51:35,826 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="6d1fea628e4badc32809f9fbba0e628b", element="8be1ab29-a1f3-4553-b0b4-eae325d62148")>
-2020-05-31 13:51:35,835 ==> Test_suite.pages.listener ==> I`m looking for: "#menu-dashboard" BY: "css selector"
-2020-05-31 13:51:35,845 ==> Test_suite.pages.listener ==> I`ve found "#menu-dashboard" BY "css selector"
-2020-05-31 13:51:35,910 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="6d1fea628e4badc32809f9fbba0e628b", element="573be295-af06-4b87-bfc8-6b5fecc248fa")>
-2020-05-31 13:51:36,569 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="6d1fea628e4badc32809f9fbba0e628b", element="573be295-af06-4b87-bfc8-6b5fecc248fa")>
-2020-05-31 13:51:36,570 ==> Test_suite.pages.listener ==> I`m looking for: "[href="#collapse1"]" BY: "css selector"
-2020-05-31 13:51:36,622 ==> Test_suite.pages.listener ==> I`ve found "[href="#collapse1"]" BY "css selector"
-2020-05-31 13:51:36,783 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="6d1fea628e4badc32809f9fbba0e628b", element="0400a62b-cc85-4444-984b-37bf27fedf24")>
-2020-05-31 13:51:36,826 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="6d1fea628e4badc32809f9fbba0e628b", element="0400a62b-cc85-4444-984b-37bf27fedf24")>
-2020-05-31 13:51:36,826 ==> Test_suite.pages.listener ==> I`m looking for: "#collapse1 > li:nth-child(2)" BY: "css selector"
-2020-05-31 13:51:36,840 ==> Test_suite.pages.listener ==> I`ve found "#collapse1 > li:nth-child(2)" BY "css selector"
-2020-05-31 13:51:37,353 ==> Test_suite.pages.listener ==> I`m looking for: "#collapse1 > li:nth-child(2)" BY: "css selector"
-2020-05-31 13:51:37,360 ==> Test_suite.pages.listener ==> I`ve found "#collapse1 > li:nth-child(2)" BY "css selector"
-2020-05-31 13:51:37,519 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="6d1fea628e4badc32809f9fbba0e628b", element="28e89448-23c2-4e10-b8ea-0c3eae3d7e21")>
-2020-05-31 13:51:37,954 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="6d1fea628e4badc32809f9fbba0e628b", element="28e89448-23c2-4e10-b8ea-0c3eae3d7e21")>
-2020-05-31 13:51:37,954 ==> Test_suite.pages.listener ==> I`m looking for: "[data-original-title="Add New"]" BY: "css selector"
-2020-05-31 13:51:37,967 ==> Test_suite.pages.listener ==> I`ve found "[data-original-title="Add New"]" BY "css selector"
-2020-05-31 13:51:38,064 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="6d1fea628e4badc32809f9fbba0e628b", element="fbd851b1-011c-4f80-bf46-156076f755b3")>
-2020-05-31 13:51:39,960 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="6d1fea628e4badc32809f9fbba0e628b", element="fbd851b1-011c-4f80-bf46-156076f755b3")>
-2020-05-31 13:51:39,961 ==> Test_suite.pages.listener ==> I`m looking for: "#input-name1" BY: "css selector"
-2020-05-31 13:51:39,972 ==> Test_suite.pages.listener ==> I`ve found "#input-name1" BY "css selector"
-2020-05-31 13:51:40,118 ==> Test_suite.pages.listener ==> I`m looking for: "#input-meta-title1" BY: "css selector"
-2020-05-31 13:51:40,130 ==> Test_suite.pages.listener ==> I`ve found "#input-meta-title1" BY "css selector"
-2020-05-31 13:51:40,239 ==> Test_suite.pages.listener ==> I`m looking for: "[href="#tab-data"]" BY: "css selector"
-2020-05-31 13:51:40,252 ==> Test_suite.pages.listener ==> I`ve found "[href="#tab-data"]" BY "css selector"
-2020-05-31 13:51:40,336 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="6d1fea628e4badc32809f9fbba0e628b", element="9064e85c-d47b-41ce-9a86-f60cba301f6a")>
-2020-05-31 13:51:40,412 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="6d1fea628e4badc32809f9fbba0e628b", element="9064e85c-d47b-41ce-9a86-f60cba301f6a")>
-2020-05-31 13:51:40,412 ==> Test_suite.pages.listener ==> I`m looking for: "[name="model"]" BY: "css selector"
-2020-05-31 13:51:40,425 ==> Test_suite.pages.listener ==> I`ve found "[name="model"]" BY "css selector"
-2020-05-31 13:51:40,530 ==> Test_suite.pages.listener ==> I`m looking for: "[data-original-title="Save"]" BY: "css selector"
-2020-05-31 13:51:40,540 ==> Test_suite.pages.listener ==> I`ve found "[data-original-title="Save"]" BY "css selector"
-2020-05-31 13:51:40,559 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="6d1fea628e4badc32809f9fbba0e628b", element="24dbbce0-3a47-4502-aa4e-ed8ee96feed8")>
-2020-05-31 13:51:41,047 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="6d1fea628e4badc32809f9fbba0e628b", element="24dbbce0-3a47-4502-aa4e-ed8ee96feed8")>
-2020-05-31 13:51:41,048 ==> Test_suite.pages.listener ==> I`m looking for: ".alert-success" BY: "css selector"
-2020-05-31 13:51:41,079 ==> Test_suite.pages.listener ==> I`ve found ".alert-success" BY "css selector"
-2020-05-31 13:51:41,080 ==> root ==> I'm getting ready to terminate <selenium.webdriver.chrome.webdriver.WebDriver (session="6d1fea628e4badc32809f9fbba0e628b")>
-2020-05-31 13:51:44,274 ==> root ==> WASTED!!!
-2020-05-31 13:53:39,631 ==> Test_suite.pages.listener ==> I`m navigate to: http://localhost/admin
-2020-05-31 13:53:40,374 ==> Test_suite.pages.listener ==> I`m on: http://localhost/admin
-2020-05-31 13:53:40,374 ==> Test_suite.pages.listener ==> I`m looking for: "[name="username"]" BY: "css selector"
-2020-05-31 13:53:40,454 ==> Test_suite.pages.listener ==> I`ve found "[name="username"]" BY "css selector"
-2020-05-31 13:53:40,626 ==> Test_suite.pages.listener ==> I`m looking for: "[name="password"]" BY: "css selector"
-2020-05-31 13:53:40,639 ==> Test_suite.pages.listener ==> I`ve found "[name="password"]" BY "css selector"
-2020-05-31 13:53:40,731 ==> Test_suite.pages.listener ==> I`m looking for: "[type="submit"]" BY: "css selector"
-2020-05-31 13:53:40,744 ==> Test_suite.pages.listener ==> I`ve found "[type="submit"]" BY "css selector"
-2020-05-31 13:53:40,766 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="b357c666fdff6e9cb408b86e412ec9bc", element="00f10abb-ba13-4254-9deb-bf646eea3910")>
-2020-05-31 13:53:41,724 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="b357c666fdff6e9cb408b86e412ec9bc", element="00f10abb-ba13-4254-9deb-bf646eea3910")>
-2020-05-31 13:53:41,747 ==> Test_suite.pages.listener ==> I`m looking for: "#menu-dashboard" BY: "css selector"
-2020-05-31 13:53:41,762 ==> Test_suite.pages.listener ==> I`ve found "#menu-dashboard" BY "css selector"
-2020-05-31 13:53:41,788 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="b357c666fdff6e9cb408b86e412ec9bc", element="115b0cb0-0ff6-4048-a9c8-90d3a554dbd8")>
-2020-05-31 13:53:41,956 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="b357c666fdff6e9cb408b86e412ec9bc", element="115b0cb0-0ff6-4048-a9c8-90d3a554dbd8")>
-2020-05-31 13:53:41,956 ==> Test_suite.pages.listener ==> I`m looking for: "[href="#collapse1"]" BY: "css selector"
-2020-05-31 13:53:42,009 ==> Test_suite.pages.listener ==> I`ve found "[href="#collapse1"]" BY "css selector"
-2020-05-31 13:53:42,051 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="b357c666fdff6e9cb408b86e412ec9bc", element="b9b549e2-bd77-4f09-8914-71340285011a")>
-2020-05-31 13:53:42,094 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="b357c666fdff6e9cb408b86e412ec9bc", element="b9b549e2-bd77-4f09-8914-71340285011a")>
-2020-05-31 13:53:42,094 ==> Test_suite.pages.listener ==> I`m looking for: "#collapse1 > li:nth-child(2)" BY: "css selector"
-2020-05-31 13:53:42,108 ==> Test_suite.pages.listener ==> I`ve found "#collapse1 > li:nth-child(2)" BY "css selector"
-2020-05-31 13:53:42,623 ==> Test_suite.pages.listener ==> I`m looking for: "#collapse1 > li:nth-child(2)" BY: "css selector"
-2020-05-31 13:53:42,647 ==> Test_suite.pages.listener ==> I`ve found "#collapse1 > li:nth-child(2)" BY "css selector"
-2020-05-31 13:53:42,718 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="b357c666fdff6e9cb408b86e412ec9bc", element="bbcdc578-2b23-4385-bb5b-cdd601cea705")>
-2020-05-31 13:53:42,996 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="b357c666fdff6e9cb408b86e412ec9bc", element="bbcdc578-2b23-4385-bb5b-cdd601cea705")>
-2020-05-31 13:53:42,998 ==> Test_suite.pages.listener ==> I`m looking for: "[data-original-title="Add New"]" BY: "css selector"
-2020-05-31 13:53:43,012 ==> Test_suite.pages.listener ==> I`ve found "[data-original-title="Add New"]" BY "css selector"
-2020-05-31 13:53:43,044 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="b357c666fdff6e9cb408b86e412ec9bc", element="1812d433-5be2-422e-99df-f3cad2ef43eb")>
-2020-05-31 13:53:43,697 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="b357c666fdff6e9cb408b86e412ec9bc", element="1812d433-5be2-422e-99df-f3cad2ef43eb")>
-2020-05-31 13:53:43,698 ==> Test_suite.pages.listener ==> I`m looking for: "#input-name1" BY: "css selector"
-2020-05-31 13:53:43,711 ==> Test_suite.pages.listener ==> I`ve found "#input-name1" BY "css selector"
-2020-05-31 13:53:43,837 ==> Test_suite.pages.listener ==> I`m looking for: "#input-meta-title1" BY: "css selector"
-2020-05-31 13:53:43,851 ==> Test_suite.pages.listener ==> I`ve found "#input-meta-title1" BY "css selector"
-2020-05-31 13:53:43,982 ==> Test_suite.pages.listener ==> I`m looking for: "[href="#tab-data"]" BY: "css selector"
-2020-05-31 13:53:43,993 ==> Test_suite.pages.listener ==> I`ve found "[href="#tab-data"]" BY "css selector"
-2020-05-31 13:53:44,106 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="b357c666fdff6e9cb408b86e412ec9bc", element="9a7cc634-7d04-4202-853e-fbd5ca267f4c")>
-2020-05-31 13:53:44,231 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="b357c666fdff6e9cb408b86e412ec9bc", element="9a7cc634-7d04-4202-853e-fbd5ca267f4c")>
-2020-05-31 13:53:44,232 ==> Test_suite.pages.listener ==> I`m looking for: "[name="model"]" BY: "css selector"
-2020-05-31 13:53:44,285 ==> Test_suite.pages.listener ==> I`ve found "[name="model"]" BY "css selector"
-2020-05-31 13:53:44,449 ==> Test_suite.pages.listener ==> I`m looking for: "[data-original-title="Save"]" BY: "css selector"
-2020-05-31 13:53:44,478 ==> Test_suite.pages.listener ==> I`ve found "[data-original-title="Save"]" BY "css selector"
-2020-05-31 13:53:44,498 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="b357c666fdff6e9cb408b86e412ec9bc", element="90ef9a51-c008-4bf4-b345-ab7e66e6def9")>
-2020-05-31 13:53:44,822 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="b357c666fdff6e9cb408b86e412ec9bc", element="90ef9a51-c008-4bf4-b345-ab7e66e6def9")>
-2020-05-31 13:53:44,823 ==> Test_suite.pages.listener ==> I`m looking for: ".alert-success" BY: "css selector"
-2020-05-31 13:53:44,838 ==> Test_suite.pages.listener ==> I`ve found ".alert-success" BY "css selector"
-2020-05-31 13:53:44,839 ==> root ==> I'm getting ready to terminate <selenium.webdriver.chrome.webdriver.WebDriver (session="b357c666fdff6e9cb408b86e412ec9bc")>
-2020-05-31 13:53:47,594 ==> root ==> WASTED!!!
-2020-05-31 13:54:46,496 ==> Test_suite.pages.listener ==> I`m navigate to: http://localhost/admin
-2020-05-31 13:54:47,939 ==> Test_suite.pages.listener ==> I`m on: http://localhost/admin
-2020-05-31 13:54:47,939 ==> Test_suite.pages.listener ==> I`m looking for: "[name="username"]" BY: "css selector"
-2020-05-31 13:54:47,964 ==> Test_suite.pages.listener ==> I`ve found "[name="username"]" BY "css selector"
-2020-05-31 13:54:48,058 ==> Test_suite.pages.listener ==> I`m looking for: "[name="password"]" BY: "css selector"
-2020-05-31 13:54:48,069 ==> Test_suite.pages.listener ==> I`ve found "[name="password"]" BY "css selector"
-2020-05-31 13:54:48,170 ==> Test_suite.pages.listener ==> I`m looking for: "[type="submit"]" BY: "css selector"
-2020-05-31 13:54:48,179 ==> Test_suite.pages.listener ==> I`ve found "[type="submit"]" BY "css selector"
-2020-05-31 13:54:48,210 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="eb38f0a0f9e9fedee37ca63fa14bd805", element="b21eca2f-d92a-422c-96e6-6b660c27332b")>
-2020-05-31 13:54:49,111 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="eb38f0a0f9e9fedee37ca63fa14bd805", element="b21eca2f-d92a-422c-96e6-6b660c27332b")>
-2020-05-31 13:54:49,124 ==> Test_suite.pages.listener ==> I`m looking for: "#menu-dashboard" BY: "css selector"
-2020-05-31 13:54:49,138 ==> Test_suite.pages.listener ==> I`ve found "#menu-dashboard" BY "css selector"
-2020-05-31 13:54:49,164 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="eb38f0a0f9e9fedee37ca63fa14bd805", element="1723d800-0c01-4cc9-af8c-627f2d39e5e3")>
-2020-05-31 13:54:49,416 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="eb38f0a0f9e9fedee37ca63fa14bd805", element="1723d800-0c01-4cc9-af8c-627f2d39e5e3")>
-2020-05-31 13:54:49,417 ==> Test_suite.pages.listener ==> I`m looking for: "[href="#collapse1"]" BY: "css selector"
-2020-05-31 13:54:49,444 ==> Test_suite.pages.listener ==> I`ve found "[href="#collapse1"]" BY "css selector"
-2020-05-31 13:54:49,467 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="eb38f0a0f9e9fedee37ca63fa14bd805", element="25a93b53-c8c2-474e-b573-bcfe4fc07014")>
-2020-05-31 13:54:49,508 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="eb38f0a0f9e9fedee37ca63fa14bd805", element="25a93b53-c8c2-474e-b573-bcfe4fc07014")>
-2020-05-31 13:54:49,509 ==> Test_suite.pages.listener ==> I`m looking for: "#collapse1 > li:nth-child(2)" BY: "css selector"
-2020-05-31 13:54:49,520 ==> Test_suite.pages.listener ==> I`ve found "#collapse1 > li:nth-child(2)" BY "css selector"
-2020-05-31 13:54:50,029 ==> Test_suite.pages.listener ==> I`m looking for: "#collapse1 > li:nth-child(2)" BY: "css selector"
-2020-05-31 13:54:50,053 ==> Test_suite.pages.listener ==> I`ve found "#collapse1 > li:nth-child(2)" BY "css selector"
-2020-05-31 13:54:50,103 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="eb38f0a0f9e9fedee37ca63fa14bd805", element="64e6e537-993f-4f3f-b23f-4d5151bb857d")>
-2020-05-31 13:54:50,360 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="eb38f0a0f9e9fedee37ca63fa14bd805", element="64e6e537-993f-4f3f-b23f-4d5151bb857d")>
-2020-05-31 13:54:50,361 ==> Test_suite.pages.listener ==> I`m looking for: "[data-original-title="Add New"]" BY: "css selector"
-2020-05-31 13:54:50,378 ==> Test_suite.pages.listener ==> I`ve found "[data-original-title="Add New"]" BY "css selector"
-2020-05-31 13:54:50,400 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="eb38f0a0f9e9fedee37ca63fa14bd805", element="a28c8ad1-5c7d-43d1-a4ec-2862d85d38f3")>
-2020-05-31 13:54:51,006 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="eb38f0a0f9e9fedee37ca63fa14bd805", element="a28c8ad1-5c7d-43d1-a4ec-2862d85d38f3")>
-2020-05-31 13:54:51,006 ==> Test_suite.pages.listener ==> I`m looking for: "#input-name1" BY: "css selector"
-2020-05-31 13:54:51,019 ==> Test_suite.pages.listener ==> I`ve found "#input-name1" BY "css selector"
-2020-05-31 13:54:51,116 ==> Test_suite.pages.listener ==> I`m looking for: "#input-meta-title1" BY: "css selector"
-2020-05-31 13:54:51,128 ==> Test_suite.pages.listener ==> I`ve found "#input-meta-title1" BY "css selector"
-2020-05-31 13:54:51,242 ==> Test_suite.pages.listener ==> I`m looking for: "[href="#tab-data"]" BY: "css selector"
-2020-05-31 13:54:51,254 ==> Test_suite.pages.listener ==> I`ve found "[href="#tab-data"]" BY "css selector"
-2020-05-31 13:54:51,275 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="eb38f0a0f9e9fedee37ca63fa14bd805", element="bb02b5b4-caac-452d-a39c-1f34e78d3c5d")>
-2020-05-31 13:54:51,376 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="eb38f0a0f9e9fedee37ca63fa14bd805", element="bb02b5b4-caac-452d-a39c-1f34e78d3c5d")>
-2020-05-31 13:54:51,376 ==> Test_suite.pages.listener ==> I`m looking for: "[name="model"]" BY: "css selector"
-2020-05-31 13:54:51,390 ==> Test_suite.pages.listener ==> I`ve found "[name="model"]" BY "css selector"
-2020-05-31 13:54:51,505 ==> Test_suite.pages.listener ==> I`m looking for: "[data-original-title="Save"]" BY: "css selector"
-2020-05-31 13:54:51,516 ==> Test_suite.pages.listener ==> I`ve found "[data-original-title="Save"]" BY "css selector"
-2020-05-31 13:54:51,535 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="eb38f0a0f9e9fedee37ca63fa14bd805", element="24fea4dc-f0c9-4fa6-84b7-34cffe14171f")>
-2020-05-31 13:54:52,000 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="eb38f0a0f9e9fedee37ca63fa14bd805", element="24fea4dc-f0c9-4fa6-84b7-34cffe14171f")>
-2020-05-31 13:54:52,000 ==> Test_suite.pages.listener ==> I`m looking for: ".alert-success" BY: "css selector"
-2020-05-31 13:54:52,016 ==> Test_suite.pages.listener ==> I`ve found ".alert-success" BY "css selector"
-2020-05-31 13:54:52,017 ==> Test_suite.pages.listener ==> I'm getting ready to terminate <selenium.webdriver.chrome.webdriver.WebDriver (session="eb38f0a0f9e9fedee37ca63fa14bd805")>
-2020-05-31 13:54:54,764 ==> Test_suite.pages.listener ==> WASTED!!!
-2020-05-31 14:01:13,665 ==> Test_suite.pages.listener ==> I`m navigate to: http://localhost/admin
-2020-05-31 14:01:16,208 ==> Test_suite.pages.listener ==> I`m on: http://localhost/admin
-2020-05-31 14:01:16,208 ==> Test_suite.pages.listener ==> I`m looking for: "[name="username"]" BY: "css selector"
-2020-05-31 14:01:16,223 ==> Test_suite.pages.listener ==> I`ve found "[name="username"]" BY "css selector"
-2020-05-31 14:01:16,324 ==> Test_suite.pages.listener ==> I`m looking for: "[name="password"]" BY: "css selector"
-2020-05-31 14:01:16,333 ==> Test_suite.pages.listener ==> I`ve found "[name="password"]" BY "css selector"
-2020-05-31 14:01:16,406 ==> Test_suite.pages.listener ==> I`m looking for: "[type="submit"]" BY: "css selector"
-2020-05-31 14:01:16,415 ==> Test_suite.pages.listener ==> I`ve found "[type="submit"]" BY "css selector"
-2020-05-31 14:01:16,434 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="b44d3b1ac70622cb1d578708329fedad", element="7cfbfb05-3017-40a7-ad95-e60d23f32302")>
-2020-05-31 14:01:18,412 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="b44d3b1ac70622cb1d578708329fedad", element="7cfbfb05-3017-40a7-ad95-e60d23f32302")>
-2020-05-31 14:01:18,427 ==> Test_suite.pages.listener ==> I`m looking for: "#menu-dashboard" BY: "css selector"
-2020-05-31 14:01:18,441 ==> Test_suite.pages.listener ==> I`ve found "#menu-dashboard" BY "css selector"
-2020-05-31 14:01:19,053 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="b44d3b1ac70622cb1d578708329fedad", element="0c678271-6159-4e50-9bdf-d75d3caa4357")>
-2020-05-31 14:01:19,330 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="b44d3b1ac70622cb1d578708329fedad", element="0c678271-6159-4e50-9bdf-d75d3caa4357")>
-2020-05-31 14:01:19,330 ==> Test_suite.pages.listener ==> I`m looking for: "[href="#collapse1"]" BY: "css selector"
-2020-05-31 14:01:19,384 ==> Test_suite.pages.listener ==> I`ve found "[href="#collapse1"]" BY "css selector"
-2020-05-31 14:01:19,410 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="b44d3b1ac70622cb1d578708329fedad", element="8ea8596c-a766-4988-bbbd-d05d3b83fd90")>
-2020-05-31 14:01:19,452 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="b44d3b1ac70622cb1d578708329fedad", element="8ea8596c-a766-4988-bbbd-d05d3b83fd90")>
-2020-05-31 14:01:19,452 ==> Test_suite.pages.listener ==> I`m looking for: "#collapse1 > li:nth-child(2)" BY: "css selector"
-2020-05-31 14:01:19,465 ==> Test_suite.pages.listener ==> I`ve found "#collapse1 > li:nth-child(2)" BY "css selector"
-2020-05-31 14:01:19,978 ==> Test_suite.pages.listener ==> I`m looking for: "#collapse1 > li:nth-child(2)" BY: "css selector"
-2020-05-31 14:01:19,988 ==> Test_suite.pages.listener ==> I`ve found "#collapse1 > li:nth-child(2)" BY "css selector"
-2020-05-31 14:01:20,006 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="b44d3b1ac70622cb1d578708329fedad", element="a2296fbe-f3a4-4da2-8060-f94656d028ae")>
-2020-05-31 14:01:20,351 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="b44d3b1ac70622cb1d578708329fedad", element="a2296fbe-f3a4-4da2-8060-f94656d028ae")>
-2020-05-31 14:01:20,352 ==> Test_suite.pages.listener ==> I`m looking for: "#menu-dashboard" BY: "css selector"
-2020-05-31 14:01:20,364 ==> Test_suite.pages.listener ==> I`ve found "#menu-dashboard" BY "css selector"
-2020-05-31 14:01:20,387 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="b44d3b1ac70622cb1d578708329fedad", element="c3543210-4350-43c6-b690-441dce4f522e")>
-2020-05-31 14:01:20,649 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="b44d3b1ac70622cb1d578708329fedad", element="c3543210-4350-43c6-b690-441dce4f522e")>
-2020-05-31 14:01:20,649 ==> Test_suite.pages.listener ==> I`m looking for: "[href="#collapse1"]" BY: "css selector"
-2020-05-31 14:01:20,723 ==> Test_suite.pages.listener ==> I`ve found "[href="#collapse1"]" BY "css selector"
-2020-05-31 14:01:20,742 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="b44d3b1ac70622cb1d578708329fedad", element="1a2ee3cb-cc25-48d9-91e0-bcb62c24f494")>
-2020-05-31 14:01:20,781 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="b44d3b1ac70622cb1d578708329fedad", element="1a2ee3cb-cc25-48d9-91e0-bcb62c24f494")>
-2020-05-31 14:01:20,781 ==> Test_suite.pages.listener ==> I`m looking for: "#collapse1 > li:nth-child(2)" BY: "css selector"
-2020-05-31 14:01:20,791 ==> Test_suite.pages.listener ==> I`ve found "#collapse1 > li:nth-child(2)" BY "css selector"
-2020-05-31 14:01:21,301 ==> Test_suite.pages.listener ==> I`m looking for: "#collapse1 > li:nth-child(2)" BY: "css selector"
-2020-05-31 14:01:21,317 ==> Test_suite.pages.listener ==> I`ve found "#collapse1 > li:nth-child(2)" BY "css selector"
-2020-05-31 14:01:21,347 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="b44d3b1ac70622cb1d578708329fedad", element="44288da6-294e-43c8-a2d3-0cb8291b6448")>
-2020-05-31 14:01:21,679 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="b44d3b1ac70622cb1d578708329fedad", element="44288da6-294e-43c8-a2d3-0cb8291b6448")>
-2020-05-31 14:01:21,679 ==> Test_suite.pages.listener ==> I`m looking for: "#input-name" BY: "css selector"
-2020-05-31 14:01:21,693 ==> Test_suite.pages.listener ==> I`ve found "#input-name" BY "css selector"
-2020-05-31 14:01:21,779 ==> Test_suite.pages.listener ==> I`m looking for: "#button-filter[type="button"]" BY: "css selector"
-2020-05-31 14:01:21,791 ==> Test_suite.pages.listener ==> I`ve found "#button-filter[type="button"]" BY "css selector"
-2020-05-31 14:01:21,812 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="b44d3b1ac70622cb1d578708329fedad", element="062a8d33-fef3-45f5-b261-56dfada2f5e6")>
-2020-05-31 14:01:21,993 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="b44d3b1ac70622cb1d578708329fedad", element="062a8d33-fef3-45f5-b261-56dfada2f5e6")>
-2020-05-31 14:01:21,993 ==> Test_suite.pages.listener ==> I`m looking for: "tbody tr" BY: "css selector"
-2020-05-31 14:01:22,018 ==> Test_suite.pages.listener ==> I`ve found "tbody tr" BY "css selector"
-2020-05-31 14:01:22,184 ==> Test_suite.pages.listener ==> I`m looking for: "tr td:nth-child(3)" BY: "css selector"
-2020-05-31 14:01:22,196 ==> Test_suite.pages.listener ==> I`ve found "tr td:nth-child(3)" BY "css selector"
-2020-05-31 14:01:22,239 ==> test_settings_page ==> ====================Start "test_delete_product_by_name"====================
-2020-05-31 14:01:22,239 ==> Test_suite.pages.listener ==> I`m looking for: "tbody tr" BY: "css selector"
-2020-05-31 14:01:22,248 ==> Test_suite.pages.listener ==> I`ve found "tbody tr" BY "css selector"
-2020-05-31 14:01:22,361 ==> Test_suite.pages.listener ==> I`m looking for: "tr td:nth-child(3)" BY: "css selector"
-2020-05-31 14:01:22,368 ==> Test_suite.pages.listener ==> I`ve found "tr td:nth-child(3)" BY "css selector"
-2020-05-31 14:01:22,376 ==> Test_suite.pages.listener ==> I`m looking for: "tr td:nth-child(1)" BY: "css selector"
-2020-05-31 14:01:22,385 ==> Test_suite.pages.listener ==> I`ve found "tr td:nth-child(1)" BY "css selector"
-2020-05-31 14:01:22,386 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="b44d3b1ac70622cb1d578708329fedad", element="367f2b10-0d0c-4657-9090-98d80d61fd8e")>
-2020-05-31 14:01:22,423 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="b44d3b1ac70622cb1d578708329fedad", element="367f2b10-0d0c-4657-9090-98d80d61fd8e")>
-2020-05-31 14:01:22,423 ==> Test_suite.pages.listener ==> I`m looking for: "[data-original-title="Delete"]" BY: "css selector"
-2020-05-31 14:01:22,433 ==> Test_suite.pages.listener ==> I`ve found "[data-original-title="Delete"]" BY "css selector"
-2020-05-31 14:01:22,503 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="b44d3b1ac70622cb1d578708329fedad", element="cc0ffb34-5bcc-4110-b16e-3529e0e0af8b")>
-2020-05-31 14:01:22,989 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="b44d3b1ac70622cb1d578708329fedad", element="cc0ffb34-5bcc-4110-b16e-3529e0e0af8b")>
-2020-05-31 14:01:22,994 ==> Test_suite.pages.listener ==> I`m looking for: ".alert-success" BY: "css selector"
-2020-05-31 14:01:23,391 ==> Test_suite.pages.listener ==> I`ve found ".alert-success" BY "css selector"
-2020-05-31 14:01:23,391 ==> test_settings_page ==> ====================End "test_delete_product_by_name"====================
-2020-05-31 14:01:23,392 ==> Test_suite.pages.listener ==> I'm getting ready to terminate <selenium.webdriver.chrome.webdriver.WebDriver (session="b44d3b1ac70622cb1d578708329fedad")>
-2020-05-31 14:01:30,746 ==> Test_suite.pages.listener ==> WASTED!!!
-2020-05-31 14:03:10,125 ==> Test_suite.pages.listener ==> I`m navigate to: http://localhost/admin
-2020-05-31 14:03:11,152 ==> Test_suite.pages.listener ==> I`m on: http://localhost/admin
-2020-05-31 14:03:11,152 ==> Test_suite.pages.listener ==> I`m looking for: "[name="username"]" BY: "css selector"
-2020-05-31 14:03:11,165 ==> Test_suite.pages.listener ==> I`ve found "[name="username"]" BY "css selector"
-2020-05-31 14:03:11,255 ==> Test_suite.pages.listener ==> I`m looking for: "[name="password"]" BY: "css selector"
-2020-05-31 14:03:11,267 ==> Test_suite.pages.listener ==> I`ve found "[name="password"]" BY "css selector"
-2020-05-31 14:03:11,371 ==> Test_suite.pages.listener ==> I`m looking for: "[type="submit"]" BY: "css selector"
-2020-05-31 14:03:11,381 ==> Test_suite.pages.listener ==> I`ve found "[type="submit"]" BY "css selector"
-2020-05-31 14:03:11,401 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="0e8afd3b6713ea62d2d4e54d4fdf8723", element="a9cda3fb-0f65-49f8-b9f4-6a9fc4c9461f")>
-2020-05-31 14:03:12,250 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="0e8afd3b6713ea62d2d4e54d4fdf8723", element="a9cda3fb-0f65-49f8-b9f4-6a9fc4c9461f")>
-2020-05-31 14:03:12,265 ==> Test_suite.pages.listener ==> I`m looking for: "#menu-dashboard" BY: "css selector"
-2020-05-31 14:03:12,282 ==> Test_suite.pages.listener ==> I`ve found "#menu-dashboard" BY "css selector"
-2020-05-31 14:03:12,309 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="0e8afd3b6713ea62d2d4e54d4fdf8723", element="e0fdb979-157d-4db4-ae06-9627b6e72900")>
-2020-05-31 14:03:12,596 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="0e8afd3b6713ea62d2d4e54d4fdf8723", element="e0fdb979-157d-4db4-ae06-9627b6e72900")>
-2020-05-31 14:03:12,596 ==> Test_suite.pages.listener ==> I`m looking for: "[href="#collapse1"]" BY: "css selector"
-2020-05-31 14:03:12,647 ==> Test_suite.pages.listener ==> I`ve found "[href="#collapse1"]" BY "css selector"
-2020-05-31 14:03:12,672 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="0e8afd3b6713ea62d2d4e54d4fdf8723", element="bf02e8b3-4ece-4261-9c3d-ed4b51ca6782")>
-2020-05-31 14:03:12,804 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="0e8afd3b6713ea62d2d4e54d4fdf8723", element="bf02e8b3-4ece-4261-9c3d-ed4b51ca6782")>
-2020-05-31 14:03:12,804 ==> Test_suite.pages.listener ==> I`m looking for: "#collapse1 > li:nth-child(2)" BY: "css selector"
-2020-05-31 14:03:12,819 ==> Test_suite.pages.listener ==> I`ve found "#collapse1 > li:nth-child(2)" BY "css selector"
-2020-05-31 14:03:13,332 ==> Test_suite.pages.listener ==> I`m looking for: "#collapse1 > li:nth-child(2)" BY: "css selector"
-2020-05-31 14:03:13,339 ==> Test_suite.pages.listener ==> I`ve found "#collapse1 > li:nth-child(2)" BY "css selector"
-2020-05-31 14:03:13,378 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="0e8afd3b6713ea62d2d4e54d4fdf8723", element="0cc0b2b7-a487-4219-bbad-f69051347197")>
-2020-05-31 14:03:13,709 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="0e8afd3b6713ea62d2d4e54d4fdf8723", element="0cc0b2b7-a487-4219-bbad-f69051347197")>
-2020-05-31 14:03:13,709 ==> Test_suite.pages.listener ==> I`m looking for: "#menu-dashboard" BY: "css selector"
-2020-05-31 14:03:13,722 ==> Test_suite.pages.listener ==> I`ve found "#menu-dashboard" BY "css selector"
-2020-05-31 14:03:13,770 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="0e8afd3b6713ea62d2d4e54d4fdf8723", element="5ed55777-6b98-4c50-b7b3-4edc8a9e107e")>
-2020-05-31 14:03:13,960 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="0e8afd3b6713ea62d2d4e54d4fdf8723", element="5ed55777-6b98-4c50-b7b3-4edc8a9e107e")>
-2020-05-31 14:03:13,961 ==> Test_suite.pages.listener ==> I`m looking for: "[href="#collapse1"]" BY: "css selector"
-2020-05-31 14:03:14,019 ==> Test_suite.pages.listener ==> I`ve found "[href="#collapse1"]" BY "css selector"
-2020-05-31 14:03:14,042 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="0e8afd3b6713ea62d2d4e54d4fdf8723", element="226290ad-6d87-4904-844b-e61bc6e7cceb")>
-2020-05-31 14:03:14,095 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="0e8afd3b6713ea62d2d4e54d4fdf8723", element="226290ad-6d87-4904-844b-e61bc6e7cceb")>
-2020-05-31 14:03:14,095 ==> Test_suite.pages.listener ==> I`m looking for: "#collapse1 > li:nth-child(2)" BY: "css selector"
-2020-05-31 14:03:14,105 ==> Test_suite.pages.listener ==> I`ve found "#collapse1 > li:nth-child(2)" BY "css selector"
-2020-05-31 14:03:14,615 ==> Test_suite.pages.listener ==> I`m looking for: "#collapse1 > li:nth-child(2)" BY: "css selector"
-2020-05-31 14:03:14,622 ==> Test_suite.pages.listener ==> I`ve found "#collapse1 > li:nth-child(2)" BY "css selector"
-2020-05-31 14:03:14,640 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="0e8afd3b6713ea62d2d4e54d4fdf8723", element="df265013-ea37-44be-88b6-a93d2df7f764")>
-2020-05-31 14:03:14,960 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="0e8afd3b6713ea62d2d4e54d4fdf8723", element="df265013-ea37-44be-88b6-a93d2df7f764")>
-2020-05-31 14:03:14,960 ==> Test_suite.pages.listener ==> I`m looking for: "#input-name" BY: "css selector"
-2020-05-31 14:03:14,976 ==> Test_suite.pages.listener ==> I`ve found "#input-name" BY "css selector"
-2020-05-31 14:03:15,058 ==> Test_suite.pages.listener ==> I`m looking for: "#button-filter[type="button"]" BY: "css selector"
-2020-05-31 14:03:15,073 ==> Test_suite.pages.listener ==> I`ve found "#button-filter[type="button"]" BY "css selector"
-2020-05-31 14:03:15,094 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="0e8afd3b6713ea62d2d4e54d4fdf8723", element="8502d865-fd1b-4532-8b50-086093fb21ee")>
-2020-05-31 14:03:15,359 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="0e8afd3b6713ea62d2d4e54d4fdf8723", element="8502d865-fd1b-4532-8b50-086093fb21ee")>
-2020-05-31 14:03:15,359 ==> Test_suite.pages.listener ==> I`m looking for: "tbody tr" BY: "css selector"
-2020-05-31 14:03:15,382 ==> Test_suite.pages.listener ==> I`ve found "tbody tr" BY "css selector"
-2020-05-31 14:03:15,505 ==> Test_suite.pages.listener ==> I`m looking for: "tr td:nth-child(3)" BY: "css selector"
-2020-05-31 14:03:15,515 ==> Test_suite.pages.listener ==> I`ve found "tr td:nth-child(3)" BY "css selector"
-2020-05-31 14:03:15,541 ==> test_settings_page ==> ====================Start "test_delete_product_by_name"====================
-2020-05-31 14:03:15,542 ==> Test_suite.pages.listener ==> I`m looking for: "tbody tr" BY: "css selector"
-2020-05-31 14:03:15,549 ==> Test_suite.pages.listener ==> I`ve found "tbody tr" BY "css selector"
-2020-05-31 14:03:15,656 ==> Test_suite.pages.listener ==> I`m looking for: "tr td:nth-child(3)" BY: "css selector"
-2020-05-31 14:03:15,663 ==> Test_suite.pages.listener ==> I`ve found "tr td:nth-child(3)" BY "css selector"
-2020-05-31 14:03:15,670 ==> Test_suite.pages.listener ==> I`m looking for: "tr td:nth-child(1)" BY: "css selector"
-2020-05-31 14:03:15,681 ==> Test_suite.pages.listener ==> I`ve found "tr td:nth-child(1)" BY "css selector"
-2020-05-31 14:03:15,681 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="0e8afd3b6713ea62d2d4e54d4fdf8723", element="8f4c64cb-cb32-4012-a415-29436c5c7ebd")>
-2020-05-31 14:03:15,717 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="0e8afd3b6713ea62d2d4e54d4fdf8723", element="8f4c64cb-cb32-4012-a415-29436c5c7ebd")>
-2020-05-31 14:03:15,717 ==> Test_suite.pages.listener ==> I`m looking for: "[data-original-title="Delete"]" BY: "css selector"
-2020-05-31 14:03:15,728 ==> Test_suite.pages.listener ==> I`ve found "[data-original-title="Delete"]" BY "css selector"
-2020-05-31 14:03:15,748 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="0e8afd3b6713ea62d2d4e54d4fdf8723", element="a912ca55-5a3c-434b-a27b-899f335f7b5c")>
-2020-05-31 14:03:15,786 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="0e8afd3b6713ea62d2d4e54d4fdf8723", element="a912ca55-5a3c-434b-a27b-899f335f7b5c")>
-2020-05-31 14:03:15,790 ==> Test_suite.pages.listener ==> I`m looking for: ".alert-success" BY: "css selector"
-2020-05-31 14:03:16,124 ==> Test_suite.pages.listener ==> I`ve found ".alert-success" BY "css selector"
-2020-05-31 14:03:16,124 ==> test_settings_page ==> ====================End "test_delete_product_by_name"====================
-2020-05-31 14:03:16,125 ==> Test_suite.pages.listener ==> I'm getting ready to terminate <selenium.webdriver.chrome.webdriver.WebDriver (session="0e8afd3b6713ea62d2d4e54d4fdf8723")>
-2020-05-31 14:03:18,818 ==> Test_suite.pages.listener ==> WASTED!!!
-2020-05-31 14:05:22,367 ==> Test_suite.pages.listener ==> I`m navigate to: http://localhost/admin
-2020-05-31 14:05:24,213 ==> Test_suite.pages.listener ==> I`m on: http://localhost/admin
-2020-05-31 14:05:24,214 ==> Test_suite.pages.listener ==> I`m looking for: "[name="username"]" BY: "css selector"
-2020-05-31 14:05:24,228 ==> Test_suite.pages.listener ==> I`ve found "[name="username"]" BY "css selector"
-2020-05-31 14:05:24,309 ==> Test_suite.pages.listener ==> I`m looking for: "[name="password"]" BY: "css selector"
-2020-05-31 14:05:24,322 ==> Test_suite.pages.listener ==> I`ve found "[name="password"]" BY "css selector"
-2020-05-31 14:05:24,434 ==> Test_suite.pages.listener ==> I`m looking for: "[type="submit"]" BY: "css selector"
-2020-05-31 14:05:24,444 ==> Test_suite.pages.listener ==> I`ve found "[type="submit"]" BY "css selector"
-2020-05-31 14:05:24,465 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="0396074d1629c7cd8efb011bca569813", element="6fdb78ec-4801-4b12-9029-9141609d1052")>
-2020-05-31 14:05:25,696 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="0396074d1629c7cd8efb011bca569813", element="6fdb78ec-4801-4b12-9029-9141609d1052")>
-2020-05-31 14:05:25,720 ==> Test_suite.pages.listener ==> I`m looking for: "#menu-dashboard" BY: "css selector"
-2020-05-31 14:05:25,734 ==> Test_suite.pages.listener ==> I`ve found "#menu-dashboard" BY "css selector"
-2020-05-31 14:05:25,758 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="0396074d1629c7cd8efb011bca569813", element="bcc87449-94ab-4e91-bffe-c110d2c0cbef")>
-2020-05-31 14:05:25,918 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="0396074d1629c7cd8efb011bca569813", element="bcc87449-94ab-4e91-bffe-c110d2c0cbef")>
-2020-05-31 14:05:25,918 ==> Test_suite.pages.listener ==> I`m looking for: "[href="#collapse1"]" BY: "css selector"
-2020-05-31 14:05:25,979 ==> Test_suite.pages.listener ==> I`ve found "[href="#collapse1"]" BY "css selector"
-2020-05-31 14:05:26,003 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="0396074d1629c7cd8efb011bca569813", element="342e908b-c970-4c66-b955-effe61441f60")>
-2020-05-31 14:05:26,110 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="0396074d1629c7cd8efb011bca569813", element="342e908b-c970-4c66-b955-effe61441f60")>
-2020-05-31 14:05:26,111 ==> Test_suite.pages.listener ==> I`m looking for: "#collapse1 > li:nth-child(2)" BY: "css selector"
-2020-05-31 14:05:26,123 ==> Test_suite.pages.listener ==> I`ve found "#collapse1 > li:nth-child(2)" BY "css selector"
-2020-05-31 14:05:26,633 ==> Test_suite.pages.listener ==> I`m looking for: "#collapse1 > li:nth-child(2)" BY: "css selector"
-2020-05-31 14:05:26,642 ==> Test_suite.pages.listener ==> I`ve found "#collapse1 > li:nth-child(2)" BY "css selector"
-2020-05-31 14:05:26,660 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="0396074d1629c7cd8efb011bca569813", element="0af45b8d-a5fb-4f50-ad00-e80ce93a7e19")>
-2020-05-31 14:05:26,916 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="0396074d1629c7cd8efb011bca569813", element="0af45b8d-a5fb-4f50-ad00-e80ce93a7e19")>
-2020-05-31 14:05:26,916 ==> Test_suite.pages.listener ==> I`m looking for: "#menu-dashboard" BY: "css selector"
-2020-05-31 14:05:26,927 ==> Test_suite.pages.listener ==> I`ve found "#menu-dashboard" BY "css selector"
-2020-05-31 14:05:26,949 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="0396074d1629c7cd8efb011bca569813", element="7ed3490f-7ef3-402e-a22f-9669cfba4c49")>
-2020-05-31 14:05:27,212 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="0396074d1629c7cd8efb011bca569813", element="7ed3490f-7ef3-402e-a22f-9669cfba4c49")>
-2020-05-31 14:05:27,212 ==> Test_suite.pages.listener ==> I`m looking for: "[href="#collapse1"]" BY: "css selector"
-2020-05-31 14:05:27,265 ==> Test_suite.pages.listener ==> I`ve found "[href="#collapse1"]" BY "css selector"
-2020-05-31 14:05:27,286 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="0396074d1629c7cd8efb011bca569813", element="c05a26d9-de98-45de-83d6-6f5878641cbc")>
-2020-05-31 14:05:27,329 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="0396074d1629c7cd8efb011bca569813", element="c05a26d9-de98-45de-83d6-6f5878641cbc")>
-2020-05-31 14:05:27,329 ==> Test_suite.pages.listener ==> I`m looking for: "#collapse1 > li:nth-child(2)" BY: "css selector"
-2020-05-31 14:05:27,338 ==> Test_suite.pages.listener ==> I`ve found "#collapse1 > li:nth-child(2)" BY "css selector"
-2020-05-31 14:05:27,849 ==> Test_suite.pages.listener ==> I`m looking for: "#collapse1 > li:nth-child(2)" BY: "css selector"
-2020-05-31 14:05:27,875 ==> Test_suite.pages.listener ==> I`ve found "#collapse1 > li:nth-child(2)" BY "css selector"
-2020-05-31 14:05:27,937 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="0396074d1629c7cd8efb011bca569813", element="2b0636bb-6cc8-418f-8abb-7299ed4b713a")>
-2020-05-31 14:05:28,271 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="0396074d1629c7cd8efb011bca569813", element="2b0636bb-6cc8-418f-8abb-7299ed4b713a")>
-2020-05-31 14:05:28,271 ==> Test_suite.pages.listener ==> I`m looking for: "#input-name" BY: "css selector"
-2020-05-31 14:05:28,297 ==> Test_suite.pages.listener ==> I`ve found "#input-name" BY "css selector"
-2020-05-31 14:05:28,404 ==> Test_suite.pages.listener ==> I`m looking for: "#button-filter[type="button"]" BY: "css selector"
-2020-05-31 14:05:28,415 ==> Test_suite.pages.listener ==> I`ve found "#button-filter[type="button"]" BY "css selector"
-2020-05-31 14:05:28,434 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="0396074d1629c7cd8efb011bca569813", element="41960b3b-e7da-4b3b-bb74-f3052bf1658b")>
-2020-05-31 14:05:28,591 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="0396074d1629c7cd8efb011bca569813", element="41960b3b-e7da-4b3b-bb74-f3052bf1658b")>
-2020-05-31 14:05:28,591 ==> Test_suite.pages.listener ==> I`m looking for: "tbody tr" BY: "css selector"
-2020-05-31 14:05:28,606 ==> Test_suite.pages.listener ==> I`ve found "tbody tr" BY "css selector"
-2020-05-31 14:05:28,718 ==> Test_suite.pages.listener ==> I`m looking for: "tr td:nth-child(3)" BY: "css selector"
-2020-05-31 14:05:28,728 ==> Test_suite.pages.listener ==> I`ve found "tr td:nth-child(3)" BY "css selector"
-2020-05-31 14:05:28,770 ==> test_settings_page ==> ====================Start "test_delete_product_by_name"====================
-2020-05-31 14:05:28,771 ==> Test_suite.pages.listener ==> I`m looking for: "tbody tr" BY: "css selector"
-2020-05-31 14:05:28,803 ==> Test_suite.pages.listener ==> I`ve found "tbody tr" BY "css selector"
-2020-05-31 14:05:28,900 ==> Test_suite.pages.listener ==> I`m looking for: "tr td:nth-child(3)" BY: "css selector"
-2020-05-31 14:05:28,907 ==> Test_suite.pages.listener ==> I`ve found "tr td:nth-child(3)" BY "css selector"
-2020-05-31 14:05:28,914 ==> Test_suite.pages.listener ==> I`m looking for: "tr td:nth-child(1)" BY: "css selector"
-2020-05-31 14:05:28,924 ==> Test_suite.pages.listener ==> I`ve found "tr td:nth-child(1)" BY "css selector"
-2020-05-31 14:05:28,924 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="0396074d1629c7cd8efb011bca569813", element="1f2c9dce-5753-4e2d-b3aa-f192ffadef95")>
-2020-05-31 14:05:28,958 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="0396074d1629c7cd8efb011bca569813", element="1f2c9dce-5753-4e2d-b3aa-f192ffadef95")>
-2020-05-31 14:05:28,958 ==> Test_suite.pages.listener ==> I`m looking for: "[data-original-title="Delete"]" BY: "css selector"
-2020-05-31 14:05:28,970 ==> Test_suite.pages.listener ==> I`ve found "[data-original-title="Delete"]" BY "css selector"
-2020-05-31 14:05:28,990 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="0396074d1629c7cd8efb011bca569813", element="537ab8e8-18b8-4e5f-9e25-1ec5606c60ed")>
-2020-05-31 14:05:29,030 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="0396074d1629c7cd8efb011bca569813", element="537ab8e8-18b8-4e5f-9e25-1ec5606c60ed")>
-2020-05-31 14:05:29,035 ==> Test_suite.pages.listener ==> I`m looking for: ".alert-success" BY: "css selector"
-2020-05-31 14:05:29,280 ==> Test_suite.pages.listener ==> I`ve found ".alert-success" BY "css selector"
-2020-05-31 14:05:29,280 ==> test_settings_page ==> ====================End "test_delete_product_by_name"====================
-2020-05-31 14:05:29,281 ==> Test_suite.pages.listener ==> I'm getting ready to terminate <selenium.webdriver.chrome.webdriver.WebDriver (session="0396074d1629c7cd8efb011bca569813")>
-2020-05-31 14:05:33,860 ==> Test_suite.pages.listener ==> WASTED!!!
-2020-05-31 14:29:40,622 ==> Test_suite.pages.listener ==> I`m navigate to: http://localhost/admin
-2020-05-31 14:29:44,580 ==> Test_suite.pages.listener ==> I`m on: http://localhost/admin
-2020-05-31 14:29:44,580 ==> Test_suite.pages.listener ==> I`m looking for: "[name="username"]" BY: "css selector"
-2020-05-31 14:29:44,725 ==> Test_suite.pages.listener ==> I`ve found "[name="username"]" BY "css selector"
-2020-05-31 14:29:45,033 ==> Test_suite.pages.listener ==> I`m looking for: "[name="password"]" BY: "css selector"
-2020-05-31 14:29:45,076 ==> Test_suite.pages.listener ==> I`ve found "[name="password"]" BY "css selector"
-2020-05-31 14:29:45,254 ==> Test_suite.pages.listener ==> I`m looking for: "[type="submit"]" BY: "css selector"
-2020-05-31 14:29:45,263 ==> Test_suite.pages.listener ==> I`ve found "[type="submit"]" BY "css selector"
-2020-05-31 14:29:45,351 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="24e9c3a73830c733d6b4f3b348446258", element="055be4a5-a504-4938-b3d1-bf8c4602fbd5")>
-2020-05-31 14:29:48,466 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="24e9c3a73830c733d6b4f3b348446258", element="055be4a5-a504-4938-b3d1-bf8c4602fbd5")>
-2020-05-31 14:29:49,109 ==> Test_suite.pages.listener ==> I`m looking for: "#menu-dashboard" BY: "css selector"
-2020-05-31 14:29:49,119 ==> Test_suite.pages.listener ==> I`ve found "#menu-dashboard" BY "css selector"
-2020-05-31 14:29:49,376 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="24e9c3a73830c733d6b4f3b348446258", element="7563e9d4-3ba6-4f50-b30b-fca9efa530a3")>
-2020-05-31 14:29:50,378 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="24e9c3a73830c733d6b4f3b348446258", element="7563e9d4-3ba6-4f50-b30b-fca9efa530a3")>
-2020-05-31 14:29:50,378 ==> Test_suite.pages.listener ==> I`m looking for: "[href="#collapse1"]" BY: "css selector"
-2020-05-31 14:29:50,418 ==> Test_suite.pages.listener ==> I`ve found "[href="#collapse1"]" BY "css selector"
-2020-05-31 14:29:50,546 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="24e9c3a73830c733d6b4f3b348446258", element="c0761126-81bb-48cd-a8c9-b079d695b217")>
-2020-05-31 14:29:50,654 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="24e9c3a73830c733d6b4f3b348446258", element="c0761126-81bb-48cd-a8c9-b079d695b217")>
-2020-05-31 14:29:50,654 ==> Test_suite.pages.listener ==> I`m looking for: "#collapse1 > li:nth-child(2)" BY: "css selector"
-2020-05-31 14:29:50,664 ==> Test_suite.pages.listener ==> I`ve found "#collapse1 > li:nth-child(2)" BY "css selector"
-2020-05-31 14:29:51,177 ==> Test_suite.pages.listener ==> I`m looking for: "#collapse1 > li:nth-child(2)" BY: "css selector"
-2020-05-31 14:29:51,190 ==> Test_suite.pages.listener ==> I`ve found "#collapse1 > li:nth-child(2)" BY "css selector"
-2020-05-31 14:29:51,649 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="24e9c3a73830c733d6b4f3b348446258", element="356cd315-a250-4519-b107-64f75724314a")>
-2020-05-31 14:29:52,092 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="24e9c3a73830c733d6b4f3b348446258", element="356cd315-a250-4519-b107-64f75724314a")>
-2020-05-31 14:29:52,092 ==> Test_suite.pages.listener ==> I`m looking for: "#menu-dashboard" BY: "css selector"
-2020-05-31 14:29:52,101 ==> Test_suite.pages.listener ==> I`ve found "#menu-dashboard" BY "css selector"
-2020-05-31 14:29:52,119 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="24e9c3a73830c733d6b4f3b348446258", element="4f5e4f05-7a0c-4630-8b43-da22babd419b")>
-2020-05-31 14:29:53,627 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="24e9c3a73830c733d6b4f3b348446258", element="4f5e4f05-7a0c-4630-8b43-da22babd419b")>
-2020-05-31 14:29:53,628 ==> Test_suite.pages.listener ==> I`m looking for: "[href="#collapse1"]" BY: "css selector"
-2020-05-31 14:29:53,674 ==> Test_suite.pages.listener ==> I`ve found "[href="#collapse1"]" BY "css selector"
-2020-05-31 14:29:53,766 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="24e9c3a73830c733d6b4f3b348446258", element="0ae22c34-bc4e-45c4-a4f8-5f0e38f4bc40")>
-2020-05-31 14:29:53,855 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="24e9c3a73830c733d6b4f3b348446258", element="0ae22c34-bc4e-45c4-a4f8-5f0e38f4bc40")>
-2020-05-31 14:29:53,855 ==> Test_suite.pages.listener ==> I`m looking for: "#collapse1 > li:nth-child(2)" BY: "css selector"
-2020-05-31 14:29:53,862 ==> Test_suite.pages.listener ==> I`ve found "#collapse1 > li:nth-child(2)" BY "css selector"
-2020-05-31 14:29:54,374 ==> Test_suite.pages.listener ==> I`m looking for: "#collapse1 > li:nth-child(2)" BY: "css selector"
-2020-05-31 14:29:54,391 ==> Test_suite.pages.listener ==> I`ve found "#collapse1 > li:nth-child(2)" BY "css selector"
-2020-05-31 14:29:54,530 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="24e9c3a73830c733d6b4f3b348446258", element="f6071a3f-bec2-40c4-9504-60d417763f47")>
-2020-05-31 14:29:54,861 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="24e9c3a73830c733d6b4f3b348446258", element="f6071a3f-bec2-40c4-9504-60d417763f47")>
-2020-05-31 14:29:54,862 ==> Test_suite.pages.listener ==> I`m looking for: "#input-name" BY: "css selector"
-2020-05-31 14:29:54,877 ==> Test_suite.pages.listener ==> I`ve found "#input-name" BY "css selector"
-2020-05-31 14:29:55,354 ==> Test_suite.pages.listener ==> I`m looking for: "#button-filter[type="button"]" BY: "css selector"
-2020-05-31 14:29:55,376 ==> Test_suite.pages.listener ==> I`ve found "#button-filter[type="button"]" BY "css selector"
-2020-05-31 14:29:55,395 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="24e9c3a73830c733d6b4f3b348446258", element="c3900bf4-9a73-4eba-97de-826822018142")>
-2020-05-31 14:29:57,396 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="24e9c3a73830c733d6b4f3b348446258", element="c3900bf4-9a73-4eba-97de-826822018142")>
-2020-05-31 14:29:57,397 ==> Test_suite.pages.listener ==> I`m looking for: "tbody tr" BY: "css selector"
-2020-05-31 14:29:57,659 ==> Test_suite.pages.listener ==> I`ve found "tbody tr" BY "css selector"
-2020-05-31 14:29:57,808 ==> Test_suite.pages.listener ==> I`m looking for: "tr td:nth-child(3)" BY: "css selector"
-2020-05-31 14:29:58,042 ==> Test_suite.pages.listener ==> I`ve found "tr td:nth-child(3)" BY "css selector"
-2020-05-31 14:29:58,210 ==> test_settings_page ==> ====================Start "test_delete_product_by_name"====================
-2020-05-31 14:29:58,210 ==> Test_suite.pages.listener ==> I`m looking for: "tbody tr" BY: "css selector"
-2020-05-31 14:29:58,336 ==> Test_suite.pages.listener ==> I`ve found "tbody tr" BY "css selector"
-2020-05-31 14:29:58,425 ==> Test_suite.pages.listener ==> I`m looking for: "tr td:nth-child(3)" BY: "css selector"
-2020-05-31 14:29:58,431 ==> Test_suite.pages.listener ==> I`ve found "tr td:nth-child(3)" BY "css selector"
-2020-05-31 14:29:58,439 ==> Test_suite.pages.listener ==> I`m looking for: "tr td:nth-child(1)" BY: "css selector"
-2020-05-31 14:29:58,448 ==> Test_suite.pages.listener ==> I`ve found "tr td:nth-child(1)" BY "css selector"
-2020-05-31 14:29:58,449 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="24e9c3a73830c733d6b4f3b348446258", element="dfd78e1b-fa88-41f1-b9e2-90b399037b4e")>
-2020-05-31 14:29:58,482 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="24e9c3a73830c733d6b4f3b348446258", element="dfd78e1b-fa88-41f1-b9e2-90b399037b4e")>
-2020-05-31 14:29:58,482 ==> Test_suite.pages.listener ==> I`m looking for: "[data-original-title="Delete"]" BY: "css selector"
-2020-05-31 14:29:58,493 ==> Test_suite.pages.listener ==> I`ve found "[data-original-title="Delete"]" BY "css selector"
-2020-05-31 14:29:58,513 ==> Test_suite.pages.listener ==> I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="24e9c3a73830c733d6b4f3b348446258", element="eef306fa-b019-4b36-89b6-28951e7d1ffa")>
-2020-05-31 14:29:59,580 ==> Test_suite.pages.listener ==> I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="24e9c3a73830c733d6b4f3b348446258", element="eef306fa-b019-4b36-89b6-28951e7d1ffa")>
-2020-05-31 14:29:59,594 ==> Test_suite.pages.listener ==> I`m looking for: ".alert-success" BY: "css selector"
-2020-05-31 14:30:00,626 ==> Test_suite.pages.listener ==> I`ve found ".alert-success" BY "css selector"
-2020-05-31 14:30:00,627 ==> test_settings_page ==> ====================End "test_delete_product_by_name"====================
-2020-05-31 14:30:00,627 ==> Test_suite.pages.listener ==> I'm getting ready to terminate <selenium.webdriver.chrome.webdriver.WebDriver (session="24e9c3a73830c733d6b4f3b348446258")>
-2020-05-31 14:30:17,736 ==> Test_suite.pages.listener ==> WASTED!!!
-2020-05-31 14:31:27,755 || Test_suite.pages.listener || I`m navigate to: http://localhost/admin
-2020-05-31 14:31:28,898 || Test_suite.pages.listener || I`m on: http://localhost/admin
-2020-05-31 14:31:28,898 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
-2020-05-31 14:31:28,936 || Test_suite.pages.listener || I`ve found "[name="username"]" BY "css selector"
-2020-05-31 14:31:29,046 || Test_suite.pages.listener || I`m looking for: "[name="password"]" BY: "css selector"
-2020-05-31 14:31:29,059 || Test_suite.pages.listener || I`ve found "[name="password"]" BY "css selector"
-2020-05-31 14:31:29,157 || Test_suite.pages.listener || I`m looking for: "[type="submit"]" BY: "css selector"
-2020-05-31 14:31:29,168 || Test_suite.pages.listener || I`ve found "[type="submit"]" BY "css selector"
-2020-05-31 14:31:29,189 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="f8a9805da5e53e3d686233a98a777879", element="88fb334c-1518-4779-b0c3-427e8ec2e72e")>
-2020-05-31 14:31:30,353 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="f8a9805da5e53e3d686233a98a777879", element="88fb334c-1518-4779-b0c3-427e8ec2e72e")>
-2020-05-31 14:31:30,477 || Test_suite.pages.listener || I`m looking for: "#menu-dashboard" BY: "css selector"
-2020-05-31 14:31:30,490 || Test_suite.pages.listener || I`ve found "#menu-dashboard" BY "css selector"
-2020-05-31 14:31:30,519 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="f8a9805da5e53e3d686233a98a777879", element="8ab2495a-82a1-4832-a781-b38bd38fa4bf")>
-2020-05-31 14:31:30,770 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="f8a9805da5e53e3d686233a98a777879", element="8ab2495a-82a1-4832-a781-b38bd38fa4bf")>
-2020-05-31 14:31:30,771 || Test_suite.pages.listener || I`m looking for: "[href="#collapse1"]" BY: "css selector"
-2020-05-31 14:31:30,935 || Test_suite.pages.listener || I`ve found "[href="#collapse1"]" BY "css selector"
-2020-05-31 14:31:30,975 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="f8a9805da5e53e3d686233a98a777879", element="431bb4d8-4ef2-452f-8e3c-559cc7ee0a05")>
-2020-05-31 14:31:31,013 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="f8a9805da5e53e3d686233a98a777879", element="431bb4d8-4ef2-452f-8e3c-559cc7ee0a05")>
-2020-05-31 14:31:31,013 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(2)" BY: "css selector"
-2020-05-31 14:31:31,022 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(2)" BY "css selector"
-2020-05-31 14:31:31,538 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(2)" BY: "css selector"
-2020-05-31 14:31:31,553 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(2)" BY "css selector"
-2020-05-31 14:31:31,570 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="f8a9805da5e53e3d686233a98a777879", element="59c85e24-9cb5-4a42-b4b8-f6ea3f2a5689")>
-2020-05-31 14:31:31,872 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="f8a9805da5e53e3d686233a98a777879", element="59c85e24-9cb5-4a42-b4b8-f6ea3f2a5689")>
-2020-05-31 14:31:31,873 || Test_suite.pages.listener || I`m looking for: "#menu-dashboard" BY: "css selector"
-2020-05-31 14:31:31,882 || Test_suite.pages.listener || I`ve found "#menu-dashboard" BY "css selector"
-2020-05-31 14:31:31,903 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="f8a9805da5e53e3d686233a98a777879", element="fa63d0eb-2f49-4ec5-94f3-b37883dc732c")>
-2020-05-31 14:31:32,247 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="f8a9805da5e53e3d686233a98a777879", element="fa63d0eb-2f49-4ec5-94f3-b37883dc732c")>
-2020-05-31 14:31:32,247 || Test_suite.pages.listener || I`m looking for: "[href="#collapse1"]" BY: "css selector"
-2020-05-31 14:31:32,309 || Test_suite.pages.listener || I`ve found "[href="#collapse1"]" BY "css selector"
-2020-05-31 14:31:32,333 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="f8a9805da5e53e3d686233a98a777879", element="1d6c2aaf-4305-4979-9548-88c0677d19ba")>
-2020-05-31 14:31:32,383 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="f8a9805da5e53e3d686233a98a777879", element="1d6c2aaf-4305-4979-9548-88c0677d19ba")>
-2020-05-31 14:31:32,383 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(2)" BY: "css selector"
-2020-05-31 14:31:32,393 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(2)" BY "css selector"
-2020-05-31 14:31:32,903 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(2)" BY: "css selector"
-2020-05-31 14:31:32,926 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(2)" BY "css selector"
-2020-05-31 14:31:32,968 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="f8a9805da5e53e3d686233a98a777879", element="bef26a71-4979-4398-bbc3-2dfe09e4f953")>
-2020-05-31 14:31:33,171 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="f8a9805da5e53e3d686233a98a777879", element="bef26a71-4979-4398-bbc3-2dfe09e4f953")>
-2020-05-31 14:31:33,172 || Test_suite.pages.listener || I`m looking for: "#input-name" BY: "css selector"
-2020-05-31 14:31:33,187 || Test_suite.pages.listener || I`ve found "#input-name" BY "css selector"
-2020-05-31 14:31:33,269 || Test_suite.pages.listener || I`m looking for: "#button-filter[type="button"]" BY: "css selector"
-2020-05-31 14:31:33,281 || Test_suite.pages.listener || I`ve found "#button-filter[type="button"]" BY "css selector"
-2020-05-31 14:31:33,301 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="f8a9805da5e53e3d686233a98a777879", element="528127fb-fee9-4827-a297-881c22b40d8a")>
-2020-05-31 14:31:33,484 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="f8a9805da5e53e3d686233a98a777879", element="528127fb-fee9-4827-a297-881c22b40d8a")>
-2020-05-31 14:31:33,485 || Test_suite.pages.listener || I`m looking for: "tbody tr" BY: "css selector"
-2020-05-31 14:31:33,502 || Test_suite.pages.listener || I`ve found "tbody tr" BY "css selector"
-2020-05-31 14:31:33,601 || Test_suite.pages.listener || I`m looking for: "tr td:nth-child(3)" BY: "css selector"
-2020-05-31 14:31:33,617 || Test_suite.pages.listener || I`ve found "tr td:nth-child(3)" BY "css selector"
-2020-05-31 14:31:33,634 || test_settings_page || ====================Start "test_delete_product_by_name"====================
-2020-05-31 14:31:33,635 || Test_suite.pages.listener || I`m looking for: "tbody tr" BY: "css selector"
-2020-05-31 14:31:33,645 || Test_suite.pages.listener || I`ve found "tbody tr" BY "css selector"
-2020-05-31 14:31:33,727 || Test_suite.pages.listener || I`m looking for: "tr td:nth-child(3)" BY: "css selector"
-2020-05-31 14:31:33,734 || Test_suite.pages.listener || I`ve found "tr td:nth-child(3)" BY "css selector"
-2020-05-31 14:31:33,741 || Test_suite.pages.listener || I`m looking for: "tr td:nth-child(1)" BY: "css selector"
-2020-05-31 14:31:33,751 || Test_suite.pages.listener || I`ve found "tr td:nth-child(1)" BY "css selector"
-2020-05-31 14:31:33,751 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="f8a9805da5e53e3d686233a98a777879", element="3fdf2c1f-0399-404a-98f6-e73be637527e")>
-2020-05-31 14:31:33,786 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="f8a9805da5e53e3d686233a98a777879", element="3fdf2c1f-0399-404a-98f6-e73be637527e")>
-2020-05-31 14:31:33,786 || Test_suite.pages.listener || I`m looking for: "[data-original-title="Delete"]" BY: "css selector"
-2020-05-31 14:31:33,798 || Test_suite.pages.listener || I`ve found "[data-original-title="Delete"]" BY "css selector"
-2020-05-31 14:31:33,815 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="f8a9805da5e53e3d686233a98a777879", element="8b24c0a0-152d-49ca-bec4-b2848e1bde2e")>
-2020-05-31 14:31:33,850 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="f8a9805da5e53e3d686233a98a777879", element="8b24c0a0-152d-49ca-bec4-b2848e1bde2e")>
-2020-05-31 14:31:33,855 || Test_suite.pages.listener || I`m looking for: ".alert-success" BY: "css selector"
-2020-05-31 14:31:34,097 || Test_suite.pages.listener || I`ve found ".alert-success" BY "css selector"
-2020-05-31 14:31:34,098 || test_settings_page || ====================End "test_delete_product_by_name"====================
-2020-05-31 14:31:34,098 || Test_suite.pages.listener || I'm getting ready to terminate <selenium.webdriver.chrome.webdriver.WebDriver (session="f8a9805da5e53e3d686233a98a777879")>
-2020-05-31 14:31:37,299 || Test_suite.pages.listener || WASTED!!!
+2020-06-01 20:29:04,141 || Test_suite.pages.listener || I`m navigate to: http://localhost/admin
+2020-06-01 20:29:07,567 || Test_suite.pages.listener || I`m on: http://localhost/admin
+2020-06-01 20:29:07,567 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-01 20:29:07,692 || Test_suite.pages.listener || I`ve found "[name="username"]" BY "css selector"
+2020-06-01 20:29:07,944 || Test_suite.pages.listener || I`m looking for: "[name="password"]" BY: "css selector"
+2020-06-01 20:29:07,953 || Test_suite.pages.listener || I`ve found "[name="password"]" BY "css selector"
+2020-06-01 20:29:08,250 || Test_suite.pages.listener || I`m looking for: "[type="submit"]" BY: "css selector"
+2020-06-01 20:29:08,259 || Test_suite.pages.listener || I`ve found "[type="submit"]" BY "css selector"
+2020-06-01 20:29:08,316 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="88ef513709e2e1a6b53dce2d970bd274", element="0.7907934436592976-4")>
+2020-06-01 20:29:10,241 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="88ef513709e2e1a6b53dce2d970bd274", element="0.7907934436592976-4")>
+2020-06-01 20:29:10,279 || Test_suite.pages.listener || I`m looking for: "[href="#collapse1"]" BY: "css selector"
+2020-06-01 20:29:10,290 || Test_suite.pages.listener || I`ve found "[href="#collapse1"]" BY "css selector"
+2020-06-01 20:29:10,318 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="88ef513709e2e1a6b53dce2d970bd274", element="0.859781501882775-1")>
+2020-06-01 20:29:10,381 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="88ef513709e2e1a6b53dce2d970bd274", element="0.859781501882775-1")>
+2020-06-01 20:29:10,381 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-01 20:29:10,391 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-01 20:29:10,418 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="88ef513709e2e1a6b53dce2d970bd274", element="0.859781501882775-2")>
+2020-06-01 20:29:10,788 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="88ef513709e2e1a6b53dce2d970bd274", element="0.859781501882775-2")>
+2020-06-01 20:29:10,789 || test_settings_page || ====================Start "test_rebuild_tab"====================
+2020-06-01 20:29:10,789 || Test_suite.pages.listener || I`m looking for: "[data-original-title="Rebuild"]" BY: "css selector"
+2020-06-01 20:29:10,804 || Test_suite.pages.listener || I`ve found "[data-original-title="Rebuild"]" BY "css selector"
+2020-06-01 20:29:10,839 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="88ef513709e2e1a6b53dce2d970bd274", element="0.7344086167492985-1")>
+2020-06-01 20:29:11,166 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="88ef513709e2e1a6b53dce2d970bd274", element="0.7344086167492985-1")>
+2020-06-01 20:29:11,166 || Test_suite.pages.listener || I`m executing "console.error('Here is the ERROR message!')"
+2020-06-01 20:29:11,188 || Test_suite.pages.listener || I've executed 'console.error('Here is the ERROR message!')'
+2020-06-01 20:29:11,188 || Test_suite.pages.listener || I`m looking for: ".alert-success" BY: "css selector"
+2020-06-01 20:29:11,201 || Test_suite.pages.listener || I`ve found ".alert-success" BY "css selector"
+2020-06-01 20:29:11,202 || test_settings_page || ====================End "test_rebuild_tab"====================
+2020-06-01 20:29:11,202 || Test_suite.pages.listener || I'm getting ready to terminate <selenium.webdriver.chrome.webdriver.WebDriver (session="88ef513709e2e1a6b53dce2d970bd274")>
+2020-06-01 20:29:11,244 || Test_suite.pages.listener || [{'level': 'DEBUG', 'message': 'http://localhost/admin/ - [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o', 'source': 'recommendation', 'timestamp': 1591032546674}, {'level': 'SEVERE', 'message': 'http://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591032547647}, {'level': 'SEVERE', 'message': 'https://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591032550268}, {'level': 'SEVERE', 'message': 'console-api 2:32 "Here is the ERROR message!"', 'source': 'console-api', 'timestamp': 1591032551185}]
+2020-06-01 20:29:14,206 || Test_suite.pages.listener || WASTED!!!
+2020-06-01 20:46:10,293 || Test_suite.pages.listener || []
+2020-06-01 20:46:13,047 || Test_suite.pages.listener || WASTED!!!
+2020-06-01 20:49:12,514 || Test_suite.conftest || =============Start Setup Activity=============
+2020-06-01 20:49:12,584 || Test_suite.pages.listener || I`m navigate to: http://localhost/admin
+2020-06-01 20:49:17,249 || Test_suite.pages.listener || I`m on: http://localhost/admin
+2020-06-01 20:49:17,249 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-01 20:49:17,341 || Test_suite.pages.listener || I`ve found "[name="username"]" BY "css selector"
+2020-06-01 20:49:17,837 || Test_suite.pages.listener || I`m looking for: "[name="password"]" BY: "css selector"
+2020-06-01 20:49:17,847 || Test_suite.pages.listener || I`ve found "[name="password"]" BY "css selector"
+2020-06-01 20:49:18,113 || Test_suite.pages.listener || I`m looking for: "[type="submit"]" BY: "css selector"
+2020-06-01 20:49:18,123 || Test_suite.pages.listener || I`ve found "[type="submit"]" BY "css selector"
+2020-06-01 20:49:18,230 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="aef9e89e2f4fe684faf7b3af90d093b4", element="0.6332269587614896-4")>
+2020-06-01 20:49:21,556 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="aef9e89e2f4fe684faf7b3af90d093b4", element="0.6332269587614896-4")>
+2020-06-01 20:49:21,662 || Test_suite.pages.listener || I`m looking for: "[href="#collapse1"]" BY: "css selector"
+2020-06-01 20:49:21,673 || Test_suite.pages.listener || I`ve found "[href="#collapse1"]" BY "css selector"
+2020-06-01 20:49:21,870 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="aef9e89e2f4fe684faf7b3af90d093b4", element="0.7982957095880854-1")>
+2020-06-01 20:49:21,949 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="aef9e89e2f4fe684faf7b3af90d093b4", element="0.7982957095880854-1")>
+2020-06-01 20:49:21,949 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-01 20:49:21,960 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-01 20:49:22,037 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="aef9e89e2f4fe684faf7b3af90d093b4", element="0.7982957095880854-2")>
+2020-06-01 20:49:22,304 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="aef9e89e2f4fe684faf7b3af90d093b4", element="0.7982957095880854-2")>
+2020-06-01 20:49:22,304 || Test_suite.conftest || =============End Setup Activity=============
+2020-06-01 20:49:22,305 || test_settings_page || ====================Start "test_rebuild_tab"====================
+2020-06-01 20:49:22,305 || Test_suite.pages.listener || I`m looking for: "[data-original-title="Rebuild"]" BY: "css selector"
+2020-06-01 20:49:22,324 || Test_suite.pages.listener || I`ve found "[data-original-title="Rebuild"]" BY "css selector"
+2020-06-01 20:49:22,411 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="aef9e89e2f4fe684faf7b3af90d093b4", element="0.8893460585469324-1")>
+2020-06-01 20:49:23,035 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="aef9e89e2f4fe684faf7b3af90d093b4", element="0.8893460585469324-1")>
+2020-06-01 20:49:23,035 || Test_suite.pages.listener || I`m executing "console.error('Here is the ERROR message!')"
+2020-06-01 20:49:23,151 || Test_suite.pages.listener || I've executed 'console.error('Here is the ERROR message!')'
+2020-06-01 20:49:23,151 || Test_suite.pages.listener || I`m looking for: ".alert-success" BY: "css selector"
+2020-06-01 20:49:23,183 || Test_suite.pages.listener || I`ve found ".alert-success" BY "css selector"
+2020-06-01 20:49:23,183 || test_settings_page || ====================End "test_rebuild_tab"====================
+2020-06-01 20:49:23,263 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'http://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591033757251}
+2020-06-01 20:49:23,264 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'https://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591033761604}
+2020-06-01 20:49:23,264 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'console-api 2:32 "Here is the ERROR message!"', 'source': 'console-api', 'timestamp': 1591033763135}
+2020-06-01 20:49:23,267 || Test_suite.pages.listener || []
+2020-06-01 20:49:26,452 || Test_suite.pages.listener || WASTED!!!
+2020-06-01 20:51:50,510 || Test_suite.conftest || ====================Start Setup Activity====================
+2020-06-01 20:51:50,511 || Test_suite.pages.listener || I`m navigate to: http://localhost/admin
+2020-06-01 20:51:51,976 || Test_suite.pages.listener || I`m on: http://localhost/admin
+2020-06-01 20:51:51,976 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-01 20:51:52,102 || Test_suite.pages.listener || I`ve found "[name="username"]" BY "css selector"
+2020-06-01 20:51:52,212 || Test_suite.pages.listener || I`m looking for: "[name="password"]" BY: "css selector"
+2020-06-01 20:51:52,223 || Test_suite.pages.listener || I`ve found "[name="password"]" BY "css selector"
+2020-06-01 20:51:52,316 || Test_suite.pages.listener || I`m looking for: "[type="submit"]" BY: "css selector"
+2020-06-01 20:51:52,327 || Test_suite.pages.listener || I`ve found "[type="submit"]" BY "css selector"
+2020-06-01 20:51:52,349 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="72414ac03be5fe867c88790cbf69b61a", element="0.381519510564883-4")>
+2020-06-01 20:51:53,421 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="72414ac03be5fe867c88790cbf69b61a", element="0.381519510564883-4")>
+2020-06-01 20:51:53,562 || Test_suite.pages.listener || I`m looking for: "[href="#collapse1"]" BY: "css selector"
+2020-06-01 20:51:53,625 || Test_suite.pages.listener || I`ve found "[href="#collapse1"]" BY "css selector"
+2020-06-01 20:51:53,708 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="72414ac03be5fe867c88790cbf69b61a", element="0.9942627893262344-1")>
+2020-06-01 20:51:53,762 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="72414ac03be5fe867c88790cbf69b61a", element="0.9942627893262344-1")>
+2020-06-01 20:51:53,763 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-01 20:51:53,783 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-01 20:51:53,842 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="72414ac03be5fe867c88790cbf69b61a", element="0.9942627893262344-2")>
+2020-06-01 20:51:54,004 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="72414ac03be5fe867c88790cbf69b61a", element="0.9942627893262344-2")>
+2020-06-01 20:51:54,005 || Test_suite.conftest || ====================End Setup Activity====================
+2020-06-01 20:51:54,006 || test_settings_page || ====================Start "test_rebuild_tab"====================
+2020-06-01 20:51:54,006 || Test_suite.pages.listener || I`m looking for: "[data-original-title="Rebuild"]" BY: "css selector"
+2020-06-01 20:51:54,020 || Test_suite.pages.listener || I`ve found "[data-original-title="Rebuild"]" BY "css selector"
+2020-06-01 20:51:54,199 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="72414ac03be5fe867c88790cbf69b61a", element="0.6167316452806619-1")>
+2020-06-01 20:51:54,680 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="72414ac03be5fe867c88790cbf69b61a", element="0.6167316452806619-1")>
+2020-06-01 20:51:54,680 || Test_suite.pages.listener || I`m executing "console.error('Here is the ERROR message!')"
+2020-06-01 20:51:54,692 || Test_suite.pages.listener || I've executed 'console.error('Here is the ERROR message!')'
+2020-06-01 20:51:54,692 || Test_suite.pages.listener || I`m looking for: ".alert-success" BY: "css selector"
+2020-06-01 20:51:54,708 || Test_suite.pages.listener || I`ve found ".alert-success" BY "css selector"
+2020-06-01 20:51:54,708 || test_settings_page || ====================End "test_rebuild_tab"====================
+2020-06-01 20:51:54,843 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'http://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591033912046}
+2020-06-01 20:51:54,844 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'https://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591033913552}
+2020-06-01 20:51:54,844 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'console-api 2:32 "Here is the ERROR message!"', 'source': 'console-api', 'timestamp': 1591033914689}
+2020-06-01 20:51:57,420 || Test_suite.pages.listener || WASTED!!!
+2020-06-01 20:54:40,062 || Test_suite.conftest || ====================Start Setup Activity====================
+2020-06-01 20:54:40,062 || Test_suite.pages.listener || I`m navigate to: http://localhost/admin
+2020-06-01 20:54:40,809 || Test_suite.pages.listener || I`m on: http://localhost/admin
+2020-06-01 20:54:40,810 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-01 20:54:40,843 || Test_suite.pages.listener || I`ve found "[name="username"]" BY "css selector"
+2020-06-01 20:54:41,055 || Test_suite.pages.listener || I`m looking for: "[name="password"]" BY: "css selector"
+2020-06-01 20:54:41,094 || Test_suite.pages.listener || I`ve found "[name="password"]" BY "css selector"
+2020-06-01 20:54:41,345 || Test_suite.pages.listener || I`m looking for: "[type="submit"]" BY: "css selector"
+2020-06-01 20:54:41,355 || Test_suite.pages.listener || I`ve found "[type="submit"]" BY "css selector"
+2020-06-01 20:54:41,375 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="fa036f1f284598c195be56c6cea7f0c7", element="0.5313509962303324-4")>
+2020-06-01 20:54:42,323 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="fa036f1f284598c195be56c6cea7f0c7", element="0.5313509962303324-4")>
+2020-06-01 20:54:42,336 || Test_suite.pages.listener || I`m looking for: "[href="#collapse1"]" BY: "css selector"
+2020-06-01 20:54:42,349 || Test_suite.pages.listener || I`ve found "[href="#collapse1"]" BY "css selector"
+2020-06-01 20:54:42,439 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="fa036f1f284598c195be56c6cea7f0c7", element="0.17943036306989124-1")>
+2020-06-01 20:54:42,482 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="fa036f1f284598c195be56c6cea7f0c7", element="0.17943036306989124-1")>
+2020-06-01 20:54:42,482 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-01 20:54:42,493 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-01 20:54:43,017 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-01 20:54:43,034 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-01 20:54:43,049 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="fa036f1f284598c195be56c6cea7f0c7", element="0.17943036306989124-2")>
+2020-06-01 20:54:43,258 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="fa036f1f284598c195be56c6cea7f0c7", element="0.17943036306989124-2")>
+2020-06-01 20:54:43,259 || Test_suite.conftest || ====================End Setup Activity====================
+2020-06-01 20:54:43,261 || test_settings_page || ====================Start "test_rebuild_tab"====================
+2020-06-01 20:54:43,261 || Test_suite.pages.listener || I`m looking for: "[data-original-title="Rebuild"]" BY: "css selector"
+2020-06-01 20:54:43,278 || Test_suite.pages.listener || I`ve found "[data-original-title="Rebuild"]" BY "css selector"
+2020-06-01 20:54:43,324 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="fa036f1f284598c195be56c6cea7f0c7", element="0.4872944707627078-1")>
+2020-06-01 20:54:43,721 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="fa036f1f284598c195be56c6cea7f0c7", element="0.4872944707627078-1")>
+2020-06-01 20:54:43,722 || Test_suite.pages.listener || I`m executing "console.error('Here is the ERROR message!')"
+2020-06-01 20:54:43,730 || Test_suite.pages.listener || I've executed 'console.error('Here is the ERROR message!')'
+2020-06-01 20:54:43,730 || Test_suite.pages.listener || I`m looking for: ".alert-success" BY: "css selector"
+2020-06-01 20:54:43,744 || Test_suite.pages.listener || I`ve found ".alert-success" BY "css selector"
+2020-06-01 20:54:43,744 || test_settings_page || ====================End "test_rebuild_tab"====================
+2020-06-01 20:54:43,762 || Test_suite.pages.listener || ====================JS Errors====================
+2020-06-01 20:54:43,762 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'http://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591034080813}
+2020-06-01 20:54:43,762 || Test_suite.pages.listener || ====================JS Errors End====================
+2020-06-01 20:54:43,762 || Test_suite.pages.listener || ====================JS Errors====================
+2020-06-01 20:54:43,762 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'https://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591034082326}
+2020-06-01 20:54:43,762 || Test_suite.pages.listener || ====================JS Errors End====================
+2020-06-01 20:54:43,762 || Test_suite.pages.listener || ====================JS Errors====================
+2020-06-01 20:54:43,762 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'console-api 2:32 "Here is the ERROR message!"', 'source': 'console-api', 'timestamp': 1591034083728}
+2020-06-01 20:54:43,762 || Test_suite.pages.listener || ====================JS Errors End====================
+2020-06-01 20:54:45,930 || Test_suite.pages.listener || WASTED!!!

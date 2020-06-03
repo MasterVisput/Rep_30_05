@@ -7,7 +7,6 @@ __pycache__/
 *.so
 
 # Distribution / packaging
-browsermob-proxy
 .Python
 .idea
 build/

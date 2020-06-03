@@ -1,6 +1,8 @@
 import logging
+import urllib.parse
 
 import pytest
+from browsermobproxy import Server, Client
 from selenium import webdriver
 from selenium.webdriver import ChromeOptions, FirefoxOptions
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
@@ -23,13 +25,29 @@ def pytest_addoption(parser):
     )
 
 
+@pytest.fixture()
+def proxy_server(request):
+    options = {
+        'host': 'localhost',
+        'port': 8098,
+        'process': None
+    }
+    server = Server(options=options, path='K:/Learn/Rep_30_05/browsermob-proxy/bin/browsermob-proxy')
+    server.start()
+    client = Client('localhost:8098')
+    server.create_proxy()
+    request.addfinalizer(server.stop)
+    client.new_har()
+    return client
+
+
 @pytest.fixture
 def browser_opt(request):
     return request.config.getoption('--browser')
 
 
 @pytest.fixture()
-def browser(browser_opt):
+def browser(browser_opt, proxy_server):
     if browser_opt == 'Chrome':
         caps = DesiredCapabilities.CHROME
         options = ChromeOptions()
@@ -37,7 +55,10 @@ def browser(browser_opt):
         options.add_argument('--ignore-certificate-errors')
         options.add_experimental_option('w3c', False)
         caps['loggingPrefs'] = {'perfomance': 'ALL', 'browser': 'ALL'}
+        proxy_url = urllib.parse.urlparse(proxy_server.proxy).path
+        options.add_argument(f'--proxy-server={proxy_url}')
         browser = EventFiringWebDriver(webdriver.Chrome(options=options, desired_capabilities=caps), MyListener())
+        browser.proxy = proxy_server
     elif browser_opt == 'Firefox':
         options = FirefoxOptions()
         options.add_argument('--kiosk')
@@ -46,7 +67,9 @@ def browser(browser_opt):
     elif browser_opt == 'IE':
         browser = EventFiringWebDriver(webdriver.Ie(), MyListener())
     yield browser
-    browser.quit()
+    har = browser.proxy.har['log']
+    for el in har['entries']:
+        logger.info(el['request'])
 
 
 @pytest.fixture()

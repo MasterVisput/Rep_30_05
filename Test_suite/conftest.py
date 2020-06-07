@@ -32,7 +32,7 @@ def proxy_server(request):
         'port': 8098,
         'process': None
     }
-    server = Server(options=options, path='K:/Learn/Rep_30_05/browsermob-proxy/bin/browsermob-proxy')
+    server = Server(options=options, path='K:/Learn/Proxy_logger/browsermob-proxy/bin/browsermob-proxy')
     server.start()
     client = Client('localhost:8098')
     server.create_proxy()

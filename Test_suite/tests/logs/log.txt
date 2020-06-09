@@ -1,0 +1,915 @@
+2020-06-01 20:29:04,141 || Test_suite.pages.listener || I`m navigate to: http://localhost/admin
+2020-06-01 20:29:07,567 || Test_suite.pages.listener || I`m on: http://localhost/admin
+2020-06-01 20:29:07,567 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-01 20:29:07,692 || Test_suite.pages.listener || I`ve found "[name="username"]" BY "css selector"
+2020-06-01 20:29:07,944 || Test_suite.pages.listener || I`m looking for: "[name="password"]" BY: "css selector"
+2020-06-01 20:29:07,953 || Test_suite.pages.listener || I`ve found "[name="password"]" BY "css selector"
+2020-06-01 20:29:08,250 || Test_suite.pages.listener || I`m looking for: "[type="submit"]" BY: "css selector"
+2020-06-01 20:29:08,259 || Test_suite.pages.listener || I`ve found "[type="submit"]" BY "css selector"
+2020-06-01 20:29:08,316 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="88ef513709e2e1a6b53dce2d970bd274", element="0.7907934436592976-4")>
+2020-06-01 20:29:10,241 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="88ef513709e2e1a6b53dce2d970bd274", element="0.7907934436592976-4")>
+2020-06-01 20:29:10,279 || Test_suite.pages.listener || I`m looking for: "[href="#collapse1"]" BY: "css selector"
+2020-06-01 20:29:10,290 || Test_suite.pages.listener || I`ve found "[href="#collapse1"]" BY "css selector"
+2020-06-01 20:29:10,318 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="88ef513709e2e1a6b53dce2d970bd274", element="0.859781501882775-1")>
+2020-06-01 20:29:10,381 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="88ef513709e2e1a6b53dce2d970bd274", element="0.859781501882775-1")>
+2020-06-01 20:29:10,381 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-01 20:29:10,391 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-01 20:29:10,418 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="88ef513709e2e1a6b53dce2d970bd274", element="0.859781501882775-2")>
+2020-06-01 20:29:10,788 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="88ef513709e2e1a6b53dce2d970bd274", element="0.859781501882775-2")>
+2020-06-01 20:29:10,789 || test_settings_page || ====================Start "test_rebuild_tab"====================
+2020-06-01 20:29:10,789 || Test_suite.pages.listener || I`m looking for: "[data-original-title="Rebuild"]" BY: "css selector"
+2020-06-01 20:29:10,804 || Test_suite.pages.listener || I`ve found "[data-original-title="Rebuild"]" BY "css selector"
+2020-06-01 20:29:10,839 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="88ef513709e2e1a6b53dce2d970bd274", element="0.7344086167492985-1")>
+2020-06-01 20:29:11,166 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="88ef513709e2e1a6b53dce2d970bd274", element="0.7344086167492985-1")>
+2020-06-01 20:29:11,166 || Test_suite.pages.listener || I`m executing "console.error('Here is the ERROR message!')"
+2020-06-01 20:29:11,188 || Test_suite.pages.listener || I've executed 'console.error('Here is the ERROR message!')'
+2020-06-01 20:29:11,188 || Test_suite.pages.listener || I`m looking for: ".alert-success" BY: "css selector"
+2020-06-01 20:29:11,201 || Test_suite.pages.listener || I`ve found ".alert-success" BY "css selector"
+2020-06-01 20:29:11,202 || test_settings_page || ====================End "test_rebuild_tab"====================
+2020-06-01 20:29:11,202 || Test_suite.pages.listener || I'm getting ready to terminate <selenium.webdriver.chrome.webdriver.WebDriver (session="88ef513709e2e1a6b53dce2d970bd274")>
+2020-06-01 20:29:11,244 || Test_suite.pages.listener || [{'level': 'DEBUG', 'message': 'http://localhost/admin/ - [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o', 'source': 'recommendation', 'timestamp': 1591032546674}, {'level': 'SEVERE', 'message': 'http://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591032547647}, {'level': 'SEVERE', 'message': 'https://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591032550268}, {'level': 'SEVERE', 'message': 'console-api 2:32 "Here is the ERROR message!"', 'source': 'console-api', 'timestamp': 1591032551185}]
+2020-06-01 20:29:14,206 || Test_suite.pages.listener || WASTED!!!
+2020-06-01 20:46:10,293 || Test_suite.pages.listener || []
+2020-06-01 20:46:13,047 || Test_suite.pages.listener || WASTED!!!
+2020-06-01 20:49:12,514 || Test_suite.conftest || =============Start Setup Activity=============
+2020-06-01 20:49:12,584 || Test_suite.pages.listener || I`m navigate to: http://localhost/admin
+2020-06-01 20:49:17,249 || Test_suite.pages.listener || I`m on: http://localhost/admin
+2020-06-01 20:49:17,249 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-01 20:49:17,341 || Test_suite.pages.listener || I`ve found "[name="username"]" BY "css selector"
+2020-06-01 20:49:17,837 || Test_suite.pages.listener || I`m looking for: "[name="password"]" BY: "css selector"
+2020-06-01 20:49:17,847 || Test_suite.pages.listener || I`ve found "[name="password"]" BY "css selector"
+2020-06-01 20:49:18,113 || Test_suite.pages.listener || I`m looking for: "[type="submit"]" BY: "css selector"
+2020-06-01 20:49:18,123 || Test_suite.pages.listener || I`ve found "[type="submit"]" BY "css selector"
+2020-06-01 20:49:18,230 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="aef9e89e2f4fe684faf7b3af90d093b4", element="0.6332269587614896-4")>
+2020-06-01 20:49:21,556 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="aef9e89e2f4fe684faf7b3af90d093b4", element="0.6332269587614896-4")>
+2020-06-01 20:49:21,662 || Test_suite.pages.listener || I`m looking for: "[href="#collapse1"]" BY: "css selector"
+2020-06-01 20:49:21,673 || Test_suite.pages.listener || I`ve found "[href="#collapse1"]" BY "css selector"
+2020-06-01 20:49:21,870 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="aef9e89e2f4fe684faf7b3af90d093b4", element="0.7982957095880854-1")>
+2020-06-01 20:49:21,949 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="aef9e89e2f4fe684faf7b3af90d093b4", element="0.7982957095880854-1")>
+2020-06-01 20:49:21,949 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-01 20:49:21,960 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-01 20:49:22,037 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="aef9e89e2f4fe684faf7b3af90d093b4", element="0.7982957095880854-2")>
+2020-06-01 20:49:22,304 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="aef9e89e2f4fe684faf7b3af90d093b4", element="0.7982957095880854-2")>
+2020-06-01 20:49:22,304 || Test_suite.conftest || =============End Setup Activity=============
+2020-06-01 20:49:22,305 || test_settings_page || ====================Start "test_rebuild_tab"====================
+2020-06-01 20:49:22,305 || Test_suite.pages.listener || I`m looking for: "[data-original-title="Rebuild"]" BY: "css selector"
+2020-06-01 20:49:22,324 || Test_suite.pages.listener || I`ve found "[data-original-title="Rebuild"]" BY "css selector"
+2020-06-01 20:49:22,411 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="aef9e89e2f4fe684faf7b3af90d093b4", element="0.8893460585469324-1")>
+2020-06-01 20:49:23,035 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="aef9e89e2f4fe684faf7b3af90d093b4", element="0.8893460585469324-1")>
+2020-06-01 20:49:23,035 || Test_suite.pages.listener || I`m executing "console.error('Here is the ERROR message!')"
+2020-06-01 20:49:23,151 || Test_suite.pages.listener || I've executed 'console.error('Here is the ERROR message!')'
+2020-06-01 20:49:23,151 || Test_suite.pages.listener || I`m looking for: ".alert-success" BY: "css selector"
+2020-06-01 20:49:23,183 || Test_suite.pages.listener || I`ve found ".alert-success" BY "css selector"
+2020-06-01 20:49:23,183 || test_settings_page || ====================End "test_rebuild_tab"====================
+2020-06-01 20:49:23,263 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'http://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591033757251}
+2020-06-01 20:49:23,264 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'https://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591033761604}
+2020-06-01 20:49:23,264 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'console-api 2:32 "Here is the ERROR message!"', 'source': 'console-api', 'timestamp': 1591033763135}
+2020-06-01 20:49:23,267 || Test_suite.pages.listener || []
+2020-06-01 20:49:26,452 || Test_suite.pages.listener || WASTED!!!
+2020-06-01 20:51:50,510 || Test_suite.conftest || ====================Start Setup Activity====================
+2020-06-01 20:51:50,511 || Test_suite.pages.listener || I`m navigate to: http://localhost/admin
+2020-06-01 20:51:51,976 || Test_suite.pages.listener || I`m on: http://localhost/admin
+2020-06-01 20:51:51,976 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-01 20:51:52,102 || Test_suite.pages.listener || I`ve found "[name="username"]" BY "css selector"
+2020-06-01 20:51:52,212 || Test_suite.pages.listener || I`m looking for: "[name="password"]" BY: "css selector"
+2020-06-01 20:51:52,223 || Test_suite.pages.listener || I`ve found "[name="password"]" BY "css selector"
+2020-06-01 20:51:52,316 || Test_suite.pages.listener || I`m looking for: "[type="submit"]" BY: "css selector"
+2020-06-01 20:51:52,327 || Test_suite.pages.listener || I`ve found "[type="submit"]" BY "css selector"
+2020-06-01 20:51:52,349 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="72414ac03be5fe867c88790cbf69b61a", element="0.381519510564883-4")>
+2020-06-01 20:51:53,421 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="72414ac03be5fe867c88790cbf69b61a", element="0.381519510564883-4")>
+2020-06-01 20:51:53,562 || Test_suite.pages.listener || I`m looking for: "[href="#collapse1"]" BY: "css selector"
+2020-06-01 20:51:53,625 || Test_suite.pages.listener || I`ve found "[href="#collapse1"]" BY "css selector"
+2020-06-01 20:51:53,708 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="72414ac03be5fe867c88790cbf69b61a", element="0.9942627893262344-1")>
+2020-06-01 20:51:53,762 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="72414ac03be5fe867c88790cbf69b61a", element="0.9942627893262344-1")>
+2020-06-01 20:51:53,763 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-01 20:51:53,783 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-01 20:51:53,842 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="72414ac03be5fe867c88790cbf69b61a", element="0.9942627893262344-2")>
+2020-06-01 20:51:54,004 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="72414ac03be5fe867c88790cbf69b61a", element="0.9942627893262344-2")>
+2020-06-01 20:51:54,005 || Test_suite.conftest || ====================End Setup Activity====================
+2020-06-01 20:51:54,006 || test_settings_page || ====================Start "test_rebuild_tab"====================
+2020-06-01 20:51:54,006 || Test_suite.pages.listener || I`m looking for: "[data-original-title="Rebuild"]" BY: "css selector"
+2020-06-01 20:51:54,020 || Test_suite.pages.listener || I`ve found "[data-original-title="Rebuild"]" BY "css selector"
+2020-06-01 20:51:54,199 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="72414ac03be5fe867c88790cbf69b61a", element="0.6167316452806619-1")>
+2020-06-01 20:51:54,680 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="72414ac03be5fe867c88790cbf69b61a", element="0.6167316452806619-1")>
+2020-06-01 20:51:54,680 || Test_suite.pages.listener || I`m executing "console.error('Here is the ERROR message!')"
+2020-06-01 20:51:54,692 || Test_suite.pages.listener || I've executed 'console.error('Here is the ERROR message!')'
+2020-06-01 20:51:54,692 || Test_suite.pages.listener || I`m looking for: ".alert-success" BY: "css selector"
+2020-06-01 20:51:54,708 || Test_suite.pages.listener || I`ve found ".alert-success" BY "css selector"
+2020-06-01 20:51:54,708 || test_settings_page || ====================End "test_rebuild_tab"====================
+2020-06-01 20:51:54,843 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'http://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591033912046}
+2020-06-01 20:51:54,844 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'https://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591033913552}
+2020-06-01 20:51:54,844 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'console-api 2:32 "Here is the ERROR message!"', 'source': 'console-api', 'timestamp': 1591033914689}
+2020-06-01 20:51:57,420 || Test_suite.pages.listener || WASTED!!!
+2020-06-01 20:54:40,062 || Test_suite.conftest || ====================Start Setup Activity====================
+2020-06-01 20:54:40,062 || Test_suite.pages.listener || I`m navigate to: http://localhost/admin
+2020-06-01 20:54:40,809 || Test_suite.pages.listener || I`m on: http://localhost/admin
+2020-06-01 20:54:40,810 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-01 20:54:40,843 || Test_suite.pages.listener || I`ve found "[name="username"]" BY "css selector"
+2020-06-01 20:54:41,055 || Test_suite.pages.listener || I`m looking for: "[name="password"]" BY: "css selector"
+2020-06-01 20:54:41,094 || Test_suite.pages.listener || I`ve found "[name="password"]" BY "css selector"
+2020-06-01 20:54:41,345 || Test_suite.pages.listener || I`m looking for: "[type="submit"]" BY: "css selector"
+2020-06-01 20:54:41,355 || Test_suite.pages.listener || I`ve found "[type="submit"]" BY "css selector"
+2020-06-01 20:54:41,375 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="fa036f1f284598c195be56c6cea7f0c7", element="0.5313509962303324-4")>
+2020-06-01 20:54:42,323 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="fa036f1f284598c195be56c6cea7f0c7", element="0.5313509962303324-4")>
+2020-06-01 20:54:42,336 || Test_suite.pages.listener || I`m looking for: "[href="#collapse1"]" BY: "css selector"
+2020-06-01 20:54:42,349 || Test_suite.pages.listener || I`ve found "[href="#collapse1"]" BY "css selector"
+2020-06-01 20:54:42,439 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="fa036f1f284598c195be56c6cea7f0c7", element="0.17943036306989124-1")>
+2020-06-01 20:54:42,482 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="fa036f1f284598c195be56c6cea7f0c7", element="0.17943036306989124-1")>
+2020-06-01 20:54:42,482 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-01 20:54:42,493 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-01 20:54:43,017 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-01 20:54:43,034 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-01 20:54:43,049 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="fa036f1f284598c195be56c6cea7f0c7", element="0.17943036306989124-2")>
+2020-06-01 20:54:43,258 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="fa036f1f284598c195be56c6cea7f0c7", element="0.17943036306989124-2")>
+2020-06-01 20:54:43,259 || Test_suite.conftest || ====================End Setup Activity====================
+2020-06-01 20:54:43,261 || test_settings_page || ====================Start "test_rebuild_tab"====================
+2020-06-01 20:54:43,261 || Test_suite.pages.listener || I`m looking for: "[data-original-title="Rebuild"]" BY: "css selector"
+2020-06-01 20:54:43,278 || Test_suite.pages.listener || I`ve found "[data-original-title="Rebuild"]" BY "css selector"
+2020-06-01 20:54:43,324 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="fa036f1f284598c195be56c6cea7f0c7", element="0.4872944707627078-1")>
+2020-06-01 20:54:43,721 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="fa036f1f284598c195be56c6cea7f0c7", element="0.4872944707627078-1")>
+2020-06-01 20:54:43,722 || Test_suite.pages.listener || I`m executing "console.error('Here is the ERROR message!')"
+2020-06-01 20:54:43,730 || Test_suite.pages.listener || I've executed 'console.error('Here is the ERROR message!')'
+2020-06-01 20:54:43,730 || Test_suite.pages.listener || I`m looking for: ".alert-success" BY: "css selector"
+2020-06-01 20:54:43,744 || Test_suite.pages.listener || I`ve found ".alert-success" BY "css selector"
+2020-06-01 20:54:43,744 || test_settings_page || ====================End "test_rebuild_tab"====================
+2020-06-01 20:54:43,762 || Test_suite.pages.listener || ====================JS Errors====================
+2020-06-01 20:54:43,762 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'http://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591034080813}
+2020-06-01 20:54:43,762 || Test_suite.pages.listener || ====================JS Errors End====================
+2020-06-01 20:54:43,762 || Test_suite.pages.listener || ====================JS Errors====================
+2020-06-01 20:54:43,762 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'https://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591034082326}
+2020-06-01 20:54:43,762 || Test_suite.pages.listener || ====================JS Errors End====================
+2020-06-01 20:54:43,762 || Test_suite.pages.listener || ====================JS Errors====================
+2020-06-01 20:54:43,762 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'console-api 2:32 "Here is the ERROR message!"', 'source': 'console-api', 'timestamp': 1591034083728}
+2020-06-01 20:54:43,762 || Test_suite.pages.listener || ====================JS Errors End====================
+2020-06-01 20:54:45,930 || Test_suite.pages.listener || WASTED!!!
+2020-06-03 19:05:09,399 || Test_suite.conftest || ====================Start Setup Activity====================
+2020-06-03 19:05:09,488 || Test_suite.pages.listener || I`m navigate to: http://localhost/admin
+2020-06-03 19:05:15,491 || Test_suite.pages.listener || I`m on: http://localhost/admin
+2020-06-03 19:05:15,491 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-03 19:05:15,766 || Test_suite.pages.listener || I`ve found "[name="username"]" BY "css selector"
+2020-06-03 19:05:16,201 || Test_suite.pages.listener || I`m looking for: "[name="password"]" BY: "css selector"
+2020-06-03 19:05:16,212 || Test_suite.pages.listener || I`ve found "[name="password"]" BY "css selector"
+2020-06-03 19:05:16,388 || Test_suite.pages.listener || I`m looking for: "[type="submit"]" BY: "css selector"
+2020-06-03 19:05:16,398 || Test_suite.pages.listener || I`ve found "[type="submit"]" BY "css selector"
+2020-06-03 19:05:16,431 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="85894f4dcbdb417459cc214f0fe87605", element="0.3285967142052366-4")>
+2020-06-03 19:05:20,559 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="85894f4dcbdb417459cc214f0fe87605", element="0.3285967142052366-4")>
+2020-06-03 19:05:20,673 || Test_suite.pages.listener || I`m looking for: "[href="#collapse1"]" BY: "css selector"
+2020-06-03 19:05:20,818 || Test_suite.pages.listener || I`ve found "[href="#collapse1"]" BY "css selector"
+2020-06-03 19:05:21,036 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="85894f4dcbdb417459cc214f0fe87605", element="0.983597382675881-1")>
+2020-06-03 19:05:21,076 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="85894f4dcbdb417459cc214f0fe87605", element="0.983597382675881-1")>
+2020-06-03 19:05:21,076 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-03 19:05:21,088 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-03 19:05:21,598 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-03 19:05:21,624 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-03 19:05:21,820 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="85894f4dcbdb417459cc214f0fe87605", element="0.983597382675881-2")>
+2020-06-03 19:05:22,756 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="85894f4dcbdb417459cc214f0fe87605", element="0.983597382675881-2")>
+2020-06-03 19:05:22,756 || Test_suite.conftest || ====================End Setup Activity====================
+2020-06-03 19:05:22,757 || test_settings_page || ====================Start "test_rebuild_tab"====================
+2020-06-03 19:05:22,757 || Test_suite.pages.listener || I`m looking for: "[data-original-title="Rebuild"]" BY: "css selector"
+2020-06-03 19:05:22,770 || Test_suite.pages.listener || I`ve found "[data-original-title="Rebuild"]" BY "css selector"
+2020-06-03 19:05:23,494 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="85894f4dcbdb417459cc214f0fe87605", element="0.776465386571005-1")>
+2020-06-03 19:05:24,613 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="85894f4dcbdb417459cc214f0fe87605", element="0.776465386571005-1")>
+2020-06-03 19:05:24,613 || Test_suite.pages.listener || I`m executing "console.error('Here is the ERROR message!')"
+2020-06-03 19:05:24,675 || Test_suite.pages.listener || I've executed 'console.error('Here is the ERROR message!')'
+2020-06-03 19:05:24,675 || Test_suite.pages.listener || I`m looking for: ".alert-success" BY: "css selector"
+2020-06-03 19:05:24,927 || Test_suite.pages.listener || I`ve found ".alert-success" BY "css selector"
+2020-06-03 19:05:24,927 || test_settings_page || ====================End "test_rebuild_tab"====================
+2020-06-03 19:05:25,798 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'http://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591200315636}
+2020-06-03 19:05:25,798 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'https://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591200320655}
+2020-06-03 19:05:25,798 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'console-api 2:32 "Here is the ERROR message!"', 'source': 'console-api', 'timestamp': 1591200324673}
+2020-06-03 19:05:30,890 || Test_suite.pages.listener || WASTED!!!
+2020-06-03 19:12:01,525 || Test_suite.conftest || ====================Start Setup Activity====================
+2020-06-03 19:12:01,526 || Test_suite.pages.listener || I`m navigate to: http://localhost/admin
+2020-06-03 19:12:07,633 || Test_suite.pages.listener || I`m on: http://localhost/admin
+2020-06-03 19:12:07,633 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-03 19:12:07,649 || Test_suite.pages.listener || I`ve found "[name="username"]" BY "css selector"
+2020-06-03 19:12:08,234 || Test_suite.pages.listener || I`m looking for: "[name="password"]" BY: "css selector"
+2020-06-03 19:12:08,243 || Test_suite.pages.listener || I`ve found "[name="password"]" BY "css selector"
+2020-06-03 19:12:08,778 || Test_suite.pages.listener || I`m looking for: "[type="submit"]" BY: "css selector"
+2020-06-03 19:12:08,789 || Test_suite.pages.listener || I`ve found "[type="submit"]" BY "css selector"
+2020-06-03 19:12:08,810 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="0ca2082816f958f4a230b5f4185ccf6b", element="0.3137283897037286-4")>
+2020-06-03 19:12:10,175 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="0ca2082816f958f4a230b5f4185ccf6b", element="0.3137283897037286-4")>
+2020-06-03 19:12:10,912 || Test_suite.pages.listener || I`m looking for: "[href="#collapse1"]" BY: "css selector"
+2020-06-03 19:12:10,923 || Test_suite.pages.listener || I`ve found "[href="#collapse1"]" BY "css selector"
+2020-06-03 19:12:11,252 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="0ca2082816f958f4a230b5f4185ccf6b", element="0.6909130868324591-1")>
+2020-06-03 19:12:11,343 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="0ca2082816f958f4a230b5f4185ccf6b", element="0.6909130868324591-1")>
+2020-06-03 19:12:11,343 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-03 19:12:11,354 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-03 19:12:11,865 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-03 19:12:11,877 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-03 19:12:11,966 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="0ca2082816f958f4a230b5f4185ccf6b", element="0.6909130868324591-2")>
+2020-06-03 19:12:12,411 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="0ca2082816f958f4a230b5f4185ccf6b", element="0.6909130868324591-2")>
+2020-06-03 19:12:12,411 || Test_suite.conftest || ====================End Setup Activity====================
+2020-06-03 19:12:12,413 || test_settings_page || ====================Start "test_rebuild_tab"====================
+2020-06-03 19:12:12,413 || Test_suite.pages.listener || I`m looking for: "[data-original-title="Rebuild"]" BY: "css selector"
+2020-06-03 19:12:12,427 || Test_suite.pages.listener || I`ve found "[data-original-title="Rebuild"]" BY "css selector"
+2020-06-03 19:12:12,515 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="0ca2082816f958f4a230b5f4185ccf6b", element="0.6737111589992826-1")>
+2020-06-03 19:12:13,338 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="0ca2082816f958f4a230b5f4185ccf6b", element="0.6737111589992826-1")>
+2020-06-03 19:12:13,338 || Test_suite.pages.listener || I`m executing "console.error('Here is the ERROR message!')"
+2020-06-03 19:12:13,395 || Test_suite.pages.listener || I've executed 'console.error('Here is the ERROR message!')'
+2020-06-03 19:12:13,395 || Test_suite.pages.listener || I`m looking for: ".alert-success" BY: "css selector"
+2020-06-03 19:12:13,522 || Test_suite.pages.listener || I`ve found ".alert-success" BY "css selector"
+2020-06-03 19:12:13,522 || test_settings_page || ====================End "test_rebuild_tab"====================
+2020-06-03 19:12:13,603 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'http://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591200728139}
+2020-06-03 19:12:13,603 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'https://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591200730880}
+2020-06-03 19:12:13,603 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'console-api 2:32 "Here is the ERROR message!"', 'source': 'console-api', 'timestamp': 1591200733394}
+2020-06-03 19:12:16,992 || Test_suite.pages.listener || WASTED!!!
+2020-06-03 21:28:48,045 || Test_suite.conftest || ====================Start Setup Activity====================
+2020-06-03 21:28:48,069 || Test_suite.pages.listener || I`m navigate to: http://localhost/admin
+2020-06-03 21:28:52,517 || Test_suite.pages.listener || I`m on: http://localhost/admin
+2020-06-03 21:28:52,518 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-03 21:28:52,601 || Test_suite.pages.listener || Oooops i got: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="username"]"}
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}),platform=Windows NT 10.0.18362 x86_64)
+
+2020-06-03 21:28:54,096 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-03 21:28:54,105 || Test_suite.pages.listener || Oooops i got: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="username"]"}
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}),platform=Windows NT 10.0.18362 x86_64)
+
+2020-06-03 21:28:54,965 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-03 21:28:54,973 || Test_suite.pages.listener || Oooops i got: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="username"]"}
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}),platform=Windows NT 10.0.18362 x86_64)
+
+2020-06-03 21:28:55,783 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-03 21:28:55,789 || Test_suite.pages.listener || Oooops i got: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="username"]"}
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}),platform=Windows NT 10.0.18362 x86_64)
+
+2020-06-03 21:32:14,232 || Test_suite.conftest || ====================Start Setup Activity====================
+2020-06-03 21:32:14,243 || Test_suite.pages.listener || I`m navigate to: http://localhost/admin
+2020-06-03 21:32:19,333 || Test_suite.pages.listener || I`m on: http://localhost/admin
+2020-06-03 21:32:19,333 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-03 21:32:19,344 || Test_suite.pages.listener || Oooops i got: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="username"]"}
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}),platform=Windows NT 10.0.18362 x86_64)
+
+2020-06-03 21:32:20,445 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-03 21:32:20,456 || Test_suite.pages.listener || Oooops i got: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="username"]"}
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}),platform=Windows NT 10.0.18362 x86_64)
+
+2020-06-03 21:32:21,256 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-03 21:32:21,268 || Test_suite.pages.listener || Oooops i got: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="username"]"}
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}),platform=Windows NT 10.0.18362 x86_64)
+
+2020-06-03 21:32:22,072 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-03 21:32:22,085 || Test_suite.pages.listener || Oooops i got: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="username"]"}
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}),platform=Windows NT 10.0.18362 x86_64)
+
+2020-06-03 21:32:22,888 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-03 21:32:22,899 || Test_suite.pages.listener || Oooops i got: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="username"]"}
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}),platform=Windows NT 10.0.18362 x86_64)
+
+2020-06-03 21:32:23,766 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-03 21:32:23,778 || Test_suite.pages.listener || Oooops i got: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="username"]"}
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}),platform=Windows NT 10.0.18362 x86_64)
+
+2020-06-03 21:32:27,021 || Test_suite.pages.listener || WASTED!!!
+2020-06-03 21:55:47,653 || Test_suite.conftest || ====================Start Setup Activity====================
+2020-06-03 21:55:47,722 || Test_suite.pages.listener || I`m navigate to: http://localhost/admin
+2020-06-03 21:55:49,917 || Test_suite.pages.listener || I`m on: http://localhost/admin
+2020-06-03 21:55:49,917 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-03 21:55:50,182 || Test_suite.pages.listener || Oooops i got: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="username"]"}
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}),platform=Windows NT 10.0.18362 x86_64)
+
+2020-06-03 21:55:54,858 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-03 21:55:54,866 || Test_suite.pages.listener || Oooops i got: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="username"]"}
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}),platform=Windows NT 10.0.18362 x86_64)
+
+2020-06-03 21:55:55,971 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'http://localhost/admin - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591210548960}
+2020-06-03 21:55:55,971 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'http://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591210550172}
+2020-06-03 21:56:00,839 || Test_suite.pages.listener || WASTED!!!
+2020-06-03 21:58:57,874 || Test_suite.conftest || ====================Start Setup Activity====================
+2020-06-03 21:58:57,874 || Test_suite.pages.listener || I`m navigate to: http://localhost/admin
+2020-06-03 21:58:59,725 || Test_suite.pages.listener || I`m on: http://localhost/admin
+2020-06-03 21:58:59,725 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-03 21:58:59,739 || Test_suite.pages.listener || I`ve found "[name="username"]" BY "css selector"
+2020-06-03 21:59:00,125 || Test_suite.pages.listener || I`m looking for: "[name="password"]" BY: "css selector"
+2020-06-03 21:59:00,139 || Test_suite.pages.listener || I`ve found "[name="password"]" BY "css selector"
+2020-06-03 21:59:00,223 || Test_suite.pages.listener || I`m looking for: "[type="submit"]" BY: "css selector"
+2020-06-03 21:59:00,232 || Test_suite.pages.listener || I`ve found "[type="submit"]" BY "css selector"
+2020-06-03 21:59:00,251 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="d310b29e2ced62f64590f2a035fd6f01", element="0.8429430254150889-4")>
+2020-06-03 21:59:03,364 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="d310b29e2ced62f64590f2a035fd6f01", element="0.8429430254150889-4")>
+2020-06-03 21:59:03,380 || Test_suite.pages.listener || I`m looking for: "[href="#collapse1"]" BY: "css selector"
+2020-06-03 21:59:03,395 || Test_suite.pages.listener || I`ve found "[href="#collapse1"]" BY "css selector"
+2020-06-03 21:59:03,416 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="d310b29e2ced62f64590f2a035fd6f01", element="0.2916967219629314-1")>
+2020-06-03 21:59:03,467 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="d310b29e2ced62f64590f2a035fd6f01", element="0.2916967219629314-1")>
+2020-06-03 21:59:03,467 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-03 21:59:03,479 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-03 21:59:03,498 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="d310b29e2ced62f64590f2a035fd6f01", element="0.2916967219629314-2")>
+2020-06-03 21:59:03,768 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="d310b29e2ced62f64590f2a035fd6f01", element="0.2916967219629314-2")>
+2020-06-03 21:59:03,769 || Test_suite.conftest || ====================End Setup Activity====================
+2020-06-03 21:59:03,770 || test_settings_page || ====================Start "test_rebuild_tab"====================
+2020-06-03 21:59:03,770 || Test_suite.pages.listener || I`m looking for: "[data-original-title="Rebuild"]" BY: "css selector"
+2020-06-03 21:59:03,782 || Test_suite.pages.listener || I`ve found "[data-original-title="Rebuild"]" BY "css selector"
+2020-06-03 21:59:03,802 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="d310b29e2ced62f64590f2a035fd6f01", element="0.9050796815700299-1")>
+2020-06-03 21:59:04,103 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="d310b29e2ced62f64590f2a035fd6f01", element="0.9050796815700299-1")>
+2020-06-03 21:59:04,104 || Test_suite.pages.listener || I`m executing "console.error('Here is the ERROR message!')"
+2020-06-03 21:59:04,114 || Test_suite.pages.listener || I've executed 'console.error('Here is the ERROR message!')'
+2020-06-03 21:59:04,114 || Test_suite.pages.listener || I`m looking for: ".alert-success" BY: "css selector"
+2020-06-03 21:59:04,136 || Test_suite.pages.listener || I`ve found ".alert-success" BY "css selector"
+2020-06-03 21:59:04,136 || test_settings_page || ====================End "test_rebuild_tab"====================
+2020-06-03 21:59:04,139 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'http://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591210739844}
+2020-06-03 21:59:04,139 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'https://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591210743367}
+2020-06-03 21:59:04,139 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'console-api 2:32 "Here is the ERROR message!"', 'source': 'console-api', 'timestamp': 1591210744112}
+2020-06-03 21:59:06,267 || Test_suite.pages.listener || WASTED!!!
+2020-06-03 22:00:50,891 || Test_suite.conftest || ====================Start Setup Activity====================
+2020-06-03 22:00:50,892 || Test_suite.pages.listener || I`m navigate to: http://localhost/admin
+2020-06-03 22:00:51,377 || Test_suite.pages.listener || I`m on: http://localhost/admin
+2020-06-03 22:00:51,377 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-03 22:00:51,393 || Test_suite.pages.listener || I`ve found "[name="username"]" BY "css selector"
+2020-06-03 22:00:51,471 || Test_suite.pages.listener || I`m looking for: "[name="password"]" BY: "css selector"
+2020-06-03 22:00:51,481 || Test_suite.pages.listener || I`ve found "[name="password"]" BY "css selector"
+2020-06-03 22:00:51,574 || Test_suite.pages.listener || I`m looking for: "[type="submit"]" BY: "css selector"
+2020-06-03 22:00:51,583 || Test_suite.pages.listener || I`ve found "[type="submit"]" BY "css selector"
+2020-06-03 22:00:51,605 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="11ef436a2df7d24dadfaeaf5ae4ede8a", element="0.64621281597919-4")>
+2020-06-03 22:00:52,723 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="11ef436a2df7d24dadfaeaf5ae4ede8a", element="0.64621281597919-4")>
+2020-06-03 22:00:52,736 || Test_suite.pages.listener || I`m looking for: "[href="#collapse1"]" BY: "css selector"
+2020-06-03 22:00:52,748 || Test_suite.pages.listener || I`ve found "[href="#collapse1"]" BY "css selector"
+2020-06-03 22:00:52,768 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="11ef436a2df7d24dadfaeaf5ae4ede8a", element="0.5387774594132775-1")>
+2020-06-03 22:00:52,806 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="11ef436a2df7d24dadfaeaf5ae4ede8a", element="0.5387774594132775-1")>
+2020-06-03 22:00:52,806 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-03 22:00:52,816 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-03 22:00:53,327 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-03 22:00:53,336 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-03 22:00:53,357 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="11ef436a2df7d24dadfaeaf5ae4ede8a", element="0.5387774594132775-2")>
+2020-06-03 22:00:53,643 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="11ef436a2df7d24dadfaeaf5ae4ede8a", element="0.5387774594132775-2")>
+2020-06-03 22:00:53,643 || Test_suite.conftest || ====================End Setup Activity====================
+2020-06-03 22:00:53,643 || test_settings_page || ====================Start "test_rebuild_tab"====================
+2020-06-03 22:00:53,644 || Test_suite.pages.listener || I`m looking for: "[data-original-title="Rebuild"]" BY: "css selector"
+2020-06-03 22:00:53,657 || Test_suite.pages.listener || I`ve found "[data-original-title="Rebuild"]" BY "css selector"
+2020-06-03 22:00:53,679 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="11ef436a2df7d24dadfaeaf5ae4ede8a", element="0.8153662026868018-1")>
+2020-06-03 22:00:53,967 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="11ef436a2df7d24dadfaeaf5ae4ede8a", element="0.8153662026868018-1")>
+2020-06-03 22:00:53,967 || Test_suite.pages.listener || I`m executing "console.error('Here is the ERROR message!')"
+2020-06-03 22:00:53,973 || Test_suite.pages.listener || I've executed 'console.error('Here is the ERROR message!')'
+2020-06-03 22:00:53,973 || Test_suite.pages.listener || I`m looking for: ".alert-success" BY: "css selector"
+2020-06-03 22:00:53,987 || Test_suite.pages.listener || I`ve found ".alert-success" BY "css selector"
+2020-06-03 22:00:53,987 || test_settings_page || ====================End "test_rebuild_tab"====================
+2020-06-03 22:00:53,990 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'http://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591210851385}
+2020-06-03 22:00:53,990 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'https://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591210852730}
+2020-06-03 22:00:53,990 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'console-api 2:32 "Here is the ERROR message!"', 'source': 'console-api', 'timestamp': 1591210853972}
+2020-06-03 22:00:56,093 || Test_suite.pages.listener || WASTED!!!
+2020-06-03 22:02:59,674 || Test_suite.conftest || ====================Start Setup Activity====================
+2020-06-03 22:02:59,675 || Test_suite.pages.listener || I`m navigate to: http://localhost/admin
+2020-06-03 22:03:01,606 || Test_suite.pages.listener || I`m on: http://localhost/admin
+2020-06-03 22:03:01,606 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-03 22:03:01,616 || Test_suite.pages.listener || I`ve found "[name="username"]" BY "css selector"
+2020-06-03 22:03:01,685 || Test_suite.pages.listener || I`m looking for: "[name="password"]" BY: "css selector"
+2020-06-03 22:03:01,694 || Test_suite.pages.listener || I`ve found "[name="password"]" BY "css selector"
+2020-06-03 22:03:01,762 || Test_suite.pages.listener || I`m looking for: "[type="submit"]" BY: "css selector"
+2020-06-03 22:03:01,777 || Test_suite.pages.listener || I`ve found "[type="submit"]" BY "css selector"
+2020-06-03 22:03:01,799 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="125e6e7d4e6fc9270ca6d9e41be0ad3c", element="0.9351170708971597-4")>
+2020-06-03 22:03:03,756 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="125e6e7d4e6fc9270ca6d9e41be0ad3c", element="0.9351170708971597-4")>
+2020-06-03 22:03:03,767 || Test_suite.pages.listener || I`m looking for: "[href="#collapse1"]" BY: "css selector"
+2020-06-03 22:03:03,781 || Test_suite.pages.listener || I`ve found "[href="#collapse1"]" BY "css selector"
+2020-06-03 22:03:03,801 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="125e6e7d4e6fc9270ca6d9e41be0ad3c", element="0.39617565584185277-1")>
+2020-06-03 22:03:03,840 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="125e6e7d4e6fc9270ca6d9e41be0ad3c", element="0.39617565584185277-1")>
+2020-06-03 22:03:03,840 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-03 22:03:03,851 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-03 22:03:04,361 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-03 22:03:04,370 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-03 22:03:04,390 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="125e6e7d4e6fc9270ca6d9e41be0ad3c", element="0.39617565584185277-2")>
+2020-06-03 22:03:04,638 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="125e6e7d4e6fc9270ca6d9e41be0ad3c", element="0.39617565584185277-2")>
+2020-06-03 22:03:04,638 || Test_suite.conftest || ====================End Setup Activity====================
+2020-06-03 22:03:04,639 || test_settings_page || ====================Start "test_rebuild_tab"====================
+2020-06-03 22:03:04,639 || Test_suite.pages.listener || I`m looking for: "[data-original-title="Rebuild"]" BY: "css selector"
+2020-06-03 22:03:04,650 || Test_suite.pages.listener || I`ve found "[data-original-title="Rebuild"]" BY "css selector"
+2020-06-03 22:03:04,669 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="125e6e7d4e6fc9270ca6d9e41be0ad3c", element="0.559010938838796-1")>
+2020-06-03 22:03:05,144 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="125e6e7d4e6fc9270ca6d9e41be0ad3c", element="0.559010938838796-1")>
+2020-06-03 22:03:05,144 || Test_suite.pages.listener || I`m executing "console.error('Here is the ERROR message!')"
+2020-06-03 22:03:05,157 || Test_suite.pages.listener || I've executed 'console.error('Here is the ERROR message!')'
+2020-06-03 22:03:05,158 || Test_suite.pages.listener || I`m looking for: ".alert-success" BY: "css selector"
+2020-06-03 22:03:05,171 || Test_suite.pages.listener || I`ve found ".alert-success" BY "css selector"
+2020-06-03 22:03:05,171 || test_settings_page || ====================End "test_rebuild_tab"====================
+2020-06-03 22:03:05,174 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'http://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591210981661}
+2020-06-03 22:03:05,174 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'https://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591210983761}
+2020-06-03 22:03:05,174 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'console-api 2:32 "Here is the ERROR message!"', 'source': 'console-api', 'timestamp': 1591210985155}
+2020-06-03 22:03:07,446 || Test_suite.pages.listener || WASTED!!!
+2020-06-03 22:05:00,148 || Test_suite.conftest || ====================Start Setup Activity====================
+2020-06-03 22:05:00,148 || Test_suite.pages.listener || I`m navigate to: http://localhost/admin
+2020-06-03 22:05:01,186 || Test_suite.pages.listener || I`m on: http://localhost/admin
+2020-06-03 22:05:01,186 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-03 22:05:01,198 || Test_suite.pages.listener || I`ve found "[name="username"]" BY "css selector"
+2020-06-03 22:05:01,276 || Test_suite.pages.listener || I`m looking for: "[name="password"]" BY: "css selector"
+2020-06-03 22:05:01,285 || Test_suite.pages.listener || I`ve found "[name="password"]" BY "css selector"
+2020-06-03 22:05:01,378 || Test_suite.pages.listener || I`m looking for: "[type="submit"]" BY: "css selector"
+2020-06-03 22:05:01,388 || Test_suite.pages.listener || I`ve found "[type="submit"]" BY "css selector"
+2020-06-03 22:05:01,407 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="0fde16a7c98bc7ecb8ea561eb30f708c", element="0.7521138667584331-4")>
+2020-06-03 22:05:03,038 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="0fde16a7c98bc7ecb8ea561eb30f708c", element="0.7521138667584331-4")>
+2020-06-03 22:05:03,054 || Test_suite.pages.listener || I`m looking for: "[href="#collapse1"]" BY: "css selector"
+2020-06-03 22:05:03,201 || Test_suite.pages.listener || I`ve found "[href="#collapse1"]" BY "css selector"
+2020-06-03 22:05:03,224 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="0fde16a7c98bc7ecb8ea561eb30f708c", element="0.4566092754959461-1")>
+2020-06-03 22:05:03,286 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="0fde16a7c98bc7ecb8ea561eb30f708c", element="0.4566092754959461-1")>
+2020-06-03 22:05:03,286 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-03 22:05:03,300 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-03 22:05:03,322 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="0fde16a7c98bc7ecb8ea561eb30f708c", element="0.4566092754959461-2")>
+2020-06-03 22:05:03,560 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="0fde16a7c98bc7ecb8ea561eb30f708c", element="0.4566092754959461-2")>
+2020-06-03 22:05:03,561 || Test_suite.conftest || ====================End Setup Activity====================
+2020-06-03 22:05:03,562 || test_settings_page || ====================Start "test_rebuild_tab"====================
+2020-06-03 22:05:03,562 || Test_suite.pages.listener || I`m looking for: "[data-original-title="Rebuild"]" BY: "css selector"
+2020-06-03 22:05:03,576 || Test_suite.pages.listener || I`ve found "[data-original-title="Rebuild"]" BY "css selector"
+2020-06-03 22:05:03,596 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="0fde16a7c98bc7ecb8ea561eb30f708c", element="0.2620718545182903-1")>
+2020-06-03 22:05:03,858 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="0fde16a7c98bc7ecb8ea561eb30f708c", element="0.2620718545182903-1")>
+2020-06-03 22:05:03,858 || Test_suite.pages.listener || I`m executing "console.error('Here is the ERROR message!')"
+2020-06-03 22:05:03,865 || Test_suite.pages.listener || I've executed 'console.error('Here is the ERROR message!')'
+2020-06-03 22:05:03,865 || Test_suite.pages.listener || I`m looking for: ".alert-success" BY: "css selector"
+2020-06-03 22:05:03,877 || Test_suite.pages.listener || I`ve found ".alert-success" BY "css selector"
+2020-06-03 22:05:03,877 || test_settings_page || ====================End "test_rebuild_tab"====================
+2020-06-03 22:05:03,880 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'http://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591211101218}
+2020-06-03 22:05:03,880 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'https://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591211103043}
+2020-06-03 22:05:03,880 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'console-api 2:32 "Here is the ERROR message!"', 'source': 'console-api', 'timestamp': 1591211103863}
+2020-06-03 22:05:06,028 || Test_suite.pages.listener || WASTED!!!
+2020-06-03 22:05:06,028 || Test_suite.pages.listener || Oooops i got: 'WebDriver' object has no attribute 'proxy'
+2020-06-03 22:05:08,040 || urllib3.connectionpool || Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023CB695BFD0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/0fde16a7c98bc7ecb8ea561eb30f708c/screenshot
+2020-06-03 22:05:10,043 || urllib3.connectionpool || Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023CB69512E0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/0fde16a7c98bc7ecb8ea561eb30f708c/screenshot
+2020-06-03 22:05:12,046 || urllib3.connectionpool || Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023CB69518B0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/0fde16a7c98bc7ecb8ea561eb30f708c/screenshot
+2020-06-03 22:07:07,275 || Test_suite.conftest || ====================Start Setup Activity====================
+2020-06-03 22:07:07,275 || Test_suite.pages.listener || I`m navigate to: http://localhost/admin
+2020-06-03 22:07:07,761 || Test_suite.pages.listener || I`m on: http://localhost/admin
+2020-06-03 22:07:07,761 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-03 22:07:07,776 || Test_suite.pages.listener || I`ve found "[name="username"]" BY "css selector"
+2020-06-03 22:07:07,851 || Test_suite.pages.listener || I`m looking for: "[name="password"]" BY: "css selector"
+2020-06-03 22:07:07,863 || Test_suite.pages.listener || I`ve found "[name="password"]" BY "css selector"
+2020-06-03 22:07:07,960 || Test_suite.pages.listener || I`m looking for: "[type="submit"]" BY: "css selector"
+2020-06-03 22:07:07,971 || Test_suite.pages.listener || I`ve found "[type="submit"]" BY "css selector"
+2020-06-03 22:07:07,990 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="915d5d1b3c48017ba0f7df5d37612c70", element="0.43945190373307197-4")>
+2020-06-03 22:07:09,305 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="915d5d1b3c48017ba0f7df5d37612c70", element="0.43945190373307197-4")>
+2020-06-03 22:07:09,322 || Test_suite.pages.listener || I`m looking for: "[href="#collapse1"]" BY: "css selector"
+2020-06-03 22:07:09,332 || Test_suite.pages.listener || I`ve found "[href="#collapse1"]" BY "css selector"
+2020-06-03 22:07:09,350 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="915d5d1b3c48017ba0f7df5d37612c70", element="0.06369091132923788-1")>
+2020-06-03 22:07:09,388 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="915d5d1b3c48017ba0f7df5d37612c70", element="0.06369091132923788-1")>
+2020-06-03 22:07:09,388 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-03 22:07:09,398 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-03 22:07:09,908 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-03 22:07:09,917 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-03 22:07:09,937 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="915d5d1b3c48017ba0f7df5d37612c70", element="0.06369091132923788-2")>
+2020-06-03 22:07:10,256 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="915d5d1b3c48017ba0f7df5d37612c70", element="0.06369091132923788-2")>
+2020-06-03 22:07:10,257 || Test_suite.conftest || ====================End Setup Activity====================
+2020-06-03 22:07:10,258 || test_settings_page || ====================Start "test_rebuild_tab"====================
+2020-06-03 22:07:10,258 || Test_suite.pages.listener || I`m looking for: "[data-original-title="Rebuild"]" BY: "css selector"
+2020-06-03 22:07:10,276 || Test_suite.pages.listener || I`ve found "[data-original-title="Rebuild"]" BY "css selector"
+2020-06-03 22:07:10,299 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="915d5d1b3c48017ba0f7df5d37612c70", element="0.00931502238759263-1")>
+2020-06-03 22:07:10,602 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="915d5d1b3c48017ba0f7df5d37612c70", element="0.00931502238759263-1")>
+2020-06-03 22:07:10,603 || Test_suite.pages.listener || I`m executing "console.error('Here is the ERROR message!')"
+2020-06-03 22:07:10,609 || Test_suite.pages.listener || I've executed 'console.error('Here is the ERROR message!')'
+2020-06-03 22:07:10,609 || Test_suite.pages.listener || I`m looking for: ".alert-success" BY: "css selector"
+2020-06-03 22:07:10,623 || Test_suite.pages.listener || I`ve found ".alert-success" BY "css selector"
+2020-06-03 22:07:10,623 || test_settings_page || ====================End "test_rebuild_tab"====================
+2020-06-03 22:07:10,624 || Test_suite.pages.listener || Oooops i got: 'WebDriver' object has no attribute 'proxy'
+2020-06-03 22:09:19,883 || Test_suite.conftest || ====================Start Setup Activity====================
+2020-06-03 22:09:19,883 || Test_suite.pages.listener || I`m navigate to: http://localhost/admin
+2020-06-03 22:09:20,537 || Test_suite.pages.listener || I`m on: http://localhost/admin
+2020-06-03 22:09:20,537 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-03 22:09:20,550 || Test_suite.pages.listener || I`ve found "[name="username"]" BY "css selector"
+2020-06-03 22:09:20,632 || Test_suite.pages.listener || I`m looking for: "[name="password"]" BY: "css selector"
+2020-06-03 22:09:20,644 || Test_suite.pages.listener || I`ve found "[name="password"]" BY "css selector"
+2020-06-03 22:09:20,732 || Test_suite.pages.listener || I`m looking for: "[type="submit"]" BY: "css selector"
+2020-06-03 22:09:20,741 || Test_suite.pages.listener || I`ve found "[type="submit"]" BY "css selector"
+2020-06-03 22:09:20,760 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="14dbf3c7649690ed7d63243c7f5d49de", element="0.9251084699913881-4")>
+2020-06-03 22:09:23,155 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="14dbf3c7649690ed7d63243c7f5d49de", element="0.9251084699913881-4")>
+2020-06-03 22:09:23,167 || Test_suite.pages.listener || I`m looking for: "[href="#collapse1"]" BY: "css selector"
+2020-06-03 22:09:23,180 || Test_suite.pages.listener || I`ve found "[href="#collapse1"]" BY "css selector"
+2020-06-03 22:09:23,199 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="14dbf3c7649690ed7d63243c7f5d49de", element="0.2985909443479362-1")>
+2020-06-03 22:09:23,238 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="14dbf3c7649690ed7d63243c7f5d49de", element="0.2985909443479362-1")>
+2020-06-03 22:09:23,238 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-03 22:09:23,248 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-03 22:09:23,757 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-03 22:09:23,766 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-03 22:09:23,786 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="14dbf3c7649690ed7d63243c7f5d49de", element="0.2985909443479362-2")>
+2020-06-03 22:09:23,985 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="14dbf3c7649690ed7d63243c7f5d49de", element="0.2985909443479362-2")>
+2020-06-03 22:09:23,985 || Test_suite.conftest || ====================End Setup Activity====================
+2020-06-03 22:09:23,986 || test_settings_page || ====================Start "test_rebuild_tab"====================
+2020-06-03 22:09:23,986 || Test_suite.pages.listener || I`m looking for: "[data-original-title="Rebuild"]" BY: "css selector"
+2020-06-03 22:09:24,000 || Test_suite.pages.listener || I`ve found "[data-original-title="Rebuild"]" BY "css selector"
+2020-06-03 22:09:24,020 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="14dbf3c7649690ed7d63243c7f5d49de", element="0.9341175782706697-1")>
+2020-06-03 22:09:24,307 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="14dbf3c7649690ed7d63243c7f5d49de", element="0.9341175782706697-1")>
+2020-06-03 22:09:24,307 || Test_suite.pages.listener || I`m executing "console.error('Here is the ERROR message!')"
+2020-06-03 22:09:24,316 || Test_suite.pages.listener || I've executed 'console.error('Here is the ERROR message!')'
+2020-06-03 22:09:24,316 || Test_suite.pages.listener || I`m looking for: ".alert-success" BY: "css selector"
+2020-06-03 22:09:24,326 || Test_suite.pages.listener || I`ve found ".alert-success" BY "css selector"
+2020-06-03 22:09:24,326 || test_settings_page || ====================End "test_rebuild_tab"====================
+2020-06-03 22:09:24,400 || Test_suite.conftest || version
+2020-06-03 22:09:24,400 || Test_suite.conftest || creator
+2020-06-03 22:09:24,400 || Test_suite.conftest || pages
+2020-06-03 22:09:24,400 || Test_suite.conftest || entries
+2020-06-03 22:09:24,400 || Test_suite.conftest || comment
+2020-06-03 22:09:24,415 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'http://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591211360542}
+2020-06-03 22:09:24,416 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'https://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591211363165}
+2020-06-03 22:09:24,416 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'console-api 2:32 "Here is the ERROR message!"', 'source': 'console-api', 'timestamp': 1591211364315}
+2020-06-03 22:09:26,532 || Test_suite.pages.listener || WASTED!!!
+2020-06-03 22:10:38,450 || Test_suite.conftest || ====================Start Setup Activity====================
+2020-06-03 22:10:38,450 || Test_suite.pages.listener || I`m navigate to: http://localhost/admin
+2020-06-03 22:10:39,210 || Test_suite.pages.listener || I`m on: http://localhost/admin
+2020-06-03 22:10:39,210 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-03 22:10:39,223 || Test_suite.pages.listener || I`ve found "[name="username"]" BY "css selector"
+2020-06-03 22:10:39,300 || Test_suite.pages.listener || I`m looking for: "[name="password"]" BY: "css selector"
+2020-06-03 22:10:39,311 || Test_suite.pages.listener || I`ve found "[name="password"]" BY "css selector"
+2020-06-03 22:10:39,406 || Test_suite.pages.listener || I`m looking for: "[type="submit"]" BY: "css selector"
+2020-06-03 22:10:39,415 || Test_suite.pages.listener || I`ve found "[type="submit"]" BY "css selector"
+2020-06-03 22:10:39,436 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="d02badf7a44b3b3a0305a14a26553c6f", element="0.7349723247906177-4")>
+2020-06-03 22:10:40,763 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="d02badf7a44b3b3a0305a14a26553c6f", element="0.7349723247906177-4")>
+2020-06-03 22:10:40,783 || Test_suite.pages.listener || I`m looking for: "[href="#collapse1"]" BY: "css selector"
+2020-06-03 22:10:40,795 || Test_suite.pages.listener || I`ve found "[href="#collapse1"]" BY "css selector"
+2020-06-03 22:10:40,819 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="d02badf7a44b3b3a0305a14a26553c6f", element="0.8398628676327271-1")>
+2020-06-03 22:10:40,863 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="d02badf7a44b3b3a0305a14a26553c6f", element="0.8398628676327271-1")>
+2020-06-03 22:10:40,863 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-03 22:10:40,874 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-03 22:10:41,384 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-03 22:10:41,394 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-03 22:10:41,417 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="d02badf7a44b3b3a0305a14a26553c6f", element="0.8398628676327271-2")>
+2020-06-03 22:10:41,618 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="d02badf7a44b3b3a0305a14a26553c6f", element="0.8398628676327271-2")>
+2020-06-03 22:10:41,619 || Test_suite.conftest || ====================End Setup Activity====================
+2020-06-03 22:10:41,624 || test_settings_page || ====================Start "test_rebuild_tab"====================
+2020-06-03 22:10:41,624 || Test_suite.pages.listener || I`m looking for: "[data-original-title="Rebuild"]" BY: "css selector"
+2020-06-03 22:10:41,639 || Test_suite.pages.listener || I`ve found "[data-original-title="Rebuild"]" BY "css selector"
+2020-06-03 22:10:41,657 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="d02badf7a44b3b3a0305a14a26553c6f", element="0.9120218958517947-1")>
+2020-06-03 22:10:41,951 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="d02badf7a44b3b3a0305a14a26553c6f", element="0.9120218958517947-1")>
+2020-06-03 22:10:41,951 || Test_suite.pages.listener || I`m executing "console.error('Here is the ERROR message!')"
+2020-06-03 22:10:41,960 || Test_suite.pages.listener || I've executed 'console.error('Here is the ERROR message!')'
+2020-06-03 22:10:41,960 || Test_suite.pages.listener || I`m looking for: ".alert-success" BY: "css selector"
+2020-06-03 22:10:41,971 || Test_suite.pages.listener || I`ve found ".alert-success" BY "css selector"
+2020-06-03 22:10:41,971 || test_settings_page || ====================End "test_rebuild_tab"====================
+2020-06-03 22:10:41,983 || Test_suite.conftest || log
+2020-06-03 22:10:41,986 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'http://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591211439215}
+2020-06-03 22:10:41,986 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'https://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591211440778}
+2020-06-03 22:10:41,986 || Test_suite.pages.listener || {'level': 'SEVERE', 'message': 'console-api 2:32 "Here is the ERROR message!"', 'source': 'console-api', 'timestamp': 1591211441958}
+2020-06-03 22:10:44,119 || Test_suite.pages.listener || WASTED!!!
+2020-06-03 22:14:39,715 || Test_suite.conftest || ====================Start Setup Activity====================
+2020-06-03 22:14:39,806 || Test_suite.pages.listener || I`m navigate to: http://localhost/admin
+2020-06-03 22:14:47,948 || Test_suite.pages.listener || I`m on: http://localhost/admin
+2020-06-03 22:14:47,948 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-03 22:14:48,094 || Test_suite.pages.listener || I`ve found "[name="username"]" BY "css selector"
+2020-06-03 22:14:48,377 || Test_suite.pages.listener || I`m looking for: "[name="password"]" BY: "css selector"
+2020-06-03 22:14:48,386 || Test_suite.pages.listener || I`ve found "[name="password"]" BY "css selector"
+2020-06-03 22:14:48,596 || Test_suite.pages.listener || I`m looking for: "[type="submit"]" BY: "css selector"
+2020-06-03 22:14:48,605 || Test_suite.pages.listener || I`ve found "[type="submit"]" BY "css selector"
+2020-06-03 22:14:48,624 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="5bd971f660f6aa68c8b3518fec236cb4", element="0.9157346236556327-4")>
+2020-06-03 22:14:55,944 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="5bd971f660f6aa68c8b3518fec236cb4", element="0.9157346236556327-4")>
+2020-06-03 22:14:55,953 || Test_suite.pages.listener || I`m looking for: "[href="#collapse1"]" BY: "css selector"
+2020-06-03 22:14:55,963 || Test_suite.pages.listener || I`ve found "[href="#collapse1"]" BY "css selector"
+2020-06-03 22:14:55,981 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="5bd971f660f6aa68c8b3518fec236cb4", element="0.8033103177422516-1")>
+2020-06-03 22:14:56,679 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="5bd971f660f6aa68c8b3518fec236cb4", element="0.8033103177422516-1")>
+2020-06-03 22:14:56,679 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-03 22:14:56,696 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-03 22:14:56,718 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="5bd971f660f6aa68c8b3518fec236cb4", element="0.8033103177422516-2")>
+2020-06-03 22:14:57,205 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="5bd971f660f6aa68c8b3518fec236cb4", element="0.8033103177422516-2")>
+2020-06-03 22:14:57,205 || Test_suite.conftest || ====================End Setup Activity====================
+2020-06-03 22:14:57,205 || test_settings_page || ====================Start "test_rebuild_tab"====================
+2020-06-03 22:14:57,206 || Test_suite.pages.listener || I`m looking for: "[data-original-title="Rebuild"]" BY: "css selector"
+2020-06-03 22:14:57,219 || Test_suite.pages.listener || I`ve found "[data-original-title="Rebuild"]" BY "css selector"
+2020-06-03 22:14:57,238 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="5bd971f660f6aa68c8b3518fec236cb4", element="0.9477382685342759-1")>
+2020-06-03 22:14:58,016 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="5bd971f660f6aa68c8b3518fec236cb4", element="0.9477382685342759-1")>
+2020-06-03 22:14:58,017 || Test_suite.pages.listener || I`m executing "console.error('Here is the ERROR message!')"
+2020-06-03 22:14:58,064 || Test_suite.pages.listener || I've executed 'console.error('Here is the ERROR message!')'
+2020-06-03 22:14:58,064 || Test_suite.pages.listener || I`m looking for: ".alert-success" BY: "css selector"
+2020-06-03 22:14:58,074 || Test_suite.pages.listener || I`ve found ".alert-success" BY "css selector"
+2020-06-03 22:14:58,074 || test_settings_page || ====================End "test_rebuild_tab"====================
+2020-06-03 22:15:51,102 || Test_suite.conftest || ====================Start Setup Activity====================
+2020-06-03 22:15:51,102 || Test_suite.pages.listener || I`m navigate to: http://localhost/admin
+2020-06-03 22:15:53,634 || Test_suite.pages.listener || I`m on: http://localhost/admin
+2020-06-03 22:15:53,634 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-03 22:15:53,646 || Test_suite.pages.listener || I`ve found "[name="username"]" BY "css selector"
+2020-06-03 22:15:53,721 || Test_suite.pages.listener || I`m looking for: "[name="password"]" BY: "css selector"
+2020-06-03 22:15:53,730 || Test_suite.pages.listener || I`ve found "[name="password"]" BY "css selector"
+2020-06-03 22:15:53,812 || Test_suite.pages.listener || I`m looking for: "[type="submit"]" BY: "css selector"
+2020-06-03 22:15:53,822 || Test_suite.pages.listener || I`ve found "[type="submit"]" BY "css selector"
+2020-06-03 22:15:53,840 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="deeb958c5c42cc92909233f48e5978c8", element="0.34343572783766607-4")>
+2020-06-03 22:15:55,695 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="deeb958c5c42cc92909233f48e5978c8", element="0.34343572783766607-4")>
+2020-06-03 22:15:55,717 || Test_suite.pages.listener || I`m looking for: "[href="#collapse1"]" BY: "css selector"
+2020-06-03 22:15:55,729 || Test_suite.pages.listener || I`ve found "[href="#collapse1"]" BY "css selector"
+2020-06-03 22:15:55,751 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="deeb958c5c42cc92909233f48e5978c8", element="0.42005404894513276-1")>
+2020-06-03 22:15:55,795 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="deeb958c5c42cc92909233f48e5978c8", element="0.42005404894513276-1")>
+2020-06-03 22:15:55,795 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-03 22:15:55,806 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-03 22:15:56,316 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-03 22:15:56,322 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-03 22:15:56,336 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="deeb958c5c42cc92909233f48e5978c8", element="0.42005404894513276-2")>
+2020-06-03 22:15:57,037 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="deeb958c5c42cc92909233f48e5978c8", element="0.42005404894513276-2")>
+2020-06-03 22:15:57,037 || Test_suite.conftest || ====================End Setup Activity====================
+2020-06-03 22:15:57,038 || test_settings_page || ====================Start "test_rebuild_tab"====================
+2020-06-03 22:15:57,039 || Test_suite.pages.listener || I`m looking for: "[data-original-title="Rebuild"]" BY: "css selector"
+2020-06-03 22:15:57,052 || Test_suite.pages.listener || I`ve found "[data-original-title="Rebuild"]" BY "css selector"
+2020-06-03 22:15:57,072 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="deeb958c5c42cc92909233f48e5978c8", element="0.052491271263094275-1")>
+2020-06-03 22:15:58,142 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="deeb958c5c42cc92909233f48e5978c8", element="0.052491271263094275-1")>
+2020-06-03 22:15:58,142 || Test_suite.pages.listener || I`m executing "console.error('Here is the ERROR message!')"
+2020-06-03 22:15:58,153 || Test_suite.pages.listener || I've executed 'console.error('Here is the ERROR message!')'
+2020-06-03 22:15:58,153 || Test_suite.pages.listener || I`m looking for: ".alert-success" BY: "css selector"
+2020-06-03 22:15:58,166 || Test_suite.pages.listener || I`ve found ".alert-success" BY "css selector"
+2020-06-03 22:15:58,167 || test_settings_page || ====================End "test_rebuild_tab"====================
+2020-06-03 22:15:58,172 || Test_suite.conftest || {'log': {'version': '1.2', 'creator': {'name': 'BrowserMob Proxy', 'version': '2.1.4', 'comment': ''}, 'pages': [{'id': 'Page 0', 'startedDateTime': '2020-06-03T22:15:46.619+03:00', 'title': 'Page 0', 'pageTimings': {'comment': ''}, 'comment': ''}], 'entries': [{'pageref': 'Page 0', 'startedDateTime': '2020-06-03T22:15:51.741+03:00', 'request': {'method': 'POST', 'url': 'https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [{'name': 'gpsia', 'value': '1'}, {'name': 'source', 'value': 'ChromiumBrowser'}, {'name': 'json', 'value': 'standard'}], 'headersSize': 517, 'bodySize': 1, 'comment': ''}, 'response': {'status': 200, 'statusText': 'OK', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'content': {'size': 0, 'mimeType': 'application/json; charset=utf-8', 'comment': ''}, 'redirectURL': '', 'headersSize': 1207, 'bodySize': 45, 'comment': ''}, 'cache': {}, 'timings': {'comment': '', 'receive': 0, 'send': 0, 'blocked': 0, 'dns': 0, 'connect': 241, 'wait': 34, 'ssl': 220}, 'serverIPAddress': '173.194.222.84', 'comment': '', 'time': 277}, {'pageref': 'Page 0', 'startedDateTime': '2020-06-03T22:15:53.070+03:00', 'request': {'method': 'GET', 'url': 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,greek-ext,vietnamese', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [{'name': 'family', 'value': 'Open Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'}, {'name': 'subset', 'value': 'latin,cyrillic-ext,greek-ext,vietnamese'}], 'headersSize': 518, 'bodySize': 0, 'comment': ''}, 'response': {'status': 200, 'statusText': 'OK', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'content': {'size': 0, 'mimeType': 'text/css; charset=utf-8', 'comment': ''}, 'redirectURL': '', 'headersSize': 520, 'bodySize': 1132, 'comment': ''}, 'cache': {}, 'timings': {'comment': '', 'receive': 1, 'send': 1, 'blocked': 0, 'dns': 0, 'connect': 17, 'wait': 22, 'ssl': -1}, 'serverIPAddress': '64.233.164.95', 'comment': '', 'time': 42}, {'pageref': 'Page 0', 'startedDateTime': '2020-06-03T22:15:53.525+03:00', 'request': {'method': 'GET', 'url': 'http://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 577, 'bodySize': 0, 'comment': ''}, 'response': {'status': 200, 'statusText': 'OK', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'content': {'size': 0, 'mimeType': 'font/woff2', 'comment': ''}, 'redirectURL': '', 'headersSize': 394, 'bodySize': 15056, 'comment': ''}, 'cache': {}, 'timings': {'comment': '', 'receive': 18, 'send': 0, 'blocked': 0, 'dns': 3, 'connect': 21, 'wait': 23, 'ssl': -1}, 'serverIPAddress': '173.194.222.94', 'comment': '', 'time': 67}, {'pageref': 'Page 0', 'startedDateTime': '2020-06-03T22:15:53.525+03:00', 'request': {'method': 'GET', 'url': 'http://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 573, 'bodySize': 0, 'comment': ''}, 'response': {'status': 200, 'statusText': 'OK', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'content': {'size': 0, 'mimeType': 'font/woff2', 'comment': ''}, 'redirectURL': '', 'headersSize': 394, 'bodySize': 14380, 'comment': ''}, 'cache': {}, 'timings': {'comment': '', 'receive': 18, 'send': 0, 'blocked': 0, 'dns': 3, 'connect': 19, 'wait': 21, 'ssl': -1}, 'serverIPAddress': '173.194.222.94', 'comment': '', 'time': 63}, {'pageref': 'Page 0', 'startedDateTime': '2020-06-03T22:15:55.095+03:00', 'request': {'method': 'GET', 'url': 'https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,greek-ext,vietnamese', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [{'name': 'family', 'value': 'Open Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'}, {'name': 'subset', 'value': 'latin,cyrillic-ext,greek-ext,vietnamese'}], 'headersSize': 642, 'bodySize': 0, 'comment': ''}, 'response': {'status': 200, 'statusText': 'OK', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'content': {'size': 0, 'mimeType': 'text/css; charset=utf-8', 'comment': ''}, 'redirectURL': '', 'headersSize': 823, 'bodySize': 1133, 'comment': ''}, 'cache': {}, 'timings': {'comment': '', 'receive': 0, 'send': 0, 'blocked': 0, 'dns': 0, 'connect': 224, 'wait': 25, 'ssl': 199}, 'serverIPAddress': '64.233.164.95', 'comment': '', 'time': 251}, {'pageref': 'Page 0', 'startedDateTime': '2020-06-03T22:15:55.584+03:00', 'request': {'method': 'GET', 'url': 'https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 621, 'bodySize': 0, 'comment': ''}, 'response': {'status': 200, 'statusText': 'OK', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'content': {'size': 0, 'mimeType': 'font/woff2', 'comment': ''}, 'redirectURL': '', 'headersSize': 651, 'bodySize': 14380, 'comment': ''}, 'cache': {}, 'timings': {'comment': '', 'receive': 11, 'send': 1, 'blocked': 0, 'dns': 0, 'connect': 378, 'wait': 22, 'ssl': 348}, 'serverIPAddress': '173.194.222.94', 'comment': '', 'time': 415}, {'pageref': 'Page 0', 'startedDateTime': '2020-06-03T22:15:55.584+03:00', 'request': {'method': 'GET', 'url': 'https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN_r8OUuhp.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 625, 'bodySize': 0, 'comment': ''}, 'response': {'status': 200, 'statusText': 'OK', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'content': {'size': 0, 'mimeType': 'font/woff2', 'comment': ''}, 'redirectURL': '', 'headersSize': 651, 'bodySize': 14932, 'comment': ''}, 'cache': {}, 'timings': {'comment': '', 'receive': 5, 'send': 1, 'blocked': 0, 'dns': 0, 'connect': 457, 'wait': 28, 'ssl': 437}, 'serverIPAddress': '173.194.222.94', 'comment': '', 'time': 493}, {'pageref': 'Page 0', 'startedDateTime': '2020-06-03T22:15:55.587+03:00', 'request': {'method': 'GET', 'url': 'https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 625, 'bodySize': 0, 'comment': ''}, 'response': {'status': 200, 'statusText': 'OK', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'content': {'size': 0, 'mimeType': 'font/woff2', 'comment': ''}, 'redirectURL': '', 'headersSize': 651, 'bodySize': 15056, 'comment': ''}, 'cache': {}, 'timings': {'comment': '', 'receive': 22, 'send': 0, 'blocked': 0, 'dns': 0, 'connect': 312, 'wait': 26, 'ssl': 290}, 'serverIPAddress': '173.194.222.94', 'comment': '', 'time': 362}], 'comment': ''}}
+2020-06-03 22:18:47,079 || Test_suite.conftest || ====================Start Setup Activity====================
+2020-06-03 22:18:47,187 || Test_suite.pages.listener || I`m navigate to: http://localhost/admin
+2020-06-03 22:18:54,742 || Test_suite.pages.listener || I`m on: http://localhost/admin
+2020-06-03 22:18:54,742 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-03 22:18:54,842 || Test_suite.pages.listener || I`ve found "[name="username"]" BY "css selector"
+2020-06-03 22:18:55,115 || Test_suite.pages.listener || I`m looking for: "[name="password"]" BY: "css selector"
+2020-06-03 22:18:55,128 || Test_suite.pages.listener || I`ve found "[name="password"]" BY "css selector"
+2020-06-03 22:18:55,216 || Test_suite.pages.listener || I`m looking for: "[type="submit"]" BY: "css selector"
+2020-06-03 22:18:55,225 || Test_suite.pages.listener || I`ve found "[type="submit"]" BY "css selector"
+2020-06-03 22:18:55,254 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="baa1ff325c04281a887b49088859e67c", element="0.6448112007984139-4")>
+2020-06-03 22:18:58,260 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="baa1ff325c04281a887b49088859e67c", element="0.6448112007984139-4")>
+2020-06-03 22:18:58,281 || Test_suite.pages.listener || I`m looking for: "[href="#collapse1"]" BY: "css selector"
+2020-06-03 22:18:58,291 || Test_suite.pages.listener || I`ve found "[href="#collapse1"]" BY "css selector"
+2020-06-03 22:18:58,310 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="baa1ff325c04281a887b49088859e67c", element="0.12610616044776335-1")>
+2020-06-03 22:18:58,351 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="baa1ff325c04281a887b49088859e67c", element="0.12610616044776335-1")>
+2020-06-03 22:18:58,351 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-03 22:18:58,360 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-03 22:18:58,380 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="baa1ff325c04281a887b49088859e67c", element="0.12610616044776335-2")>
+2020-06-03 22:18:59,049 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="baa1ff325c04281a887b49088859e67c", element="0.12610616044776335-2")>
+2020-06-03 22:18:59,049 || Test_suite.conftest || ====================End Setup Activity====================
+2020-06-03 22:18:59,051 || test_settings_page || ====================Start "test_rebuild_tab"====================
+2020-06-03 22:18:59,051 || Test_suite.pages.listener || I`m looking for: "[data-original-title="Rebuild"]" BY: "css selector"
+2020-06-03 22:18:59,066 || Test_suite.pages.listener || I`ve found "[data-original-title="Rebuild"]" BY "css selector"
+2020-06-03 22:18:59,084 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="baa1ff325c04281a887b49088859e67c", element="0.24131056611977741-1")>
+2020-06-03 22:18:59,630 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="baa1ff325c04281a887b49088859e67c", element="0.24131056611977741-1")>
+2020-06-03 22:18:59,630 || Test_suite.pages.listener || I`m executing "console.error('Here is the ERROR message!')"
+2020-06-03 22:18:59,637 || Test_suite.pages.listener || I've executed 'console.error('Here is the ERROR message!')'
+2020-06-03 22:18:59,637 || Test_suite.pages.listener || I`m looking for: ".alert-success" BY: "css selector"
+2020-06-03 22:18:59,650 || Test_suite.pages.listener || I`ve found ".alert-success" BY "css selector"
+2020-06-03 22:18:59,650 || test_settings_page || ====================End "test_rebuild_tab"====================
+2020-06-03 22:18:59,655 || Test_suite.conftest || [{'pageref': 'Page 0', 'startedDateTime': '2020-06-03T22:18:46.932+03:00', 'request': {'method': 'POST', 'url': 'https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [{'name': 'gpsia', 'value': '1'}, {'name': 'source', 'value': 'ChromiumBrowser'}, {'name': 'json', 'value': 'standard'}], 'headersSize': 517, 'bodySize': 1, 'comment': ''}, 'response': {'status': 200, 'statusText': 'OK', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'content': {'size': 0, 'mimeType': 'application/json; charset=utf-8', 'comment': ''}, 'redirectURL': '', 'headersSize': 1207, 'bodySize': 45, 'comment': ''}, 'cache': {}, 'timings': {'comment': '', 'receive': 0, 'send': 0, 'blocked': 0, 'dns': 2, 'connect': 706, 'wait': 28, 'ssl': 688}, 'serverIPAddress': '173.194.222.84', 'comment': '', 'time': 737}, {'pageref': 'Page 0', 'startedDateTime': '2020-06-03T22:18:49.215+03:00', 'request': {'method': 'GET', 'url': 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,greek-ext,vietnamese', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [{'name': 'family', 'value': 'Open Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'}, {'name': 'subset', 'value': 'latin,cyrillic-ext,greek-ext,vietnamese'}], 'headersSize': 518, 'bodySize': 0, 'comment': ''}, 'response': {'status': 200, 'statusText': 'OK', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'content': {'size': 0, 'mimeType': 'text/css; charset=utf-8', 'comment': ''}, 'redirectURL': '', 'headersSize': 520, 'bodySize': 1132, 'comment': ''}, 'cache': {}, 'timings': {'comment': '', 'receive': 0, 'send': 0, 'blocked': 0, 'dns': 156, 'connect': 126, 'wait': 21, 'ssl': -1}, 'serverIPAddress': '64.233.164.95', 'comment': '', 'time': 305}, {'pageref': 'Page 0', 'startedDateTime': '2020-06-03T22:18:53.072+03:00', 'request': {'method': 'GET', 'url': 'http://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 573, 'bodySize': 0, 'comment': ''}, 'response': {'status': 200, 'statusText': 'OK', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'content': {'size': 0, 'mimeType': 'font/woff2', 'comment': ''}, 'redirectURL': '', 'headersSize': 394, 'bodySize': 14380, 'comment': ''}, 'cache': {}, 'timings': {'comment': '', 'receive': 21, 'send': 0, 'blocked': 0, 'dns': 4, 'connect': 20, 'wait': 20, 'ssl': -1}, 'serverIPAddress': '173.194.222.94', 'comment': '', 'time': 66}, {'pageref': 'Page 0', 'startedDateTime': '2020-06-03T22:18:53.074+03:00', 'request': {'method': 'GET', 'url': 'http://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 577, 'bodySize': 0, 'comment': ''}, 'response': {'status': 200, 'statusText': 'OK', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'content': {'size': 0, 'mimeType': 'font/woff2', 'comment': ''}, 'redirectURL': '', 'headersSize': 394, 'bodySize': 15056, 'comment': ''}, 'cache': {}, 'timings': {'comment': '', 'receive': 19, 'send': 0, 'blocked': 0, 'dns': 3, 'connect': 22, 'wait': 21, 'ssl': -1}, 'serverIPAddress': '173.194.222.94', 'comment': '', 'time': 66}, {'pageref': 'Page 0', 'startedDateTime': '2020-06-03T22:18:57.072+03:00', 'request': {'method': 'GET', 'url': 'https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,greek-ext,vietnamese', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [{'name': 'family', 'value': 'Open Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'}, {'name': 'subset', 'value': 'latin,cyrillic-ext,greek-ext,vietnamese'}], 'headersSize': 642, 'bodySize': 0, 'comment': ''}, 'response': {'status': 200, 'statusText': 'OK', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'content': {'size': 0, 'mimeType': 'text/css; charset=utf-8', 'comment': ''}, 'redirectURL': '', 'headersSize': 823, 'bodySize': 1133, 'comment': ''}, 'cache': {}, 'timings': {'comment': '', 'receive': 0, 'send': 0, 'blocked': 0, 'dns': 0, 'connect': 355, 'wait': 25, 'ssl': 333}, 'serverIPAddress': '64.233.164.95', 'comment': '', 'time': 381}, {'pageref': 'Page 0', 'startedDateTime': '2020-06-03T22:18:57.566+03:00', 'request': {'method': 'GET', 'url': 'https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 621, 'bodySize': 0, 'comment': ''}, 'response': {'status': 200, 'statusText': 'OK', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'content': {'size': 0, 'mimeType': 'font/woff2', 'comment': ''}, 'redirectURL': '', 'headersSize': 651, 'bodySize': 14380, 'comment': ''}, 'cache': {}, 'timings': {'comment': '', 'receive': 2, 'send': 2, 'blocked': 0, 'dns': 0, 'connect': 142, 'wait': 61, 'ssl': 122}, 'serverIPAddress': '173.194.222.94', 'comment': '', 'time': 209}, {'pageref': 'Page 0', 'startedDateTime': '2020-06-03T22:18:57.656+03:00', 'request': {'method': 'GET', 'url': 'https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN_r8OUuhp.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 625, 'bodySize': 0, 'comment': ''}, 'response': {'status': 200, 'statusText': 'OK', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'content': {'size': 0, 'mimeType': 'font/woff2', 'comment': ''}, 'redirectURL': '', 'headersSize': 651, 'bodySize': 14932, 'comment': ''}, 'cache': {}, 'timings': {'comment': '', 'receive': 6, 'send': 1, 'blocked': -1, 'dns': -1, 'connect': -1, 'wait': 15, 'ssl': -1}, 'serverIPAddress': '173.194.222.94', 'comment': '', 'time': 23}, {'pageref': 'Page 0', 'startedDateTime': '2020-06-03T22:18:57.683+03:00', 'request': {'method': 'GET', 'url': 'https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 625, 'bodySize': 0, 'comment': ''}, 'response': {'status': 200, 'statusText': 'OK', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'content': {'size': 0, 'mimeType': 'font/woff2', 'comment': ''}, 'redirectURL': '', 'headersSize': 651, 'bodySize': 15056, 'comment': ''}, 'cache': {}, 'timings': {'comment': '', 'receive': 6, 'send': 0, 'blocked': -1, 'dns': -1, 'connect': -1, 'wait': 17, 'ssl': -1}, 'serverIPAddress': '173.194.222.94', 'comment': '', 'time': 24}]
+2020-06-03 22:19:49,431 || Test_suite.conftest || ====================Start Setup Activity====================
+2020-06-03 22:19:49,432 || Test_suite.pages.listener || I`m navigate to: http://localhost/admin
+2020-06-03 22:19:50,274 || Test_suite.pages.listener || I`m on: http://localhost/admin
+2020-06-03 22:19:50,274 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-03 22:19:50,293 || Test_suite.pages.listener || I`ve found "[name="username"]" BY "css selector"
+2020-06-03 22:19:50,368 || Test_suite.pages.listener || I`m looking for: "[name="password"]" BY: "css selector"
+2020-06-03 22:19:50,380 || Test_suite.pages.listener || I`ve found "[name="password"]" BY "css selector"
+2020-06-03 22:19:50,500 || Test_suite.pages.listener || I`m looking for: "[type="submit"]" BY: "css selector"
+2020-06-03 22:19:50,511 || Test_suite.pages.listener || I`ve found "[type="submit"]" BY "css selector"
+2020-06-03 22:19:50,530 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="3fc5a677b31dbbe7d1a879a99ece94dd", element="0.5925820391515813-4")>
+2020-06-03 22:19:52,583 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="3fc5a677b31dbbe7d1a879a99ece94dd", element="0.5925820391515813-4")>
+2020-06-03 22:19:52,597 || Test_suite.pages.listener || I`m looking for: "[href="#collapse1"]" BY: "css selector"
+2020-06-03 22:19:52,608 || Test_suite.pages.listener || I`ve found "[href="#collapse1"]" BY "css selector"
+2020-06-03 22:19:52,626 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="3fc5a677b31dbbe7d1a879a99ece94dd", element="0.8537403004753994-1")>
+2020-06-03 22:19:52,664 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="3fc5a677b31dbbe7d1a879a99ece94dd", element="0.8537403004753994-1")>
+2020-06-03 22:19:52,664 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-03 22:19:52,675 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-03 22:19:53,185 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-03 22:19:53,194 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-03 22:19:53,213 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="3fc5a677b31dbbe7d1a879a99ece94dd", element="0.8537403004753994-2")>
+2020-06-03 22:19:53,412 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="3fc5a677b31dbbe7d1a879a99ece94dd", element="0.8537403004753994-2")>
+2020-06-03 22:19:53,412 || Test_suite.conftest || ====================End Setup Activity====================
+2020-06-03 22:19:53,413 || test_settings_page || ====================Start "test_rebuild_tab"====================
+2020-06-03 22:19:53,413 || Test_suite.pages.listener || I`m looking for: "[data-original-title="Rebuild"]" BY: "css selector"
+2020-06-03 22:19:53,427 || Test_suite.pages.listener || I`ve found "[data-original-title="Rebuild"]" BY "css selector"
+2020-06-03 22:19:53,448 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="3fc5a677b31dbbe7d1a879a99ece94dd", element="0.03997950823852636-1")>
+2020-06-03 22:19:53,805 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="3fc5a677b31dbbe7d1a879a99ece94dd", element="0.03997950823852636-1")>
+2020-06-03 22:19:53,805 || Test_suite.pages.listener || I`m executing "console.error('Here is the ERROR message!')"
+2020-06-03 22:19:53,812 || Test_suite.pages.listener || I've executed 'console.error('Here is the ERROR message!')'
+2020-06-03 22:19:53,813 || Test_suite.pages.listener || I`m looking for: ".alert-success" BY: "css selector"
+2020-06-03 22:19:53,826 || Test_suite.pages.listener || I`ve found ".alert-success" BY "css selector"
+2020-06-03 22:19:53,826 || test_settings_page || ====================End "test_rebuild_tab"====================
+2020-06-03 22:19:53,831 || Test_suite.conftest || {'pageref': 'Page 0', 'startedDateTime': '2020-06-03T22:19:49.015+03:00', 'request': {'method': 'POST', 'url': 'https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [{'name': 'gpsia', 'value': '1'}, {'name': 'source', 'value': 'ChromiumBrowser'}, {'name': 'json', 'value': 'standard'}], 'headersSize': 517, 'bodySize': 1, 'comment': ''}, 'response': {'status': 200, 'statusText': 'OK', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'content': {'size': 0, 'mimeType': 'application/json; charset=utf-8', 'comment': ''}, 'redirectURL': '', 'headersSize': 1207, 'bodySize': 45, 'comment': ''}, 'cache': {}, 'timings': {'comment': '', 'receive': 0, 'send': 0, 'blocked': 0, 'dns': 0, 'connect': 378, 'wait': 24, 'ssl': 361}, 'serverIPAddress': '173.194.222.84', 'comment': '', 'time': 405}
+2020-06-03 22:19:53,831 || Test_suite.conftest || {'pageref': 'Page 0', 'startedDateTime': '2020-06-03T22:19:49.704+03:00', 'request': {'method': 'GET', 'url': 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,greek-ext,vietnamese', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [{'name': 'family', 'value': 'Open Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'}, {'name': 'subset', 'value': 'latin,cyrillic-ext,greek-ext,vietnamese'}], 'headersSize': 518, 'bodySize': 0, 'comment': ''}, 'response': {'status': 200, 'statusText': 'OK', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'content': {'size': 0, 'mimeType': 'text/css; charset=utf-8', 'comment': ''}, 'redirectURL': '', 'headersSize': 520, 'bodySize': 1132, 'comment': ''}, 'cache': {}, 'timings': {'comment': '', 'receive': 0, 'send': 0, 'blocked': 0, 'dns': 22, 'connect': 29, 'wait': 21, 'ssl': -1}, 'serverIPAddress': '64.233.164.95', 'comment': '', 'time': 74}
+2020-06-03 22:19:53,831 || Test_suite.conftest || {'pageref': 'Page 0', 'startedDateTime': '2020-06-03T22:19:50.106+03:00', 'request': {'method': 'GET', 'url': 'http://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 573, 'bodySize': 0, 'comment': ''}, 'response': {'status': 200, 'statusText': 'OK', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'content': {'size': 0, 'mimeType': 'font/woff2', 'comment': ''}, 'redirectURL': '', 'headersSize': 394, 'bodySize': 14380, 'comment': ''}, 'cache': {}, 'timings': {'comment': '', 'receive': 23, 'send': 0, 'blocked': 0, 'dns': 0, 'connect': 81, 'wait': 23, 'ssl': -1}, 'serverIPAddress': '173.194.222.94', 'comment': '', 'time': 128}
+2020-06-03 22:19:53,832 || Test_suite.conftest || {'pageref': 'Page 0', 'startedDateTime': '2020-06-03T22:19:50.170+03:00', 'request': {'method': 'GET', 'url': 'http://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 577, 'bodySize': 0, 'comment': ''}, 'response': {'status': 200, 'statusText': 'OK', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'content': {'size': 0, 'mimeType': 'font/woff2', 'comment': ''}, 'redirectURL': '', 'headersSize': 394, 'bodySize': 15056, 'comment': ''}, 'cache': {}, 'timings': {'comment': '', 'receive': 25, 'send': 0, 'blocked': 0, 'dns': 0, 'connect': 20, 'wait': 22, 'ssl': -1}, 'serverIPAddress': '173.194.222.94', 'comment': '', 'time': 69}
+2020-06-03 22:19:53,832 || Test_suite.conftest || {'pageref': 'Page 0', 'startedDateTime': '2020-06-03T22:19:51.809+03:00', 'request': {'method': 'GET', 'url': 'https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,greek-ext,vietnamese', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [{'name': 'family', 'value': 'Open Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'}, {'name': 'subset', 'value': 'latin,cyrillic-ext,greek-ext,vietnamese'}], 'headersSize': 642, 'bodySize': 0, 'comment': ''}, 'response': {'status': 200, 'statusText': 'OK', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'content': {'size': 0, 'mimeType': 'text/css; charset=utf-8', 'comment': ''}, 'redirectURL': '', 'headersSize': 823, 'bodySize': 1133, 'comment': ''}, 'cache': {}, 'timings': {'comment': '', 'receive': 0, 'send': 1, 'blocked': 0, 'dns': 0, 'connect': 407, 'wait': 24, 'ssl': 386}, 'serverIPAddress': '64.233.164.95', 'comment': '', 'time': 433}
+2020-06-03 22:19:53,832 || Test_suite.conftest || {'pageref': 'Page 0', 'startedDateTime': '2020-06-03T22:19:52.178+03:00', 'request': {'method': 'GET', 'url': 'https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 621, 'bodySize': 0, 'comment': ''}, 'response': {'status': 200, 'statusText': 'OK', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'content': {'size': 0, 'mimeType': 'font/woff2', 'comment': ''}, 'redirectURL': '', 'headersSize': 651, 'bodySize': 14380, 'comment': ''}, 'cache': {}, 'timings': {'comment': '', 'receive': 4, 'send': 1, 'blocked': 0, 'dns': 0, 'connect': 268, 'wait': 17, 'ssl': 240}, 'serverIPAddress': '173.194.222.94', 'comment': '', 'time': 291}
+2020-06-03 22:19:53,832 || Test_suite.conftest || {'pageref': 'Page 0', 'startedDateTime': '2020-06-03T22:19:52.228+03:00', 'request': {'method': 'GET', 'url': 'https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN_r8OUuhp.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 625, 'bodySize': 0, 'comment': ''}, 'response': {'status': 200, 'statusText': 'OK', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'content': {'size': 0, 'mimeType': 'font/woff2', 'comment': ''}, 'redirectURL': '', 'headersSize': 651, 'bodySize': 14932, 'comment': ''}, 'cache': {}, 'timings': {'comment': '', 'receive': 15, 'send': 0, 'blocked': -1, 'dns': -1, 'connect': -1, 'wait': 17, 'ssl': -1}, 'serverIPAddress': '173.194.222.94', 'comment': '', 'time': 33}
+2020-06-03 22:19:53,832 || Test_suite.conftest || {'pageref': 'Page 0', 'startedDateTime': '2020-06-03T22:19:52.278+03:00', 'request': {'method': 'GET', 'url': 'https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 625, 'bodySize': 0, 'comment': ''}, 'response': {'status': 200, 'statusText': 'OK', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'content': {'size': 0, 'mimeType': 'font/woff2', 'comment': ''}, 'redirectURL': '', 'headersSize': 651, 'bodySize': 15056, 'comment': ''}, 'cache': {}, 'timings': {'comment': '', 'receive': 7, 'send': 0, 'blocked': -1, 'dns': -1, 'connect': -1, 'wait': 17, 'ssl': -1}, 'serverIPAddress': '173.194.222.94', 'comment': '', 'time': 25}
+2020-06-03 22:21:25,994 || Test_suite.conftest || ====================Start Setup Activity====================
+2020-06-03 22:21:25,994 || Test_suite.pages.listener || I`m navigate to: http://localhost/admin
+2020-06-03 22:21:43,961 || Test_suite.pages.listener || I`m on: http://localhost/admin
+2020-06-03 22:21:43,961 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-03 22:21:44,605 || Test_suite.pages.listener || I`ve found "[name="username"]" BY "css selector"
+2020-06-03 22:21:46,449 || Test_suite.pages.listener || I`m looking for: "[name="password"]" BY: "css selector"
+2020-06-03 22:21:46,463 || Test_suite.pages.listener || I`ve found "[name="password"]" BY "css selector"
+2020-06-03 22:21:46,604 || Test_suite.pages.listener || I`m looking for: "[type="submit"]" BY: "css selector"
+2020-06-03 22:21:46,613 || Test_suite.pages.listener || I`ve found "[type="submit"]" BY "css selector"
+2020-06-03 22:21:46,630 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="80be438444c2e89a640e01f16f6e6868", element="0.4549894269624657-4")>
+2020-06-03 22:21:53,525 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="80be438444c2e89a640e01f16f6e6868", element="0.4549894269624657-4")>
+2020-06-03 22:21:53,533 || Test_suite.pages.listener || I`m looking for: "[href="#collapse1"]" BY: "css selector"
+2020-06-03 22:21:53,544 || Test_suite.pages.listener || I`ve found "[href="#collapse1"]" BY "css selector"
+2020-06-03 22:21:53,561 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="80be438444c2e89a640e01f16f6e6868", element="0.11978422258032806-1")>
+2020-06-03 22:21:55,753 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="80be438444c2e89a640e01f16f6e6868", element="0.11978422258032806-1")>
+2020-06-03 22:21:55,754 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-03 22:21:55,764 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-03 22:21:55,781 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="80be438444c2e89a640e01f16f6e6868", element="0.11978422258032806-2")>
+2020-06-03 22:21:56,076 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="80be438444c2e89a640e01f16f6e6868", element="0.11978422258032806-2")>
+2020-06-03 22:21:56,076 || Test_suite.conftest || ====================End Setup Activity====================
+2020-06-03 22:21:56,077 || test_settings_page || ====================Start "test_rebuild_tab"====================
+2020-06-03 22:21:56,077 || Test_suite.pages.listener || I`m looking for: "[data-original-title="Rebuild"]" BY: "css selector"
+2020-06-03 22:21:56,092 || Test_suite.pages.listener || I`ve found "[data-original-title="Rebuild"]" BY "css selector"
+2020-06-03 22:21:56,112 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="80be438444c2e89a640e01f16f6e6868", element="0.24778527281275164-1")>
+2020-06-03 22:21:56,657 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="80be438444c2e89a640e01f16f6e6868", element="0.24778527281275164-1")>
+2020-06-03 22:21:56,657 || Test_suite.pages.listener || I`m executing "console.error('Here is the ERROR message!')"
+2020-06-03 22:21:56,665 || Test_suite.pages.listener || I've executed 'console.error('Here is the ERROR message!')'
+2020-06-03 22:21:56,666 || Test_suite.pages.listener || I`m looking for: ".alert-success" BY: "css selector"
+2020-06-03 22:21:56,677 || Test_suite.pages.listener || I`ve found ".alert-success" BY "css selector"
+2020-06-03 22:21:56,678 || test_settings_page || ====================End "test_rebuild_tab"====================
+2020-06-03 22:21:56,704 || Test_suite.conftest || {'method': 'POST', 'url': 'https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [{'name': 'gpsia', 'value': '1'}, {'name': 'source', 'value': 'ChromiumBrowser'}, {'name': 'json', 'value': 'standard'}], 'headersSize': 517, 'bodySize': 1, 'comment': ''}
+2020-06-03 22:21:56,704 || Test_suite.conftest || {'method': 'GET', 'url': 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,greek-ext,vietnamese', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [{'name': 'family', 'value': 'Open Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'}, {'name': 'subset', 'value': 'latin,cyrillic-ext,greek-ext,vietnamese'}], 'headersSize': 518, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:21:56,704 || Test_suite.conftest || {'method': 'GET', 'url': 'http://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 573, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:21:56,704 || Test_suite.conftest || {'method': 'GET', 'url': 'http://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 577, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:21:56,705 || Test_suite.conftest || {'method': 'GET', 'url': 'https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,greek-ext,vietnamese', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [{'name': 'family', 'value': 'Open Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'}, {'name': 'subset', 'value': 'latin,cyrillic-ext,greek-ext,vietnamese'}], 'headersSize': 642, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:21:56,705 || Test_suite.conftest || {'method': 'GET', 'url': 'https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 621, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:21:56,705 || Test_suite.conftest || {'method': 'GET', 'url': 'https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN_r8OUuhp.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 625, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:21:56,705 || Test_suite.conftest || {'method': 'GET', 'url': 'https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 625, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:42:42,617 || Test_suite.conftest || ====================Start Setup Activity====================
+2020-06-03 22:42:42,726 || Test_suite.pages.listener || I`m navigate to: http://localhost/admin
+2020-06-03 22:42:48,429 || Test_suite.pages.listener || I`m on: http://localhost/admin
+2020-06-03 22:42:48,429 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-03 22:42:48,796 || Test_suite.pages.listener || I`ve found "[name="username"]" BY "css selector"
+2020-06-03 22:42:49,443 || Test_suite.pages.listener || I`m looking for: "[name="password"]" BY: "css selector"
+2020-06-03 22:42:49,453 || Test_suite.pages.listener || I`ve found "[name="password"]" BY "css selector"
+2020-06-03 22:42:49,522 || Test_suite.pages.listener || I`m looking for: "[type="submit"]" BY: "css selector"
+2020-06-03 22:42:49,530 || Test_suite.pages.listener || I`ve found "[type="submit"]" BY "css selector"
+2020-06-03 22:42:49,547 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="19c75701393bccfb1b6ca426f9c4085c", element="0.7392611635560422-4")>
+2020-06-03 22:42:53,195 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="19c75701393bccfb1b6ca426f9c4085c", element="0.7392611635560422-4")>
+2020-06-03 22:42:53,207 || Test_suite.pages.listener || I`m looking for: "[href="#collapse1"]" BY: "css selector"
+2020-06-03 22:42:53,218 || Test_suite.pages.listener || I`ve found "[href="#collapse1"]" BY "css selector"
+2020-06-03 22:42:53,236 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="19c75701393bccfb1b6ca426f9c4085c", element="0.0964178085677716-1")>
+2020-06-03 22:42:53,274 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="19c75701393bccfb1b6ca426f9c4085c", element="0.0964178085677716-1")>
+2020-06-03 22:42:53,274 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-03 22:42:53,285 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-03 22:42:53,794 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-03 22:42:53,800 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-03 22:42:53,821 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="19c75701393bccfb1b6ca426f9c4085c", element="0.0964178085677716-2")>
+2020-06-03 22:42:54,034 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="19c75701393bccfb1b6ca426f9c4085c", element="0.0964178085677716-2")>
+2020-06-03 22:42:54,035 || Test_suite.conftest || ====================End Setup Activity====================
+2020-06-03 22:42:54,035 || test_settings_page || ====================Start "test_rebuild_tab"====================
+2020-06-03 22:42:54,036 || Test_suite.pages.listener || I`m looking for: "[data-original-title="Rebuild"]" BY: "css selector"
+2020-06-03 22:42:54,051 || Test_suite.pages.listener || I`ve found "[data-original-title="Rebuild"]" BY "css selector"
+2020-06-03 22:42:54,071 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="19c75701393bccfb1b6ca426f9c4085c", element="0.122141045110429-1")>
+2020-06-03 22:42:54,754 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="19c75701393bccfb1b6ca426f9c4085c", element="0.122141045110429-1")>
+2020-06-03 22:42:54,754 || Test_suite.pages.listener || I`m executing "console.error('Here is the ERROR message!')"
+2020-06-03 22:42:54,761 || Test_suite.pages.listener || I've executed 'console.error('Here is the ERROR message!')'
+2020-06-03 22:42:54,761 || Test_suite.pages.listener || I`m looking for: ".alert-success" BY: "css selector"
+2020-06-03 22:42:54,813 || Test_suite.pages.listener || I`ve found ".alert-success" BY "css selector"
+2020-06-03 22:42:54,813 || test_settings_page || ====================End "test_rebuild_tab"====================
+2020-06-03 22:42:54,902 || Test_suite.conftest || {'method': 'POST', 'url': 'https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [{'name': 'gpsia', 'value': '1'}, {'name': 'source', 'value': 'ChromiumBrowser'}, {'name': 'json', 'value': 'standard'}], 'headersSize': 517, 'bodySize': 1, 'comment': ''}
+2020-06-03 22:42:54,918 || Test_suite.conftest || {'method': 'GET', 'url': 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,greek-ext,vietnamese', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [{'name': 'family', 'value': 'Open Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'}, {'name': 'subset', 'value': 'latin,cyrillic-ext,greek-ext,vietnamese'}], 'headersSize': 518, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:42:54,918 || Test_suite.conftest || {'method': 'GET', 'url': 'http://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 573, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:42:54,918 || Test_suite.conftest || {'method': 'GET', 'url': 'http://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 577, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:42:54,918 || Test_suite.conftest || {'method': 'GET', 'url': 'https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,greek-ext,vietnamese', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [{'name': 'family', 'value': 'Open Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'}, {'name': 'subset', 'value': 'latin,cyrillic-ext,greek-ext,vietnamese'}], 'headersSize': 642, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:42:54,918 || Test_suite.conftest || {'method': 'GET', 'url': 'https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 621, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:42:54,918 || Test_suite.conftest || {'method': 'GET', 'url': 'https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN_r8OUuhp.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 625, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:42:54,918 || Test_suite.conftest || {'method': 'GET', 'url': 'https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 625, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:42:54,918 || Test_suite.conftest || {'method': 'GET', 'url': 'https://www.gstatic.com/chrome/intelligence/assist/ranker/models/translate/2017/03/translate_ranker_model_20170329.pb.bin', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 398, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:42:59,188 || Test_suite.conftest || ====================Start Setup Activity====================
+2020-06-03 22:42:59,188 || Test_suite.pages.listener || I`m navigate to: http://localhost/admin
+2020-06-03 22:43:01,500 || Test_suite.pages.listener || I`m on: http://localhost/admin
+2020-06-03 22:43:01,500 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-03 22:43:01,511 || Test_suite.pages.listener || I`ve found "[name="username"]" BY "css selector"
+2020-06-03 22:43:01,593 || Test_suite.pages.listener || I`m looking for: "[name="password"]" BY: "css selector"
+2020-06-03 22:43:01,604 || Test_suite.pages.listener || I`ve found "[name="password"]" BY "css selector"
+2020-06-03 22:43:01,696 || Test_suite.pages.listener || I`m looking for: "[type="submit"]" BY: "css selector"
+2020-06-03 22:43:01,706 || Test_suite.pages.listener || I`ve found "[type="submit"]" BY "css selector"
+2020-06-03 22:43:01,726 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="0fb23385cafcb8d7ba562cf430bc6efa", element="0.6681403586584487-4")>
+2020-06-03 22:43:06,460 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="0fb23385cafcb8d7ba562cf430bc6efa", element="0.6681403586584487-4")>
+2020-06-03 22:43:06,474 || Test_suite.pages.listener || I`m looking for: "[href="#collapse1"]" BY: "css selector"
+2020-06-03 22:43:06,485 || Test_suite.pages.listener || I`ve found "[href="#collapse1"]" BY "css selector"
+2020-06-03 22:43:06,507 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="0fb23385cafcb8d7ba562cf430bc6efa", element="0.5680484875388725-1")>
+2020-06-03 22:43:06,547 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="0fb23385cafcb8d7ba562cf430bc6efa", element="0.5680484875388725-1")>
+2020-06-03 22:43:06,547 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-03 22:43:06,560 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-03 22:43:07,072 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-03 22:43:07,083 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-03 22:43:07,100 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="0fb23385cafcb8d7ba562cf430bc6efa", element="0.5680484875388725-2")>
+2020-06-03 22:43:07,360 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="0fb23385cafcb8d7ba562cf430bc6efa", element="0.5680484875388725-2")>
+2020-06-03 22:43:07,360 || Test_suite.conftest || ====================End Setup Activity====================
+2020-06-03 22:43:07,360 || test_settings_page || ====================Start "test_categories_tab_is_present"====================
+2020-06-03 22:43:07,361 || Test_suite.pages.listener || I`m looking for: ".table-responsive tr" BY: "css selector"
+2020-06-03 22:43:07,377 || Test_suite.pages.listener || I`ve found ".table-responsive tr" BY "css selector"
+2020-06-03 22:43:07,377 || test_settings_page || ====================End "test_categories_tab_is_present"====================
+2020-06-03 22:43:07,478 || Test_suite.conftest || {'method': 'POST', 'url': 'https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [{'name': 'gpsia', 'value': '1'}, {'name': 'source', 'value': 'ChromiumBrowser'}, {'name': 'json', 'value': 'standard'}], 'headersSize': 517, 'bodySize': 1, 'comment': ''}
+2020-06-03 22:43:07,478 || Test_suite.conftest || {'method': 'GET', 'url': 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,greek-ext,vietnamese', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [{'name': 'family', 'value': 'Open Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'}, {'name': 'subset', 'value': 'latin,cyrillic-ext,greek-ext,vietnamese'}], 'headersSize': 518, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:43:07,478 || Test_suite.conftest || {'method': 'GET', 'url': 'http://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 573, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:43:07,478 || Test_suite.conftest || {'method': 'GET', 'url': 'http://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 577, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:43:07,479 || Test_suite.conftest || {'method': 'GET', 'url': 'https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,greek-ext,vietnamese', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [{'name': 'family', 'value': 'Open Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'}, {'name': 'subset', 'value': 'latin,cyrillic-ext,greek-ext,vietnamese'}], 'headersSize': 642, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:43:07,479 || Test_suite.conftest || {'method': 'GET', 'url': 'https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 621, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:43:07,479 || Test_suite.conftest || {'method': 'GET', 'url': 'https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN_r8OUuhp.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 625, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:43:07,479 || Test_suite.conftest || {'method': 'GET', 'url': 'https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 625, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:43:11,854 || Test_suite.conftest || ====================Start Setup Activity====================
+2020-06-03 22:43:11,855 || Test_suite.pages.listener || I`m navigate to: http://localhost/admin
+2020-06-03 22:43:16,284 || Test_suite.pages.listener || I`m on: http://localhost/admin
+2020-06-03 22:43:16,285 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-03 22:43:16,314 || Test_suite.pages.listener || I`ve found "[name="username"]" BY "css selector"
+2020-06-03 22:43:19,674 || Test_suite.pages.listener || I`m looking for: "[name="password"]" BY: "css selector"
+2020-06-03 22:43:19,684 || Test_suite.pages.listener || I`ve found "[name="password"]" BY "css selector"
+2020-06-03 22:43:20,054 || Test_suite.pages.listener || I`m looking for: "[type="submit"]" BY: "css selector"
+2020-06-03 22:43:20,076 || Test_suite.pages.listener || I`ve found "[type="submit"]" BY "css selector"
+2020-06-03 22:43:20,108 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="70184892731fd514309bf7530c2a9899", element="0.11778385118002332-4")>
+2020-06-03 22:43:42,377 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="70184892731fd514309bf7530c2a9899", element="0.11778385118002332-4")>
+2020-06-03 22:43:42,403 || Test_suite.pages.listener || I`m looking for: "[href="#collapse1"]" BY: "css selector"
+2020-06-03 22:43:42,413 || Test_suite.pages.listener || I`ve found "[href="#collapse1"]" BY "css selector"
+2020-06-03 22:43:42,437 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="70184892731fd514309bf7530c2a9899", element="0.23793243653889906-1")>
+2020-06-03 22:43:42,490 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="70184892731fd514309bf7530c2a9899", element="0.23793243653889906-1")>
+2020-06-03 22:43:42,490 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-03 22:43:42,504 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-03 22:43:42,533 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="70184892731fd514309bf7530c2a9899", element="0.23793243653889906-2")>
+2020-06-03 22:43:43,082 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="70184892731fd514309bf7530c2a9899", element="0.23793243653889906-2")>
+2020-06-03 22:43:43,082 || Test_suite.conftest || ====================End Setup Activity====================
+2020-06-03 22:43:43,083 || test_settings_page || ====================Start "test_add_category"====================
+2020-06-03 22:43:43,083 || Test_suite.pages.listener || I`m looking for: "[data-original-title="Add New"]" BY: "css selector"
+2020-06-03 22:43:43,099 || Test_suite.pages.listener || I`ve found "[data-original-title="Add New"]" BY "css selector"
+2020-06-03 22:43:43,119 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="70184892731fd514309bf7530c2a9899", element="0.2596627669293037-1")>
+2020-06-03 22:43:51,166 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="70184892731fd514309bf7530c2a9899", element="0.2596627669293037-1")>
+2020-06-03 22:43:51,166 || Test_suite.pages.listener || I`m looking for: "[href="#tab-general"]" BY: "css selector"
+2020-06-03 22:43:51,178 || Test_suite.pages.listener || I`ve found "[href="#tab-general"]" BY "css selector"
+2020-06-03 22:43:51,200 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="70184892731fd514309bf7530c2a9899", element="0.18810133367810966-1")>
+2020-06-03 22:43:51,234 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="70184892731fd514309bf7530c2a9899", element="0.18810133367810966-1")>
+2020-06-03 22:43:51,234 || Test_suite.pages.listener || I`m looking for: "#input-name1" BY: "css selector"
+2020-06-03 22:43:51,247 || Test_suite.pages.listener || I`ve found "#input-name1" BY "css selector"
+2020-06-03 22:43:51,428 || Test_suite.pages.listener || I`m looking for: "#input-meta-title1" BY: "css selector"
+2020-06-03 22:43:51,436 || Test_suite.pages.listener || I`ve found "#input-meta-title1" BY "css selector"
+2020-06-03 22:43:51,517 || Test_suite.pages.listener || I`m looking for: "[data-original-title="Save"]" BY: "css selector"
+2020-06-03 22:43:51,528 || Test_suite.pages.listener || I`ve found "[data-original-title="Save"]" BY "css selector"
+2020-06-03 22:43:51,547 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="70184892731fd514309bf7530c2a9899", element="0.18810133367810966-4")>
+2020-06-03 22:43:54,076 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="70184892731fd514309bf7530c2a9899", element="0.18810133367810966-4")>
+2020-06-03 22:43:54,076 || Test_suite.pages.listener || I`m looking for: ".alert-success" BY: "css selector"
+2020-06-03 22:43:54,089 || Test_suite.pages.listener || I`ve found ".alert-success" BY "css selector"
+2020-06-03 22:43:54,090 || test_settings_page || ====================End "test_add_category"====================
+2020-06-03 22:43:54,110 || Test_suite.conftest || {'method': 'POST', 'url': 'https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [{'name': 'gpsia', 'value': '1'}, {'name': 'source', 'value': 'ChromiumBrowser'}, {'name': 'json', 'value': 'standard'}], 'headersSize': 517, 'bodySize': 1, 'comment': ''}
+2020-06-03 22:43:54,110 || Test_suite.conftest || {'method': 'GET', 'url': 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,greek-ext,vietnamese', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [{'name': 'family', 'value': 'Open Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'}, {'name': 'subset', 'value': 'latin,cyrillic-ext,greek-ext,vietnamese'}], 'headersSize': 518, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:43:54,110 || Test_suite.conftest || {'method': 'GET', 'url': 'http://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 573, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:43:54,110 || Test_suite.conftest || {'method': 'GET', 'url': 'http://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 577, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:43:54,110 || Test_suite.conftest || {'method': 'GET', 'url': 'https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,greek-ext,vietnamese', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [{'name': 'family', 'value': 'Open Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'}, {'name': 'subset', 'value': 'latin,cyrillic-ext,greek-ext,vietnamese'}], 'headersSize': 642, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:43:54,110 || Test_suite.conftest || {'method': 'GET', 'url': 'https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 621, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:43:54,110 || Test_suite.conftest || {'method': 'GET', 'url': 'https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN_r8OUuhp.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 625, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:43:54,110 || Test_suite.conftest || {'method': 'GET', 'url': 'https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 625, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:43:54,110 || Test_suite.conftest || {'method': 'GET', 'url': 'https://fonts.gstatic.com/s/opensans/v17/mem6YaGs126MiZpBA-UFUK0Zdc0.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 624, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:43:54,110 || Test_suite.conftest || {'method': 'GET', 'url': 'https://www.gstatic.com/chrome/intelligence/assist/ranker/models/translate/2017/03/translate_ranker_model_20170329.pb.bin', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 398, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:44:07,917 || Test_suite.conftest || ====================Start Setup Activity====================
+2020-06-03 22:44:07,917 || Test_suite.pages.listener || I`m navigate to: http://localhost/admin
+2020-06-03 22:44:12,835 || Test_suite.pages.listener || I`m on: http://localhost/admin
+2020-06-03 22:44:12,835 || Test_suite.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-03 22:44:12,846 || Test_suite.pages.listener || I`ve found "[name="username"]" BY "css selector"
+2020-06-03 22:44:12,917 || Test_suite.pages.listener || I`m looking for: "[name="password"]" BY: "css selector"
+2020-06-03 22:44:12,926 || Test_suite.pages.listener || I`ve found "[name="password"]" BY "css selector"
+2020-06-03 22:44:13,009 || Test_suite.pages.listener || I`m looking for: "[type="submit"]" BY: "css selector"
+2020-06-03 22:44:13,018 || Test_suite.pages.listener || I`ve found "[type="submit"]" BY "css selector"
+2020-06-03 22:44:13,047 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="1de0250127a0a7bd7180b9ec6eb28079", element="0.8013616856391199-4")>
+2020-06-03 22:44:16,390 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="1de0250127a0a7bd7180b9ec6eb28079", element="0.8013616856391199-4")>
+2020-06-03 22:44:16,404 || Test_suite.pages.listener || I`m looking for: "[href="#collapse1"]" BY: "css selector"
+2020-06-03 22:44:16,415 || Test_suite.pages.listener || I`ve found "[href="#collapse1"]" BY "css selector"
+2020-06-03 22:44:16,434 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="1de0250127a0a7bd7180b9ec6eb28079", element="0.3797884654750703-1")>
+2020-06-03 22:44:16,474 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="1de0250127a0a7bd7180b9ec6eb28079", element="0.3797884654750703-1")>
+2020-06-03 22:44:16,474 || Test_suite.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-03 22:44:16,484 || Test_suite.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-03 22:44:16,508 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="1de0250127a0a7bd7180b9ec6eb28079", element="0.3797884654750703-2")>
+2020-06-03 22:44:16,677 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="1de0250127a0a7bd7180b9ec6eb28079", element="0.3797884654750703-2")>
+2020-06-03 22:44:16,677 || Test_suite.conftest || ====================End Setup Activity====================
+2020-06-03 22:44:16,678 || test_settings_page || ====================Start "test_edit_category_by_name"====================
+2020-06-03 22:44:16,679 || Test_suite.pages.listener || I`m looking for: ".table-responsive tr" BY: "css selector"
+2020-06-03 22:44:16,695 || Test_suite.pages.listener || I`ve found ".table-responsive tr" BY "css selector"
+2020-06-03 22:44:16,904 || Test_suite.pages.listener || I`m looking for: "tr td:nth-child(2)" BY: "css selector"
+2020-06-03 22:44:16,913 || Test_suite.pages.listener || I`ve found "tr td:nth-child(2)" BY "css selector"
+2020-06-03 22:44:17,007 || Test_suite.pages.listener || I`m looking for: "tr td:nth-child(2)" BY: "css selector"
+2020-06-03 22:44:17,017 || Test_suite.pages.listener || I`ve found "tr td:nth-child(2)" BY "css selector"
+2020-06-03 22:44:17,029 || Test_suite.pages.listener || I`m looking for: "tr td:nth-child(2)" BY: "css selector"
+2020-06-03 22:44:17,039 || Test_suite.pages.listener || I`ve found "tr td:nth-child(2)" BY "css selector"
+2020-06-03 22:44:17,050 || Test_suite.pages.listener || I`m looking for: "tr td:nth-child(2)" BY: "css selector"
+2020-06-03 22:44:17,060 || Test_suite.pages.listener || I`ve found "tr td:nth-child(2)" BY "css selector"
+2020-06-03 22:44:17,071 || Test_suite.pages.listener || I`m looking for: "tr td:nth-child(2)" BY: "css selector"
+2020-06-03 22:44:17,080 || Test_suite.pages.listener || I`ve found "tr td:nth-child(2)" BY "css selector"
+2020-06-03 22:44:17,091 || Test_suite.pages.listener || I`m looking for: "tr td:nth-child(2)" BY: "css selector"
+2020-06-03 22:44:17,100 || Test_suite.pages.listener || I`ve found "tr td:nth-child(2)" BY "css selector"
+2020-06-03 22:44:17,111 || Test_suite.pages.listener || I`m looking for: "tr td:nth-child(2)" BY: "css selector"
+2020-06-03 22:44:17,120 || Test_suite.pages.listener || I`ve found "tr td:nth-child(2)" BY "css selector"
+2020-06-03 22:44:17,131 || Test_suite.pages.listener || I`m looking for: "tr td:nth-child(2)" BY: "css selector"
+2020-06-03 22:44:17,141 || Test_suite.pages.listener || I`ve found "tr td:nth-child(2)" BY "css selector"
+2020-06-03 22:44:17,152 || Test_suite.pages.listener || I`m looking for: "tr td:nth-child(2)" BY: "css selector"
+2020-06-03 22:44:17,162 || Test_suite.pages.listener || I`ve found "tr td:nth-child(2)" BY "css selector"
+2020-06-03 22:44:17,173 || Test_suite.pages.listener || I`m looking for: "tr td:nth-child(2)" BY: "css selector"
+2020-06-03 22:44:17,182 || Test_suite.pages.listener || I`ve found "tr td:nth-child(2)" BY "css selector"
+2020-06-03 22:44:17,193 || Test_suite.pages.listener || I`m looking for: "tr td:nth-child(2)" BY: "css selector"
+2020-06-03 22:44:17,202 || Test_suite.pages.listener || I`ve found "tr td:nth-child(2)" BY "css selector"
+2020-06-03 22:44:17,213 || Test_suite.pages.listener || I`m looking for: "tr td:nth-child(2)" BY: "css selector"
+2020-06-03 22:44:17,222 || Test_suite.pages.listener || I`ve found "tr td:nth-child(2)" BY "css selector"
+2020-06-03 22:44:17,233 || Test_suite.pages.listener || I`m looking for: "tr td:nth-child(2)" BY: "css selector"
+2020-06-03 22:44:17,243 || Test_suite.pages.listener || I`ve found "tr td:nth-child(2)" BY "css selector"
+2020-06-03 22:44:17,254 || Test_suite.pages.listener || I`m looking for: "tr td:nth-child(2)" BY: "css selector"
+2020-06-03 22:44:17,263 || Test_suite.pages.listener || I`ve found "tr td:nth-child(2)" BY "css selector"
+2020-06-03 22:44:17,316 || Test_suite.pages.listener || I`m looking for: "[data-original-title="Edit"]" BY: "css selector"
+2020-06-03 22:44:17,328 || Test_suite.pages.listener || I`ve found "[data-original-title="Edit"]" BY "css selector"
+2020-06-03 22:44:17,328 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="1de0250127a0a7bd7180b9ec6eb28079", element="0.2538578893980672-36")>
+2020-06-03 22:44:18,031 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="1de0250127a0a7bd7180b9ec6eb28079", element="0.2538578893980672-36")>
+2020-06-03 22:44:18,031 || Test_suite.pages.listener || I`m looking for: "#input-name1" BY: "css selector"
+2020-06-03 22:44:18,046 || Test_suite.pages.listener || I`ve found "#input-name1" BY "css selector"
+2020-06-03 22:44:18,192 || Test_suite.pages.listener || I`m looking for: "[data-original-title="Save"]" BY: "css selector"
+2020-06-03 22:44:18,203 || Test_suite.pages.listener || I`ve found "[data-original-title="Save"]" BY "css selector"
+2020-06-03 22:44:18,226 || Test_suite.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="1de0250127a0a7bd7180b9ec6eb28079", element="0.9862571639340443-3")>
+2020-06-03 22:44:18,825 || Test_suite.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="1de0250127a0a7bd7180b9ec6eb28079", element="0.9862571639340443-3")>
+2020-06-03 22:44:18,825 || Test_suite.pages.listener || I`m looking for: ".alert-success" BY: "css selector"
+2020-06-03 22:44:18,838 || Test_suite.pages.listener || I`ve found ".alert-success" BY "css selector"
+2020-06-03 22:44:18,838 || test_settings_page || ====================End "test_edit_category_by_name"====================
+2020-06-03 22:44:18,968 || Test_suite.conftest || {'method': 'POST', 'url': 'https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [{'name': 'gpsia', 'value': '1'}, {'name': 'source', 'value': 'ChromiumBrowser'}, {'name': 'json', 'value': 'standard'}], 'headersSize': 517, 'bodySize': 1, 'comment': ''}
+2020-06-03 22:44:18,968 || Test_suite.conftest || {'method': 'GET', 'url': 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,greek-ext,vietnamese', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [{'name': 'family', 'value': 'Open Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'}, {'name': 'subset', 'value': 'latin,cyrillic-ext,greek-ext,vietnamese'}], 'headersSize': 518, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:44:18,969 || Test_suite.conftest || {'method': 'GET', 'url': 'http://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 573, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:44:18,969 || Test_suite.conftest || {'method': 'GET', 'url': 'http://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 577, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:44:18,969 || Test_suite.conftest || {'method': 'GET', 'url': 'https://www.gstatic.com/chrome/intelligence/assist/ranker/models/translate/2017/03/translate_ranker_model_20170329.pb.bin', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 398, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:44:18,969 || Test_suite.conftest || {'method': 'GET', 'url': 'https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,greek-ext,vietnamese', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [{'name': 'family', 'value': 'Open Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'}, {'name': 'subset', 'value': 'latin,cyrillic-ext,greek-ext,vietnamese'}], 'headersSize': 642, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:44:18,969 || Test_suite.conftest || {'method': 'GET', 'url': 'https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 621, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:44:18,969 || Test_suite.conftest || {'method': 'GET', 'url': 'https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN_r8OUuhp.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 625, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:44:18,969 || Test_suite.conftest || {'method': 'GET', 'url': 'https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 625, 'bodySize': 0, 'comment': ''}
+2020-06-03 22:44:18,969 || Test_suite.conftest || {'method': 'GET', 'url': 'https://fonts.gstatic.com/s/opensans/v17/mem6YaGs126MiZpBA-UFUK0Zdc0.woff2', 'httpVersion': 'HTTP/1.1', 'cookies': [], 'headers': [], 'queryString': [], 'headersSize': 624, 'bodySize': 0, 'comment': ''}
